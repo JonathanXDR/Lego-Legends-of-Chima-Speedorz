@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1612531872211020}
+  m_IsPrefabParent: 1
+--- !u!1 &1612531872211020
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4646095580125835}
+  - component: {fileID: 111397972385370007}
+  - component: {fileID: 114956772007779296}
+  m_Layer: 0
+  m_Name: SpeedStreak
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4646095580125835
+Transform:
+  m_GameObject: {fileID: 1612531872211020}
+  m_LocalRotation: {x: 0, y: -0.03046984, z: 0, w: 0.9995357}
+  m_LocalPosition: {x: -12.69213, y: 2.861094, z: -22.48522}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 3.492126, z: 0}
+--- !u!111 &111397972385370007
+Animation:
+  m_GameObject: {fileID: 1612531872211020}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 846447ad6a40f7c4e9957f0b0449605e, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &114956772007779296
+MonoBehaviour:
+  m_GameObject: {fileID: 1612531872211020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3f24df14f348b64c87999c573fbc31e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

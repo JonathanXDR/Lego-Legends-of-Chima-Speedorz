@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1905895576927339}
+  m_IsPrefabParent: 1
+--- !u!1 &1905895576927339
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4562600132312629}
+  m_Layer: 0
+  m_Name: Setup_Swamp_Straight3_End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4562600132312629
+Transform:
+  m_GameObject: {fileID: 1905895576927339}
+  m_LocalRotation: {x: 0, y: 0.6121567, z: 0, w: -0.7907366}
+  m_LocalPosition: {x: 1660.539, y: 0.05440331, z: 1385.224}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4862613115799222}
+  - {fileID: 4977966001359536}
+  - {fileID: 4165401791409119}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 75.49121, z: 0}
+--- !u!1 &1206553296529398
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4862613115799222}
+  - component: {fileID: 114662269888063155}
+  - component: {fileID: 65948549814935784}
+  m_Layer: 12
+  m_Name: lightprobeSwitch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4862613115799222
+Transform:
+  m_GameObject: {fileID: 1206553296529398}
+  m_LocalRotation: {x: 0, y: -0.8114035, z: 0, w: -0.5844865}
+  m_LocalPosition: {x: 226.2921, y: -1.5117, z: 1735.528}
+  m_LocalScale: {x: 13.5577, y: 9.426678, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4562600132312629}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -180, y: -71.53344, z: 180}
+--- !u!114 &114662269888063155
+MonoBehaviour:
+  m_GameObject: {fileID: 1206553296529398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d57209fda02cad44cb28bb6270c1b685, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65948549814935784
+BoxCollider:
+  m_GameObject: {fileID: 1206553296529398}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1729654606481606
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4977966001359536}
+  m_Layer: 12
+  m_Name: Scene Loader_SCN_Arena
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4977966001359536
+Transform:
+  m_GameObject: {fileID: 1729654606481606}
+  m_LocalRotation: {x: 0, y: -0.6012112, z: 0, w: 0.7990901}
+  m_LocalPosition: {x: 329.3308, y: -0.121489, z: 1702.98}
+  m_LocalScale: {x: 29.80709, y: 11.96146, z: 2.541178}
+  m_Children: []
+  m_Father: {fileID: 4562600132312629}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 73.91339, z: 0}
+--- !u!1 &1063051312128654
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4165401791409119}
+  - component: {fileID: 65134053152116323}
+  - component: {fileID: 114722239049809352}
+  - component: {fileID: 114383637199144385}
+  m_Layer: 12
+  m_Name: Unloader_Swamp_Straight3a
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4165401791409119
+Transform:
+  m_GameObject: {fileID: 1063051312128654}
+  m_LocalRotation: {x: 0, y: 0.1470021, z: 0, w: 0.9891362}
+  m_LocalPosition: {x: 232.8253, y: -3.513303, z: 1733.432}
+  m_LocalScale: {x: 1, y: 13.92647, z: 23.00459}
+  m_Children: []
+  m_Father: {fileID: 4562600132312629}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: -16.90646, z: 0}
+--- !u!65 &65134053152116323
+BoxCollider:
+  m_GameObject: {fileID: 1063051312128654}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114722239049809352
+MonoBehaviour:
+  m_GameObject: {fileID: 1063051312128654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507df684864d98940a4ffe2f2efb85b6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114383637199144385
+MonoBehaviour:
+  m_GameObject: {fileID: 1063051312128654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 042eead2f8cf0b34d86268a62699b5de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

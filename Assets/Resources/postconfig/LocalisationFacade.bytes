@@ -1,0 +1,14 @@
+<LocalisationFacade name="localisationFacade">
+    <node name="currentLanguage" value="EN_UK" />
+	<node name="fontsets">
+		<node name="Chinese" values="ZHSI"/>
+		
+		<node name="Japanese" values="JP"/>
+		
+		<node name="Korean" values="KO"/>
+		<!-- all langs not defined as part of a font set will use default font set -->
+	</node>
+    <node name="useWarnings" value="False" />
+    <node name="useDoubleText" value="False" />
+	<xml name="localisationXML" value="/config/fileLocation/localisation" weboverride="/config/fileLocation/localisationWeb" create="self" nodesAsNames="true"/>  
+</LocalisationFacade>

@@ -1,0 +1,34 @@
+<uiobj name="ScrollContents" zdepth="1.0" ignoreList="ScrollContainer">
+  <anchor name="anchor" left="true" top="true" right="false" bottom="false" />
+  <rect name="bounds" xoffset="0" yoffset="0" width="900" height="700"/>
+
+  <uiobj name="Title" zdepth="2.0" textid="Some Scroll Area Text" textfont="Arial_32" textalign="centre" textanchor="top">
+    <anchor name="anchor" left="true" top="true" right="true" bottom="false"/>
+    <rect name="bounds" xoffset="0" yoffset="0" width="100" height="200"/>
+  </uiobj>
+
+  <uiobj name="HUDObjectImage" zdepth="1.0" image="Textures/Debug/fullscreen640" imagefitting="fit">
+    <anchor name="anchor" left="true" top="true" right="false" bottom="false"/>
+    <rect name="bounds" xoffset="0" yoffset="0" width="900" height="700"/>
+  </uiobj>
+
+  <uiobj name="PlayButton" zdepth="5.0" textid="Play">
+    <anchor name="anchor" left="true" top="false" right="true" bottom="true" anchorModeH="center" anchorModeV="center"/>
+    <rect name="bounds" xoffset="0" yoffset="40" width="200" height="50"/>
+    <GUILoader name="ExampleButton_Loader" value="Components/Input/ExampleButton" create="init" visible="true" active="false"/>
+    <Timeline name="onRelease">
+      <Timeline name="up" startTime="0.0">
+        <node name="events">
+          <node name="mainMenuPlayLink">
+            <node name="targets">
+              <node name="flowFacade" value="/flow"/>
+            </node>
+            <node name="messages">
+              <node name="followLink" link="_x002A_PLAY_x002A_"/>
+            </node>
+          </node>
+        </node>
+      </Timeline>
+    </Timeline>
+  </uiobj>
+</uiobj>

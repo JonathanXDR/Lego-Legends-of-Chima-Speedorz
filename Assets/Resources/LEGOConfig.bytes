@@ -1,0 +1,38 @@
+<legoConfig>
+
+  <node name="doDebug" value="true" />
+  
+  <config name="default">
+      <!-- service configuration -->
+
+    <!-- Legends Of Chima -->    
+    <node name="iv_ID" value="70" />
+    <node name="key" value="682f6881-eee3-41a8-9fb9-416d4dbc1468" />
+
+    <!--node name="iv_ID" value="61" />
+    <node name="key" value="924F9223-5F98-421B-ACAF-9EE2646B58F6" /-->
+    
+    <node name="url" value="http://services.lego.com/hiscore/shared.asmx/SharedInfo" />
+    <node name="encryption" value="XOR" />
+	<node name="call" value="form"/>
+  </config>
+
+  <config name="friendshipService">
+
+    <!-- service configuration -->
+
+    <node name="iv_ID" value="ixa3TTt851MpCNmY" />
+    <node name="url" value="http://friends.lego.com/FriendshipService.ashx" />
+    <!--node name="tokenurl" value="http://friends.dev.corp.lego.com/CurrencyService.ashx/token" /-->
+    <node name="key" value="fU7ql3QY2gprePpNVL0qRkQ5hrfNALRO" />
+    <node name="encryption" value="AES" />
+    <node name="call" value="url"/>
+
+    <!-- request methods -->
+
+    <node name="getFriendshipList" value="gamefriendshiplist" token="false"/>
+    <node name="requestFriendship" value="requestfriendship" token="false" response="JSON" encryption="none"/>
+
+  </config>
+	
+</legoConfig>

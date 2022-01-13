@@ -1,0 +1,266 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1293225030360171}
+  m_IsPrefabParent: 1
+--- !u!1 &1293225030360171
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4342718748898589}
+  m_Layer: 0
+  m_Name: Challenges_SCN_Swamp_Straight2_End3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4342718748898589
+Transform:
+  m_GameObject: {fileID: 1293225030360171}
+  m_LocalRotation: {x: 0, y: -0.3022757, z: 0, w: 0.9532205}
+  m_LocalPosition: {x: -132.6346, y: -5.178811, z: 1994.471}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4756981985809426}
+  - {fileID: 4935358704820657}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 35.18867, z: 0}
+--- !u!1 &1750184588603625
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4756981985809426}
+  - component: {fileID: 114008275219288577}
+  - component: {fileID: 65109942707898503}
+  m_Layer: 0
+  m_Name: ChallengeLocation1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4756981985809426
+Transform:
+  m_GameObject: {fileID: 1750184588603625}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4921198336074719}
+  - {fileID: 4944853553620491}
+  m_Father: {fileID: 4342718748898589}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114008275219288577
+MonoBehaviour:
+  m_GameObject: {fileID: 1750184588603625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b24b8f6dd2e19ab458847db065dc7c34, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65109942707898503
+BoxCollider:
+  m_GameObject: {fileID: 1750184588603625}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1694814727806790
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4921198336074719}
+  - component: {fileID: 65603780891384861}
+  - component: {fileID: 114895893354099323}
+  m_Layer: 2
+  m_Name: CameraVolume1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4921198336074719
+Transform:
+  m_GameObject: {fileID: 1694814727806790}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4756981985809426}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65603780891384861
+BoxCollider:
+  m_GameObject: {fileID: 1694814727806790}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 35, y: 25, z: 120}
+  m_Center: {x: 0, y: 5, z: -6}
+--- !u!114 &114895893354099323
+MonoBehaviour:
+  m_GameObject: {fileID: 1694814727806790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b77992ff24b2a04d9004dd4014b02ba, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1960918308632805
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4944853553620491}
+  - component: {fileID: 114462240520958382}
+  m_Layer: 0
+  m_Name: Rip1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4944853553620491
+Transform:
+  m_GameObject: {fileID: 1960918308632805}
+  m_LocalRotation: {x: 0, y: 0.006009765, z: 0, w: 0.9999819}
+  m_LocalPosition: {x: -0.700515, y: 0.4705458, z: -66.32323}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4756981985809426}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0.6886725, z: 0}
+--- !u!114 &114462240520958382
+MonoBehaviour:
+  m_GameObject: {fileID: 1960918308632805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac758dbfcb0a49d438b2f00e0ed927de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1907948808723771
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4935358704820657}
+  - component: {fileID: 114828775377041608}
+  - component: {fileID: 65354134047408924}
+  m_Layer: 0
+  m_Name: ChallengeLocation2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4935358704820657
+Transform:
+  m_GameObject: {fileID: 1907948808723771}
+  m_LocalRotation: {x: 0, y: 0.4323352, z: 0, w: 0.901713}
+  m_LocalPosition: {x: 98.86857, y: 0.6231251, z: 178.681}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4772220858848871}
+  - {fileID: 4034422461084736}
+  m_Father: {fileID: 4342718748898589}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -51.2317, z: 0}
+--- !u!114 &114828775377041608
+MonoBehaviour:
+  m_GameObject: {fileID: 1907948808723771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b24b8f6dd2e19ab458847db065dc7c34, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65354134047408924
+BoxCollider:
+  m_GameObject: {fileID: 1907948808723771}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1428726691846342
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4772220858848871}
+  - component: {fileID: 65931518071752120}
+  - component: {fileID: 114010378914298374}
+  m_Layer: 2
+  m_Name: CameraVolume1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4772220858848871
+Transform:
+  m_GameObject: {fileID: 1428726691846342}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4935358704820657}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65931518071752120
+BoxCollider:
+  m_GameObject: {fileID: 1428726691846342}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 35, y: 25, z: 120}
+  m_Center: {x: 0, y: 5, z: -6}
+--- !u!114 &114010378914298374
+MonoBehaviour:
+  m_GameObject: {fileID: 1428726691846342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b77992ff24b2a04d9004dd4014b02ba, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1984649605640159
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4034422461084736}
+  - component: {fileID: 114266911530803466}
+  m_Layer: 0
+  m_Name: Rip2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4034422461084736
+Transform:
+  m_GameObject: {fileID: 1984649605640159}
+  m_LocalRotation: {x: 0, y: 0.006605749, z: 0, w: 0.9999782}
+  m_LocalPosition: {x: -1.102197, y: 0.2235122, z: -66.2871}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4935358704820657}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0.7569686, z: 0}
+--- !u!114 &114266911530803466
+MonoBehaviour:
+  m_GameObject: {fileID: 1984649605640159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac758dbfcb0a49d438b2f00e0ed927de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

@@ -1,0 +1,1051 @@
+<GameDataFacade name="gameDataFacade">
+ 
+	<node name="gameDataSaved">
+
+	<stat rule="Override" name="STUD_POINTS" value="0" type="number" save="local"/>
+		
+		<stat rule="Dirty" name="sound" value="1" type="number" save="local"/>
+		
+		<node name="character" save="local">                               <!-- the currently selected character to use in game-->
+			<stat rule="Dirty" name="head" value="NAME_START_CHAR" type="text" />
+			<stat rule="Dirty" name="torso" value="NAME_START_CHAR" type="text"/>
+			<stat rule="Dirty" name="legs" value="NAME_START_CHAR" type="text"/>
+			<stat rule="Dirty" name="speedor" value="NAME_START_CHAR" type="text"/>
+		</node>
+
+		<node name="tutorials" save="local">
+			<stat rule="KeepHigher" name="0" value="0" type="number"/>
+			<stat rule="KeepHigher" name="1" value="0" type="number"/>
+			<stat rule="KeepHigher" name="2" value="1" type="number"/>
+			<stat rule="KeepHigher" name="3" value="0" type="number"/>
+			<stat rule="KeepHigher" name="4" value="0" type="number"/>
+			<stat rule="KeepHigher" name="5" value="0" type="number"/>
+			<stat rule="KeepHigher" name="6" value="0" type="number"/>
+			<stat rule="KeepHigher" name="7" value="0" type="number"/>
+			<stat rule="KeepHigher" name="8" value="0" type="number"/>
+			<stat rule="KeepHigher" name="9" value="0" type="number"/>
+			<stat rule="KeepHigher" name="10" value="1" type="number"/>
+			<stat rule="KeepHigher" name="hintNumber" value="0" type="number"/>			
+		</node>
+
+		<node name="playerStats" save="local">
+			<stat name="racesWon" rule="KeepHigher" type="number" value="0"/>
+			<stat name="starsGained" rule="KeepHigher" type="number" value="0"/>
+			<stat name="speedorzBought" rule="KeepHigher" type="number" value="0"/>
+			<stat name="stagesComplete" rule="KeepHigher" type="number" value="0"/>
+			<stat name="studsCollected" rule="KeepHigher" type="number" value="0"/>
+			<stat name="chiCollected" rule="KeepHigher" type="number" value="0"/>
+			<stat name="signedIn" rule="KeepHigher" type="number" value="0"/>
+			<stat name="friendsAdded" rule="KeepHigher" type="number" value="0"/>
+			<stat name="friendChallengesWon" rule="KeepHigher" type="number" value="0"/>
+			<stat name="characterChanged" rule="KeepHigher" type="number" value="0"/>
+			<stat name="perfectBoulder" rule="KeepHigher" type="number" value="0"/>
+			<stat name="perfectTower" rule="KeepHigher" type="number" value="0"/>
+			<stat name="perfectGates" rule="KeepHigher" type="number" value="0"/>
+			<stat name="perfectHoops" rule="KeepHigher" type="number" value="0"/>
+			<stat name="perfectCrows" rule="KeepHigher" type="number" value="0"/>
+			<stat name="perfectHammers" rule="KeepHigher" type="number" value="0"/>
+			<stat name="perfectRip" rule="KeepHigher" type="number" value="0"/>
+			<stat name="perfectGatesVault" rule="KeepHigher" type="number" value="0"/>
+			<stat name="perfectHoopsVault" rule="KeepHigher" type="number" value="0"/>
+		</node>
+
+		<node name="vaultData" save="local">
+			<stat name="vaultFlags1" rule="Dirty" type="number" value="0"/>
+			<stat name="vaultFlags2" rule="Dirty" type="number" value="0"/>
+		</node>
+
+		<node name="extraData" save="local">
+			<stat name="extraData1" rule="Dirty" type="number" value="0"/>
+			<stat name="extraData2" rule="Dirty" type="number" value="0"/>
+			<stat name="extraData3" rule="Dirty" type="number" value="0"/>
+			<stat name="extraData4" rule="Dirty" type="number" value="0"/>
+			<stat name="extraData5" rule="Dirty" type="number" value="0"/>
+			<stat name="extraData6" rule="Dirty" type="number" value="0"/>
+		</node>
+		
+		<node name="vaultCodes" save="local">
+			<node name="vCode1">
+				<stat name="code" rule="KeepHigher" type="text" value="SPEEDORX181376"/>
+				<stat name="points" rule="KeepHigher" type="number" value="500"/>
+				<stat name="displayed" rule="KeepHigher" type="number" value="0"/>		
+			</node>
+			<node name="vCode2">
+				<stat name="code" rule="KeepHigher" type="text" value="SPEEDORX533645"/>
+				<stat name="points" rule="KeepHigher" type="number" value="600"/>
+				<stat name="displayed" rule="KeepHigher" type="number" value="0"/>		
+			</node>
+			<node name="vCode3">
+				<stat name="code" rule="KeepHigher" type="text" value="SPEEDORX941705"/>
+				<stat name="points" rule="KeepHigher" type="number" value="700"/>
+				<stat name="displayed" rule="KeepHigher" type="number" value="0"/>		
+			</node>
+			<node name="vCode4">
+				<stat name="code" rule="KeepHigher" type="text" value="SPEEDORX472293"/>
+				<stat name="points" rule="KeepHigher" type="number" value="800"/>
+				<stat name="displayed" rule="KeepHigher" type="number" value="0"/>		
+			</node>
+			<node name="vCode5">
+				<stat name="code" rule="KeepHigher" type="text" value="SPEEDORX670314"/>
+				<stat name="points" rule="KeepHigher" type="number" value="900"/>
+				<stat name="displayed" rule="KeepHigher" type="number" value="0"/>		
+			</node>
+			<node name="vCode6">
+				<stat name="code" rule="KeepHigher" type="text" value="SPEEDORX157203"/>
+				<stat name="points" rule="KeepHigher" type="number" value="1000"/>
+				<stat name="displayed" rule="KeepHigher" type="number" value="0"/>		
+			</node>
+			<node name="vCode7">
+				<stat name="code" rule="KeepHigher" type="text" value="SPEEDORX211094"/>
+				<stat name="points" rule="KeepHigher" type="number" value="1100"/>
+				<stat name="displayed" rule="KeepHigher" type="number" value="0"/>		
+			</node>
+			<node name="vCode8">
+				<stat name="code" rule="KeepHigher" type="text" value="SPEEDORX322614"/>
+				<stat name="points" rule="KeepHigher" type="number" value="1200"/>
+				<stat name="displayed" rule="KeepHigher" type="number" value="0"/>		
+			</node>
+			<node name="vCode9">
+				<stat name="code" rule="KeepHigher" type="text" value="SPEEDORX533446"/>
+				<stat name="points" rule="KeepHigher" type="number" value="1300"/>
+				<stat name="displayed" rule="KeepHigher" type="number" value="0"/>		
+			</node>		
+		</node>		<!-- end vaultCodes-->
+		
+		
+		<node name="progression">                             <!--items that can be unlocked or purchased-->			
+			<node name="incentives" save="local">
+				<stat rule="KeepLower" name="bios" value="1" type="number"/>    <!-- value of 1 means we have NOT collected the incentive-->
+				<stat rule="KeepLower" name="news" value="1" type="number"/>
+				<stat rule="KeepLower" name="videos" value="1" type="number"/>
+			</node>
+			
+			<node name="shopItems" save="local">
+				
+				<node name="speedorTypes">
+					<node name="NAME_LIONFS">
+						<stat rule="KeepHigher" name="unlocked" value="1" type="number"/>
+						<stat rule="KeepHigher" name="purchased" value="1" type="number"/>
+					</node>
+					<node name="NAME_LAVAL">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+						<stat rule="KeepHigher" name="purchased" value="0" type="number"/>
+					</node>
+					<node name="NAME_LEONIDAS">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+						<stat rule="KeepHigher" name="purchased" value="0" type="number"/>
+					</node>
+					<node name="NAME_LONGTOOTH">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+						<stat rule="KeepHigher" name="purchased" value="0" type="number"/>
+					</node>
+					<node name="NAME_LENNOX">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+						<stat rule="KeepHigher" name="purchased" value="0" type="number"/>
+					</node>
+					<node name="NAME_LAGRAVIS">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+						<stat rule="KeepHigher" name="purchased" value="0" type="number"/>
+					</node>
+					<node name="NAME_SUPER_LAVAL">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+						<stat rule="KeepHigher" name="purchased" value="0" type="number"/>
+					</node>
+					<node name="NAME_CRAWLEY">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+						<stat rule="KeepHigher" name="purchased" value="0" type="number"/>
+					</node>
+					<node name="NAME_CRAGGER">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+						<stat rule="KeepHigher" name="purchased" value="0" type="number"/>
+					</node>
+					<node name="NAME_CROOLER">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+						<stat rule="KeepHigher" name="purchased" value="0" type="number"/>
+					</node>
+					<node name="NAME_CRUG">
+						<stat rule="KeepHigher" name="unlocked" value="1" type="number"/>
+						<stat rule="KeepHigher" name="purchased" value="1" type="number"/>
+					</node>
+					<node name="NAME_CROMINUS">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+						<stat rule="KeepHigher" name="purchased" value="0" type="number"/>
+					</node>
+					<node name="NAME_SUPER_CRAGGER">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+						<stat rule="KeepHigher" name="purchased" value="0" type="number"/>
+					</node>
+					<node name="NAME_EAGLESF">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+						<stat rule="KeepHigher" name="purchased" value="0" type="number"/>
+					</node>
+					<node name="NAME_ERIS">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+						<stat rule="KeepHigher" name="purchased" value="0" type="number"/>
+					</node>
+					<node name="NAME_WOLFFS">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+						<stat rule="KeepHigher" name="purchased" value="0" type="number"/>
+					</node>
+					<node name="NAME_WORRIS">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+						<stat rule="KeepHigher" name="purchased" value="0" type="number"/>
+					</node>
+					<node name="NAME_WINZAR">
+						<stat rule="KeepHigher" name="unlocked" value="1" type="number"/>
+						<stat rule="KeepHigher" name="purchased" value="1" type="number"/>
+					</node>
+					<node name="NAME_RAWZOM">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+						<stat rule="KeepHigher" name="purchased" value="0" type="number"/>
+					</node>
+					<node name="NAME_GORZAN">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+						<stat rule="KeepHigher" name="purchased" value="0" type="number"/>
+					</node>
+					<node name="NAME_GRIZZAM">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+						<stat rule="KeepHigher" name="purchased" value="0" type="number"/>
+					</node>
+					<node name="NAME_FOX">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+						<stat rule="KeepHigher" name="purchased" value="0" type="number"/>
+					</node>
+					<node name="NAME_SKUNK">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+						<stat rule="KeepHigher" name="purchased" value="0" type="number"/>
+					</node>
+				</node>
+
+				<node name="headTypes">
+					<node name="NAME_LIONFS">
+						<stat rule="KeepHigher" name="unlocked" value="1" type="number"/>
+					</node>
+					<node name="NAME_LAVAL">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_LEONIDAS">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_LONGTOOTH">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_LENNOX">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_LAGRAVIS">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_SUPER_LAVAL">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_CRAWLEY">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_CRAGGER">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_CROOLER">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_CRUG">
+						<stat rule="KeepHigher" name="unlocked" value="1" type="number"/>
+					</node>
+					<node name="NAME_CROMINUS">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_SUPER_CRAGGER">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_EAGLESF">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_ERIS">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_WOLFFS">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_WORRIS">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_WINZAR">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_RAWZOM">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_GORZAN">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_GRIZZAM">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_FOX">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_SKUNK">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+				</node>
+				
+				<node name="torsoTypes">
+					<node name="NAME_LIONFS">
+						<stat rule="KeepHigher" name="unlocked" value="1" type="number"/>
+					</node>
+					<node name="NAME_LAVAL">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_LEONIDAS">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_LONGTOOTH">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_LENNOX">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_LAGRAVIS">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_SUPER_LAVAL">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_CRAWLEY">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_CRAGGER">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_CROOLER">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_CRUG">
+						<stat rule="KeepHigher" name="unlocked" value="1" type="number"/>
+					</node>
+					<node name="NAME_CROMINUS">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_SUPER_CRAGGER">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_EAGLESF">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_ERIS">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_WOLFFS">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_WORRIS">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_WINZAR">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_RAWZOM">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_GORZAN">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_GRIZZAM">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_FOX">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_SKUNK">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+				</node>
+				
+				<node name="legTypes">
+					<node name="NAME_LIONFS">
+						<stat rule="KeepHigher" name="unlocked" value="1" type="number"/>
+					</node>
+					<node name="NAME_LAVAL">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_LEONIDAS">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_LONGTOOTH">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_LENNOX">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_LAGRAVIS">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_SUPER_LAVAL">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_CRAWLEY">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_CRAGGER">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_CROOLER">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_CRUG">
+						<stat rule="KeepHigher" name="unlocked" value="1" type="number"/>
+					</node>
+					<node name="NAME_CROMINUS">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_SUPER_CRAGGER">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_EAGLESF">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_ERIS">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_WOLFFS">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_WORRIS">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_WINZAR">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_RAWZOM">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_GORZAN">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_GRIZZAM">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_FOX">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+					<node name="NAME_SKUNK">
+						<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					</node>
+				</node>
+				
+			</node>
+			
+			<node name="routes" save="local">
+				<node name="route1">
+					<stat rule="KeepHigher" name="unlocked" value="1" type="number"/>
+					<stat rule="KeepLower" name="bestTime" value="98989898.98" type="number"/>
+					<stat rule="KeepHigher" name="starsEarned" value="0" type="number"/>
+				</node>
+				<node name="route2">
+					<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					<stat rule="KeepLower" name="bestTime" value="98989898.98" type="number"/>
+					<stat rule="KeepHigher" name="starsEarned" value="0" type="number"/>
+				</node>
+				<node name="route3">
+					<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					<stat rule="KeepLower" name="bestTime" value="98989898.98" type="number"/>
+					<stat rule="KeepHigher" name="starsEarned" value="0" type="number"/>
+				</node>
+				<node name="route4">
+					<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					<stat rule="KeepLower" name="bestTime" value="98989898.0" type="number"/>
+					<stat rule="KeepHigher" name="starsEarned" value="0" type="number"/>
+				</node>
+				<node name="route5">
+					<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					<stat rule="KeepLower" name="bestTime" value="98989898.98" type="number"/>
+					<stat rule="KeepHigher" name="starsEarned" value="0" type="number"/>
+				</node>
+				<node name="route6">
+					<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					<stat rule="KeepLower" name="bestTime" value="98989898.98" type="number"/>
+					<stat rule="KeepHigher" name="starsEarned" value="0" type="number"/>
+				</node>
+				<node name="route7">
+					<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					<stat rule="KeepLower" name="bestTime" value="98989898.98" type="number"/>
+					<stat rule="KeepHigher" name="starsEarned" value="0" type="number"/>
+				</node>
+				<node name="route8">
+					<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					<stat rule="KeepLower" name="bestTime" value="98989898.98" type="number"/>
+					<stat rule="KeepHigher" name="starsEarned" value="0" type="number"/>
+				</node>
+				<node name="route9">
+					<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					<stat rule="KeepLower" name="bestTime" value="98989898.98" type="number"/>
+					<stat rule="KeepHigher" name="starsEarned" value="0" type="number"/>
+				</node>
+				<node name="route10">
+					<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					<stat rule="KeepLower" name="bestTime" value="98989898.98" type="number"/>
+					<stat rule="KeepHigher" name="starsEarned" value="0" type="number"/>
+				</node>
+				<node name="route11">
+					<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					<stat rule="KeepLower" name="bestTime" value="98989898.98" type="number"/>
+					<stat rule="KeepHigher" name="starsEarned" value="0" type="number"/>
+				</node>
+				<node name="route12">
+					<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					<stat rule="KeepLower" name="bestTime" value="98989898.98" type="number"/>
+					<stat rule="KeepHigher" name="starsEarned" value="0" type="number"/>
+				</node>
+				<node name="route13">
+					<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					<stat rule="KeepLower" name="bestTime" value="98989898.98" type="number"/>
+					<stat rule="KeepHigher" name="starsEarned" value="0" type="number"/>
+				</node>
+				<node name="route14">
+					<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					<stat rule="KeepLower" name="bestTime" value="98989898.98" type="number"/>
+					<stat rule="KeepHigher" name="starsEarned" value="0" type="number"/>
+				</node>
+				<node name="route15">
+					<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					<stat rule="KeepLower" name="bestTime" value="98989898.98" type="number"/>
+					<stat rule="KeepHigher" name="starsEarned" value="0" type="number"/>
+				</node>
+				<node name="route16">
+					<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					<stat rule="KeepLower" name="bestTime" value="98989898.98" type="number"/>
+					<stat rule="KeepHigher" name="starsEarned" value="0" type="number"/>
+				</node>
+				<node name="route17">
+					<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					<stat rule="KeepLower" name="bestTime" value="98989898.98" type="number"/>
+					<stat rule="KeepHigher" name="starsEarned" value="0" type="number"/>
+				</node>
+				<node name="route18">
+					<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					<stat rule="KeepLower" name="bestTime" value="98989898.98" type="number"/>
+					<stat rule="KeepHigher" name="starsEarned" value="0" type="number"/>
+				</node>
+				<node name="route0">
+					<stat rule="KeepHigher" name="unlocked" value="0" type="number"/>
+					<stat rule="KeepLower" name="bestTime" value="98989898.98" type="number"/>
+					<stat rule="KeepHigher" name="starsEarned" value="0" type="number"/>
+				</node>
+			</node> <!--routes-->
+		</node> <!--progression-->
+	</node> <!--gameDataSaved-->
+	
+	<node name="GameDataNotSaved">
+		<node name="route" value="1"/>        <!-- the route that was chosen in the select screen.-->
+		<node name="lastRaceTime" value="0"/>
+		<node name="wonLastRace" value="0"/>
+		<node name="lastRoute" value="1"/>
+		<node name="help" value="0"/>
+
+		<node name="routeData">                               <!-- constant data for each of the routes-->
+			
+			<node name="route1">                                <!-- route number-->
+				<node name="routeBlockers">                       <!-- route blockers in place to define the path you have to take-->
+					<node value="2"/>
+					<node value="4"/>
+					<node value="8"/>
+				</node>                             
+				<node name="resident" value="NAME_WOLFFS"/>          <!-- the opponent you will be racing against on this route.-->
+				<node name="goodTime" value="210"/>
+				<node name="betterTime" value="190"/>
+				<node name="bestTime" value="160.0"/>
+				<node name="finishX" value="-844.0" />            <!-- used to know how close we are to the end (for pos indicator)-->
+				<node name="finishZ" value="2765.0" />
+			</node>
+
+			<node name="route2">
+				<node name="routeBlockers">
+					<node value="2"/>
+					<node value="7"/>
+					<node value="10"/>
+				</node>
+				<node name="resident" value="NAME_LEONIDAS"/>
+				<node name="goodTime" value="190.0"/>
+				<node name="betterTime" value="130.0"/>
+				<node name="bestTime" value="115.0"/>
+				<node name="finishX" value="-168.0" />
+				<node name="finishZ" value="2491.0" />
+			</node>
+			
+			<node name="route3">
+				<node name="routeBlockers">
+					<node value="3"/>
+					<node value="6"/>
+					<node value="10"/>
+					<node value="12"/>
+				</node>
+				<node name="resident" value="NAME_CRAWLEY"/>
+				<node name="goodTime" value="180.0"/>
+				<node name="betterTime" value="125.0"/>
+				<node name="bestTime" value="110.0"/>
+				<node name="finishX" value="-99.0" />
+				<node name="finishZ" value="2398.0" />
+			</node>
+			
+			<node name="route4">
+				<node name="routeBlockers">
+					<node value="3"/>
+					<node value="6"/>
+					<node value="9"/>
+					<node value="11"/>
+				</node>
+				<node name="resident" value="NAME_EAGLESF"/>
+				<node name="goodTime" value="170.0"/>
+				<node name="betterTime" value="125.0"/>
+				<node name="bestTime" value="110.0"/>
+				<node name="finishX" value="84.0" />
+				<node name="finishZ" value="2400.0" />
+			</node>
+			
+			<node name="route5">
+				<node name="routeBlockers">
+					<node value="1"/>
+					<node value="11"/>
+					<node value="14"/>
+				</node>
+				<node name="resident" value="NAME_CRAGGER"/>
+				<node name="goodTime" value="160.0"/>
+				<node name="betterTime" value="115.0"/>
+				<node name="bestTime" value="105.0"/>
+				<node name="finishX" value="84.0" />
+				<node name="finishZ" value="2400.0" />
+			</node>
+			
+			<node name="route6">
+				<node name="routeBlockers">
+					<node value="1"/>
+					<node value="5"/>
+					<node value="13"/>
+				</node>
+				<node name="resident" value="NAME_LAVAL"/>
+				<node name="goodTime" value="155.0"/>
+				<node name="betterTime" value="130.0"/>
+				<node name="bestTime" value="125.0"/>
+				<node name="finishX" value="808.0" />
+				<node name="finishZ" value="2632.0" />
+			</node>
+
+			<node name="route7">
+				<node name="routeBlockers">
+					<node value="1"/>
+					<node value="6"/>
+					<node value="12"/>
+				</node>
+				<node name="resident" value="NAME_WINZAR"/>
+				<node name="goodTime" value="145.0"/>
+				<node name="betterTime" value="140.0"/>
+				<node name="bestTime" value="135.0"/>
+				<node name="finishX" value="-99.0" />
+				<node name="finishZ" value="2398.0" />
+			</node>
+			
+			<node name="route8">
+				<node name="routeBlockers">
+					<node value="2"/>
+					<node value="7"/>
+					<node value="9"/>
+				</node>
+				<node name="resident" value="NAME_RAWZOM"/>
+				<node name="goodTime" value="155.0"/>
+				<node name="betterTime" value="140.0"/>
+				<node name="bestTime" value="135.0"/>
+				<node name="finishX" value="150.0" />
+				<node name="finishZ" value="2250.0" />
+			</node>
+			
+			<node name="route9">
+				<node name="routeBlockers">
+					<node value="1"/>
+					<node value="6"/>
+					<node value="11"/>
+				</node>
+				<node name="resident" value="NAME_WORRIS"/>
+				<node name="goodTime" value="145.0"/>
+				<node name="betterTime" value="135.0"/>
+				<node name="bestTime" value="130.0"/>
+				<node name="finishX" value="84.0" />
+				<node name="finishZ" value="2400.0" />
+			</node>
+			
+			<node name="route10">
+				<node name="routeBlockers">
+					<node value="2"/>
+					<node value="8"/>
+					<node value="9"/>
+				</node>
+				<node name="resident" value="NAME_ERIS"/>
+				<node name="goodTime" value="150.0"/>
+				<node name="betterTime" value="140.0"/>
+				<node name="bestTime" value="130.0"/>
+				<node name="finishX" value="808.0" />
+				<node name="finishZ" value="2632.0" />
+			</node>
+			
+			<node name="route11">
+				<node name="routeBlockers">
+					<node value="1"/>
+					<node value="12"/>
+					<node value="13"/>
+				</node>
+				<node name="resident" value="NAME_CROMINUS"/>
+				<node name="goodTime" value="145.0"/>
+				<node name="betterTime" value="135.0"/>
+				<node name="bestTime" value="130.0"/>
+				<node name="finishX" value="808.0" />
+				<node name="finishZ" value="2632.0" />
+			</node>
+			
+			<node name="route12">
+				<node name="routeBlockers">
+					<node value="4"/>
+					<node value="5"/>
+					<node value="8"/>
+					<node value="13"/>
+				</node>
+				<node name="resident" value="NAME_LAGRAVIS"/>
+				<node name="goodTime" value="150.0"/>
+				<node name="betterTime" value="140.0"/>
+				<node name="bestTime" value="130.0"/>
+				<node name="finishX" value="808.0" />
+				<node name="finishZ" value="2632.0" />
+			</node>
+			
+			<node name="route13">
+				<node name="routeBlockers">
+					<node value="2"/>
+					<node value="3"/>
+					<node value="10"/>
+				</node>
+				<node name="resident" value="NAME_SKUNK"/>
+				<node name="goodTime" value="120.0"/>
+				<node name="betterTime" value="115.0"/>
+				<node name="bestTime" value="110.0"/>
+				<node name="finishX" value="808.0" />
+				<node name="finishZ" value="2632.0" />
+			</node>
+			
+			<node name="route14">
+				<node name="routeBlockers">
+					<node value="1"/>
+					<node value="12"/>
+					<node value="14"/>
+				</node>
+				<node name="resident" value="NAME_FOX"/>
+				<node name="goodTime" value="120.0"/>
+				<node name="betterTime" value="115.0"/>
+				<node name="bestTime" value="110.0"/>
+				<node name="finishX" value="808.0" />
+				<node name="finishZ" value="2632.0" />
+			</node>
+			
+			<node name="route15">
+				<node name="routeBlockers">
+					<node value="2"/>
+					<node value="3"/>
+					<node value="9"/>
+				</node>
+        <node name="resident" value="NAME_GRIZZAM"/>
+				<node name="goodTime" value="120.0"/>
+				<node name="betterTime" value="115.0"/>
+				<node name="bestTime" value="110.0"/>
+				<node name="finishX" value="808.0" />
+				<node name="finishZ" value="2632.0" />
+			</node>
+			
+			<node name="route16">
+				<node name="routeBlockers">
+					<node value="1"/>
+					<node value="6"/>
+				</node>
+        <node name="resident" value="NAME_GORZAN"/>
+        <node name="goodTime" value="115.0"/>
+				<node name="betterTime" value="110.0"/>
+				<node name="bestTime" value="105.0"/>
+				<node name="finishX" value="808.0" />
+				<node name="finishZ" value="2632.0" />
+			</node>
+			
+			<node name="route17">
+				<node name="routeBlockers">
+					<node value="2"/>
+					<node value="3"/>
+				</node>
+				<node name="resident" value="NAME_SUPER_CRAGGER"/>
+				<node name="goodTime" value="111.0"/>
+				<node name="betterTime" value="107.0"/>
+				<node name="bestTime" value="102.0"/>
+				<node name="finishX" value="808.0" />
+				<node name="finishZ" value="2632.0" />
+			</node>
+			
+			<node name="route18">
+				<node name="routeBlockers">
+					<node value="4"/>
+					<node value="5"/>
+					<node value="7"/>
+					<node value="14"/>
+				</node>
+				<node name="resident" value="NAME_SUPER_LAVAL"/>
+				<node name="goodTime" value="108.0"/>
+				<node name="betterTime" value="103.0"/>
+				<node name="bestTime" value="98.0"/>
+				<node name="finishX" value="808.0" />
+				<node name="finishZ" value="2632.0" />
+			</node>
+			
+		<!-- This is free race (not used in game) -->			
+			<node name="route0">
+				<node name="routeBlockers">
+				</node>
+				<node name="resident" value="NAME_CRAWLEY"/>
+				<node name="goodTime" value="125.0"/>
+				<node name="betterTime" value="120.0"/>
+				<node name="bestTime" value="115.0"/>
+				<node name="finishX" value="-29.0" />         <!-- average of all other x values -->
+				<node name="finishZ" value="12519.0" />       <!-- average of all other z values -->
+			</node>
+			
+		</node> <!--routeData-->
+
+
+		
+		<node name="speedorData">
+			<node name="NAME_LIONFS">
+			<node name="speed" value="1.0"/>
+			<node name="speedBars" value="1"/>
+			<node name="handling" value="0.7"/>
+			<node name="handlingBars" value="4"/>
+			<node name="retract" value="1.0"/>
+			<node name="priceSpdr" value="0"/>
+			<node name="nameIdSpdr" value="SPEEDOR_LIONFS"/>
+			</node>
+			
+			<node name="NAME_LAVAL">
+			<node name="speed" value="1.1"/>
+			<node name="speedBars" value="7"/>
+			<node name="handling" value="1.1"/>
+			<node name="handlingBars" value="6"/>
+			<node name="retract" value="0.5"/>
+			<node name="priceSpdr" value="2000000"/>
+			<node name="nameIdSpdr" value="SPEEDOR_LAVAL"/>
+			</node>
+			
+			<node name="NAME_LEONIDAS">
+			<node name="speed" value="1.01"/>
+			<node name="speedBars" value="2"/>
+			<node name="handling" value="0.725"/>
+			<node name="handlingBars" value="4"/>
+			<node name="retract" value="0.9"/>
+			<node name="priceSpdr" value="100000"/>
+			<node name="nameIdSpdr" value="SPEEDOR_LEONIDAS"/>
+			</node>
+			
+			<node name="NAME_LONGTOOTH">
+			<node name="speed" value="1.0"/>
+			<node name="speedBars" value="1"/>
+			<node name="handling" value="0.7"/>
+			<node name="handlingBars" value="4"/>
+			<node name="retract" value="1.0"/>
+			<node name="priceSpdr" value="0"/>
+			<node name="nameIdSpdr" value="SPEEDOR_LIONFS"/>
+			</node>
+			
+			<node name="NAME_LENNOX">
+			<node name="speed" value="1.0"/>
+			<node name="speedBars" value="1"/>
+			<node name="handling" value="0.75"/>
+			<node name="handlingBars" value="4"/>
+			<node name="retract" value="1.0"/>
+			<node name="priceSpdr" value="0"/>
+			<node name="nameIdSpdr" value="SPEEDOR_LENNOX"/>
+			</node>
+			
+			<node name="NAME_LAGRAVIS">
+			<node name="speed" value="1.1"/>
+			<node name="speedBars" value="7"/>
+			<node name="handling" value="1.1"/>
+			<node name="handlingBars" value="7"/>
+			<node name="retract" value="0.5"/>
+			<node name="priceSpdr" value="1000000"/>
+			<node name="nameIdSpdr" value="SPEEDOR_LAGRAVIS"/>
+			</node>
+
+			<node name="NAME_SUPER_LAVAL">
+				<node name="speed" value="1.1"/>
+				<node name="speedBars" value="10"/>
+				<node name="handling" value="1.4"/>
+				<node name="handlingBars" value="9"/>
+				<node name="retract" value="0.45"/>
+				<node name="priceSpdr" value="2700000"/>
+				<node name="nameIdSpdr" value="SPEEDOR_SUPERLAVAL"/>
+			</node>
+			
+			<node name="NAME_CRAWLEY">
+			<node name="speed" value="1.05"/>
+			<node name="speedBars" value="4"/>
+			<node name="handling" value="0.7"/>
+			<node name="handlingBars" value="4"/>
+			<node name="retract" value="0.7"/>
+			<node name="priceSpdr" value="500000"/>
+			<node name="nameIdSpdr" value="SPEEDOR_CRAWLEY"/>
+			</node>
+			
+			<node name="NAME_CRAGGER">
+			<node name="speed" value="1.09"/>
+			<node name="speedBars" value="6"/>
+			<node name="handling" value="0.9"/>
+			<node name="handlingBars" value="6"/>
+			<node name="retract" value="0.6"/>
+			<node name="priceSpdr" value="1000000"/>
+			<node name="nameIdSpdr" value="SPEEDOR_CRAGGER"/>
+			</node>
+			
+			<node name="NAME_CROOLER">
+			<node name="speed" value="1.0"/>
+			<node name="speedBars" value="1"/>
+			<node name="handling" value="0.75"/>
+			<node name="handlingBars" value="4"/>
+			<node name="retract" value="1.0"/>
+			<node name="priceSpdr" value="0"/>
+			<node name="nameIdSpdr" value="SPEEDOR_LIONFS"/>
+			</node>
+			
+			<node name="NAME_CRUG">
+			<node name="speed" value="1.0"/>
+			<node name="speedBars" value="1"/>
+			<node name="handling" value="0.7"/>
+			<node name="handlingBars" value="4"/>
+			<node name="retract" value="1.0"/>
+			<node name="priceSpdr" value="0"/>
+			<node name="nameIdSpdr" value="SPEEDOR_CRUG"/>
+			</node>
+			
+			<node name="NAME_CROMINUS">
+			<node name="speed" value="1.09"/>
+			<node name="speedBars" value="6"/>
+			<node name="handling" value="1.0"/>
+			<node name="handlingBars" value="7"/>
+			<node name="retract" value="0.6"/>
+			<node name="priceSpdr" value="700000"/>
+			<node name="nameIdSpdr" value="SPEEDOR_CROMINUS"/>
+			</node>
+
+			<node name="NAME_SUPER_CRAGGER">
+				<node name="speed" value="1.1"/>
+				<node name="speedBars" value="9"/>
+				<node name="handling" value="1.45"/>
+				<node name="handlingBars" value="10"/>
+				<node name="retract" value="0.47"/>
+				<node name="priceSpdr" value="2500000"/>
+				<node name="nameIdSpdr" value="SPEEDOR_SUPERCRAGGER"/>
+			</node>
+			
+			<node name="NAME_EAGLESF">
+			<node name="speed" value="1.08"/>
+			<node name="speedBars" value="5"/>
+			<node name="handling" value="1.05"/>
+			<node name="handlingBars" value="6"/>
+			<node name="retract" value="0.7"/>
+			<node name="priceSpdr" value="800000"/>
+			<node name="nameIdSpdr" value="SPEEDOR_EGLOR"/>
+			</node>
+			
+			<node name="NAME_ERIS">
+			<node name="speed" value="1.09"/>
+			<node name="speedBars" value="6"/>
+			<node name="handling" value="1.05"/>
+			<node name="handlingBars" value="6"/>
+			<node name="retract" value="0.6"/>
+			<node name="priceSpdr" value="600000"/>
+			<node name="nameIdSpdr" value="SPEEDOR_ERIS"/>
+			</node>
+			
+			<node name="NAME_WOLFFS">
+			<node name="speed" value="1.02"/>
+			<node name="speedBars" value="3"/>
+			<node name="handling" value="0.9"/>
+			<node name="handlingBars" value="5"/>
+			<node name="retract" value="0.8"/>
+			<node name="priceSpdr" value="150000"/>
+			<node name="nameIdSpdr" value="SPEEDOR_WOLFFS"/>
+			</node>
+			
+			<node name="NAME_WORRIS">
+			<node name="speed" value="1.08"/>
+			<node name="speedBars" value="5"/>
+			<node name="handling" value="0.9"/>
+			<node name="handlingBars" value="5"/>
+			<node name="retract" value="0.7"/>
+			<node name="priceSpdr" value="500000"/>
+			<node name="nameIdSpdr" value="SPEEDOR_WORRIZ"/>
+			</node>
+			
+			<node name="NAME_WINZAR">
+				<node name="speed" value="1.02"/>
+				<node name="speedBars" value="3"/>
+				<node name="handling" value="0.9"/>
+				<node name="handlingBars" value="5"/>
+				<node name="retract" value="0.8"/>
+				<node name="priceSpdr" value="150000"/>
+				<node name="nameIdSpdr" value="SPEEDOR_WOLFFS"/>
+			</node>
+			
+			<node name="NAME_RAWZOM">
+			<node name="speed" value="1.05"/>
+			<node name="speedBars" value="4"/>
+			<node name="handling" value="1.05"/>
+			<node name="handlingBars" value="6"/>
+			<node name="retract" value="0.7"/>
+			<node name="priceSpdr" value="400000"/>
+			<node name="nameIdSpdr" value="SPEEDOR_RAWZOM"/>
+			</node>
+
+			<node name="NAME_FOX">
+				<node name="speed" value="1.1"/>
+				<node name="speedBars" value="8"/>
+				<node name="handling" value="1.3"/>
+				<node name="handlingBars" value="7"/>
+				<node name="retract" value="0.48"/>
+				<node name="priceSpdr" value="600000"/>
+				<node name="nameIdSpdr" value="SPEEDOR_FOX"/>
+			</node>
+			
+			<node name="NAME_SKUNK">
+			<node name="speed" value="1.1"/>
+			<node name="speedBars" value="7"/>
+			<node name="handling" value="1.35"/>
+			<node name="handlingBars" value="8"/>
+			<node name="retract" value="0.5"/>
+			<node name="priceSpdr" value="400000"/>
+			<node name="nameIdSpdr" value="SPEEDOR_SKUNK"/>
+			</node>
+
+			<node name="NAME_GORZAN">
+				<node name="speed" value="1.095"/>
+				<node name="speedBars" value="9"/>
+				<node name="handling" value="1.2"/>
+				<node name="handlingBars" value="6"/>
+				<node name="retract" value="0.47"/>
+				<node name="priceSpdr" value="1000000"/>
+				<node name="nameIdSpdr" value="SPEEDOR_GORZAN"/>
+			</node>
+			
+			<node name="NAME_GRIZZAM">
+			<node name="speed" value="1.09"/>
+			<node name="speedBars" value="6"/>
+			<node name="handling" value="1.4"/>
+			<node name="handlingBars" value="9"/>
+			<node name="retract" value="0.6"/>
+			<node name="priceSpdr" value="700000"/>
+			<node name="nameIdSpdr" value="SPEEDOR_GRIZZAM"/>
+			</node>
+			
+			
+		</node> <!--speedorData-->
+	</node> <!--GameDataNotSaved-->
+</GameDataFacade>

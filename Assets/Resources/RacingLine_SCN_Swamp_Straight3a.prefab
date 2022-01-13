@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1888417665558635}
+  m_IsPrefabParent: 1
+--- !u!1 &1888417665558635
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4607093395973557}
+  m_Layer: 0
+  m_Name: RacingLine_SCN_Swamp_Straight3a
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4607093395973557
+Transform:
+  m_GameObject: {fileID: 1888417665558635}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -14.57072, y: -3.228197, z: 1787.361}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4905651542294122}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1556345268500846
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4905651542294122}
+  - component: {fileID: 114894558392796222}
+  m_Layer: 0
+  m_Name: Straight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4905651542294122
+Transform:
+  m_GameObject: {fileID: 1556345268500846}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -268.4293, y: -12.98029, z: -521.9612}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4607093395973557}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114894558392796222
+MonoBehaviour:
+  m_GameObject: {fileID: 1556345268500846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 139885c017b41a94c93c156f72406f44, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

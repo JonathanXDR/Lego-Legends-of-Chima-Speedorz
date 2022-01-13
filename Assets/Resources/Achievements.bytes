@@ -1,0 +1,768 @@
+<achievements>
+
+	<node name="achievementSettings">
+		<node name="doUseTimeStamps" value="true" />
+	</node>
+
+
+	<node name="achievementDefinitions">
+		
+		<!-- Collect Studs -->
+		
+		<achievement name="collectStuds1">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.studsCollected" rule="greaterThan" value="150000"/>
+			</node>		
+			<node name="categories">
+				<node name="studs"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_COLLECT_STUDS1"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_COLLECT_STUDS1"/>
+    </achievement>
+		
+		
+		<achievement name="collectStuds2">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.studsCollected" rule="greaterThan" value="300000"/>
+			</node>		
+			<node name="categories">
+				<node name="studs"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_COLLECT_STUDS2"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_COLLECT_STUDS2"/>
+		</achievement>		
+	
+		<achievement name="collectStuds3">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.studsCollected" rule="greaterThan" value="1000000"/>
+			</node>		
+			<node name="categories">
+				<node name="studs"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_COLLECT_STUDS3"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_COLLECT_STUDS3"/>
+		</achievement>				
+		
+		<achievement name="collectStuds4">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.studsCollected" rule="greaterThan" value="5000000"/>
+			</node>		
+			<node name="categories">
+				<node name="studs"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_COLLECT_STUDS4"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_COLLECT_STUDS4"/>
+		</achievement>	
+		
+		<achievement name="collectStuds5">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.studsCollected" rule="greaterThan" value="10000000"/>
+			</node>		
+			<node name="categories">
+				<node name="studs"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_COLLECT_STUDS5"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_COLLECT_STUDS5"/>
+		</achievement>			
+		
+		
+		<!-- Collect Chi -->		
+		
+		
+		<achievement name="collectChi1">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.chiCollected" rule="greaterThan" value="20"/>
+			</node>		
+			<node name="categories">
+				<node name="chi"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_COLLECT_CHI1"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_COLLECT_CHI1"/>
+		</achievement>
+		
+		
+		<achievement name="collectChi2">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.chiCollected" rule="greaterThan" value="60"/>
+			</node>		
+			<node name="categories">
+				<node name="chi"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_COLLECT_CHI2"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_COLLECT_CHI2"/>
+		</achievement>		
+		
+		<achievement name="collectChi3">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.chiCollected" rule="greaterThan" value="120"/>
+			</node>		
+			<node name="categories">
+				<node name="chi"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_COLLECT_CHI3"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_COLLECT_CHI3"/>
+		</achievement>				
+		
+		<achievement name="collectChi4">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.chiCollected" rule="greaterThan" value="300"/>
+			</node>		
+			<node name="categories">
+				<node name="chi"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_COLLECT_CHI4"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_COLLECT_CHI4"/>
+		</achievement>	
+		
+		<achievement name="collectChi5">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.chiCollected" rule="greaterThan" value="500"/>
+			</node>		
+			<node name="categories">
+				<node name="chi"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_COLLECT_CHI5"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_COLLECT_CHI5"/>
+		</achievement>			
+	
+		<!-- Perfect challenges -->
+		<achievement name="perfectBoulder">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.perfectBoulder" rule="==" value="1"/>
+			</node>		
+			<node name="categories">
+				<node name="chi"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_BOULDER"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_BOULDER"/>
+		</achievement>		
+
+		<achievement name="perfectTower">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.perfectTower" rule="==" value="1"/>
+			</node>		
+			<node name="categories">
+				<node name="chi"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_ICE"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_ICE"/>
+		</achievement>	
+		
+		<achievement name="perfectGates">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.perfectGates" rule="==" value="1"/>
+			</node>		
+			<node name="categories">
+				<node name="chi"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_GATES"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_GATES"/>
+		</achievement>	
+		<achievement name="perfectGatesVault">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.perfectGatesVault" rule="==" value="1"/>
+			</node>		
+			<node name="categories">
+				<node name="chi"/>
+			</node>
+			<node name="tags">
+				<node name="vault"/>
+			</node>
+      		<node name="nameId" value="ACHI_TITLE_GATES1"/>
+      		<node name="descriptionId" value="ACHI_DESCRIPTION_GATES1"/>
+      		<node name="descriptionIdVault" value="ACHI_DESCRIPTION_GATES1_VAULT"/>
+		</achievement>
+
+		<achievement name="perfectHoops">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.perfectHoops" rule="==" value="1"/>
+			</node>		
+			<node name="categories">
+				<node name="chi"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_FIRERING"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_FIRERING"/>
+		</achievement>	
+		<achievement name="perfectHoopsVault">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.perfectHoopsVault" rule="==" value="1"/>
+			</node>		
+			<node name="categories">
+				<node name="chi"/>
+			</node>
+			<node name="tags">
+				<node name="vault"/>
+			</node>			
+      <node name="nameId" value="ACHI_TITLE_FIRERING1"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_FIRERING1"/>
+      <node name="descriptionIdVault" value="ACHI_DESCRIPTION_FIRERING1_VAULT"/>
+		</achievement>	
+
+		<achievement name="perfectCrows">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.perfectCrows" rule="==" value="1"/>
+			</node>		
+			<node name="categories">
+				<node name="chi"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_DISC"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_DISC"/>
+		</achievement>	
+
+		<achievement name="perfectHammers">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.perfectHammers" rule="==" value="1"/>
+			</node>		
+			<node name="categories">
+				<node name="chi"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_WATERFALL"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_WATERFALL"/>
+		</achievement>			
+		
+<!--		<achievement name="perfectRip">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.perfectRip" rule="==" value="1"/>
+			</node>		
+			<node name="categories">
+				<node name="chi"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_BOOST"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_BOOST"/>
+		</achievement>			
+-->		
+		
+		
+		<!-- Speedor Purchases -->
+		<achievement name="speedorBuy1">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.speedorzBought" rule="moreThanEqualTo" value="1"/>
+			</node>		
+			<node name="categories">
+				<node name="speedorz"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_BUY_1_SPEEDOR"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_BUY_1_SPEEDOR"/>
+		</achievement>	
+	
+	
+		<achievement name="speedorBuy2">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.speedorzBought" rule="moreThanEqualTo" value="2"/>
+			</node>		
+			<node name="categories">
+				<node name="speedorz"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_BUY_2_SPEEDOR"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_BUY_2_SPEEDOR"/>
+		</achievement>	
+
+		<achievement name="speedorBuy4">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.speedorzBought" rule="moreThanEqualTo" value="4"/>
+			</node>		
+			<node name="categories">
+				<node name="speedorz"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_BUY_4_SPEEDOR"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_BUY_4_SPEEDOR"/>
+		</achievement>	
+
+		<achievement name="speedorBuy6">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.speedorzBought" rule="moreThanEqualTo" value="6"/>
+			</node>		
+			<node name="categories">
+				<node name="speedorz"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_BUY_6_SPEEDOR"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_BUY_6_SPEEDOR"/>
+		</achievement>	
+		
+	<!--	<achievement name="speedorBuy8">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.speedorzBought" rule="moreThanEqualTo" value="8"/>
+			</node>		
+			<node name="categories">
+				<node name="speedorz"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_BUY_8_SPEEDOR"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_BUY_8_SPEEDOR"/>
+		</achievement>	
+		
+		
+		<achievement name="speedorBuy10">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.speedorzBought" rule="moreThanEqualTo" value="10"/>
+			</node>		
+			<node name="categories">
+				<node name="speedorz"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_BUY_10_SPEEDOR"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_BUY_10_SPEEDOR"/>
+		</achievement>	
+		
+		<achievement name="speedorBuy12">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.speedorzBought" rule="moreThanEqualTo" value="12"/>
+			</node>		
+			<node name="categories">
+				<node name="speedorz"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_BUY_12_SPEEDOR"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_BUY_12_SPEEDOR"/>
+		</achievement>	
+		
+		
+		<achievement name="speedorBuy14">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.speedorzBought" rule="moreThanEqualTo" value="14"/>
+			</node>		
+			<node name="categories">
+				<node name="speedorz"/>
+			</node>
+      <node name="tags">
+        <node name="vault"/>
+      </node>
+      <node name="nameId" value="ACHI_TITLE_BUYSPEEDORZ"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_BUYSPEEDORZ"/>
+		</achievement>	
+		-->
+
+		<!-- Races won -->
+		<achievement name="winRaces1">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.racesWon" rule="moreThanEqualTo" value="1"/>
+			</node>		
+			<node name="categories">
+				<node name="wins"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_WINRACES1"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_WINRACES1"/>
+		</achievement>		
+		
+		<achievement name="winRaces2">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.racesWon" rule="moreThanEqualTo" value="3"/>
+			</node>		
+			<node name="categories">
+				<node name="wins"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_WINRACES2"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_WINRACES2"/>
+		</achievement>		
+		
+		<achievement name="winRaces3">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.racesWon" rule="moreThanEqualTo" value="6"/>
+			</node>		
+			<node name="categories">
+				<node name="wins"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_WINRACES3"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_WINRACES3"/>
+		</achievement>		
+		
+		<achievement name="winRaces4">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.racesWon" rule="moreThanEqualTo" value="12"/>
+			</node>		
+			<node name="categories">
+				<node name="wins"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_WINRACES4"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_WINRACES4"/>
+		</achievement>		
+		
+		<achievement name="winRaces5">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.racesWon" rule="moreThanEqualTo" value="24"/>
+			</node>		
+			<node name="categories">
+				<node name="wins"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_WINRACES5"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_WINRACES5"/>
+		</achievement>		
+	
+		<!-- Stars gained -->	
+		<achievement name="gainStars1">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.starsGained" rule="moreThanEqualTo" value="1"/>
+			</node>		
+			<node name="categories">
+				<node name="stars"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_GAINSTARS1"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_GAINSTARS1"/>
+		</achievement>		
+	
+		<achievement name="gainStars2">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.starsGained" rule="moreThanEqualTo" value="3"/>
+			</node>		
+			<node name="categories">
+				<node name="stars"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_GAINSTARS2"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_GAINSTARS2"/>
+		</achievement>		
+		
+		<achievement name="gainStars3">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.starsGained" rule="moreThanEqualTo" value="6"/>
+			</node>		
+			<node name="categories">
+				<node name="stars"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_GAINSTARS3"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_GAINSTARS3"/>
+		</achievement>		
+		
+		<achievement name="gainStars4">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.starsGained" rule="moreThanEqualTo" value="12"/>
+			</node>		
+			<node name="categories">
+				<node name="stars"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_GAINSTARS4"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_GAINSTARS4"/>
+		</achievement>		
+		
+		<achievement name="gainStars5">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.starsGained" rule="moreThanEqualTo" value="18"/>
+			</node>		
+			<node name="categories">
+				<node name="stars"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_GAINSTARS5"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_GAINSTARS5"/>
+		</achievement>		
+		
+		
+		<achievement name="gainStars6">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.starsGained" rule="moreThanEqualTo" value="21"/>
+			</node>		
+			<node name="categories">
+				<node name="stars"/>
+			</node>
+			<node name="tags">
+				<node name="vault"/>
+			</node>			
+      <node name="nameId" value="ACHI_TITLE_GAINSTARS6"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_GAINSTARS6"/>
+      <node name="descriptionIdVault" value="ACHI_DESCRIPTION_GAINSTARS6_VAULT"/>
+		</achievement>		
+		
+		<achievement name="gainStars7">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.starsGained" rule="moreThanEqualTo" value="24"/>
+			</node>		
+			<node name="categories">
+				<node name="stars"/>
+			</node>
+			<node name="tags">
+				<node name="vault"/>
+			</node>			
+      <node name="nameId" value="ACHI_TITLE_GAINSTARS7"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_GAINSTARS7"/>
+      <node name="descriptionIdVault" value="ACHI_DESCRIPTION_GAINSTARS7_VAULT"/>
+		</achievement>		
+		
+		<achievement name="gainStars8">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.starsGained" rule="moreThanEqualTo" value="27"/>
+			</node>		
+			<node name="categories">
+				<node name="stars"/>
+			</node>
+			<node name="tags">
+				<node name="vault"/>
+			</node>			
+      <node name="nameId" value="ACHI_TITLE_GAINSTARS8"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_GAINSTARS8"/>
+      <node name="descriptionIdVault" value="ACHI_DESCRIPTION_GAINSTARS8_VAULT"/>
+		</achievement>		
+		
+		<achievement name="gainStars9">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.starsGained" rule="moreThanEqualTo" value="30"/>
+			</node>		
+			<node name="categories">
+				<node name="stars"/>
+			</node>
+			<node name="tags">
+				<node name="vault"/>
+			</node>			
+      <node name="nameId" value="ACHI_TITLE_GAINSTARS9"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_GAINSTARS9"/>
+      <node name="descriptionIdVault" value="ACHI_DESCRIPTION_GAINSTARS9_VAULT"/>
+		</achievement>		
+		
+		<achievement name="gainStars10">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.starsGained" rule="moreThanEqualTo" value="33"/>
+			</node>		
+			<node name="categories">
+				<node name="stars"/>
+			</node>
+			<node name="tags">
+				<node name="vault"/>
+			</node>			
+      <node name="nameId" value="ACHI_TITLE_GAINSTARS10"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_GAINSTARS10"/>
+      <node name="descriptionIdVault" value="ACHI_DESCRIPTION_GAINSTARS10_VAULT"/>
+		</achievement>		
+						
+		<achievement name="gainStars11">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.starsGained" rule="moreThanEqualTo" value="36"/>
+			</node>		
+			<node name="categories">
+				<node name="stars"/>
+			</node>
+			<node name="tags">
+				<node name="vault"/>
+			</node>			
+      <node name="nameId" value="ACHI_TITLE_GAINSTARS11"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_GAINSTARS11"/>
+      <node name="descriptionIdVault" value="ACHI_DESCRIPTION_GAINSTARS11_VAULT"/>
+		</achievement>		
+		
+		<!-- signed in -->
+<!--		<achievement name="signedIn">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.signedIn" rule="==" value="1"/>
+			</node>		
+			<node name="categories">
+				<node name="friends"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_SIGNIN"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_SIGNIN"/>
+		</achievement>  -->
+
+    <!-- perfect rip -->
+    <achievement name="perfectRip">
+      <node name="requirements">
+        <requirement name="requirement1" location="statistics.game.perfectRip" rule="==" value="1"/>
+      </node>
+      <node name="categories">
+        <node name="friends"/>
+      </node>
+      <node name="nameId" value="ACHI_TITLE_BOOST"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_BOOST"/>
+    </achievement>
+
+
+    <!-- friends added -->
+<!--		<achievement name="friendsAdded1">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.friendsAdded" rule="moreThanEqualTo" value="2"/>
+			</node>		
+			<node name="categories">
+				<node name="friends"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_ADDFRIENDS"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_ADDFRIENDS"/>
+		</achievement>			
+		-->
+		
+		<!-- challenges complete -->
+<!--		<achievement name="winChallenges1">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.friendChallengesWon" rule="moreThanEqualTo" value="1"/>
+			</node>		
+			<node name="categories">
+				<node name="friends"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_WINCHALLENGE1"/>
+      <node name="descriptionId" value="NOT_SET"/>
+		</achievement>	
+
+		<achievement name="winChallenges2">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.friendChallengesWon" rule="moreThanEqualTo" value="5"/>
+			</node>		
+			<node name="categories">
+				<node name="friends"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_WINCHALLENGE2"/>
+      <node name="descriptionId" value="NOT_SET"/>
+		</achievement>	
+-->
+		<!-- change your character -->
+		<achievement name="characterChanged">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.characterChanged" rule="moreThanEqualTo" value="1"/>
+			</node>		
+			<node name="categories">
+				<node name="customisation"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_CHANGECHAR"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_CHANGECHAR"/>
+		</achievement>
+
+		<!-- stages -->
+		<achievement name="stageComplete1">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.stagesComplete" rule="moreThanEqualTo" value="1"/>
+			</node>
+			<node name="categories">
+				<node name="stages"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_STAGE1"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_STAGE1"/>
+		</achievement>
+
+		<achievement name="stageComplete2">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.stagesComplete" rule="moreThanEqualTo" value="2"/>
+			</node>
+			<node name="categories">
+				<node name="stages"/>
+			</node>
+			<node name="tags">
+				<node name="vault"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_STAGE2"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_STAGE2"/>
+      <node name="descriptionIdVault" value="ACHI_DESCRIPTION_STAGE2_VAULT"/>
+		</achievement>
+		
+
+		<achievement name="stageComplete3">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.game.stagesComplete" rule="moreThanEqualTo" value="3"/>
+			</node>
+			<node name="categories">
+				<node name="stages"/>
+			</node>
+      <node name="nameId" value="ACHI_TITLE_STAGE3"/>
+      <node name="descriptionId" value="ACHI_DESCRIPTION_STAGE3"/>
+    </achievement>
+
+
+		<!-- simple statistic based achievement -->
+<!--		<achievement name="theFirstClick">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.mainMenu.clicks" rule="greaterThan" value="0"/>
+			</node>
+			<node name="categories">
+				<node name="default"/>
+			</node>
+		</achievement>			
+	-->	
+		<!-- simple statistic based achievement -->
+<!--		<achievement name="clickNovice">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.mainMenu.clicks" rule="moreThanEqualTo" value="10"/>
+			</node>
+			<node name="categories">
+				<node name="default"/>
+			</node>
+		</achievement>		
+-->		
+		<!-- simple statistic based achievement -->		
+<!--		<achievement name="clickMaster">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.mainMenu.clicks" rule="moreThanEqualTo" value="20"/>
+			</node>
+			<node name="categories">
+				<node name="default"/>
+			</node>
+		</achievement>
+-->	
+		<!-- note: achievements which require other achievements should be defined AFTER the one you are trying to reference -->
+		
+		<!-- multiple-requirement achievement based achievement 
+		2 out of 3 requirements must be met in order to achieve
+		-->				
+<!--		<achievement name="clickStarter">
+			<node name="requirements" rule="moreThanEqualTo" value="2">
+				<requirement name="requirement1" location="achievements.default.theFirstClick" rule="==" value="true"/>
+				<requirement name="requirement2" location="achievements.default.clickNovice" rule="==" value="true"/>
+				<requirement name="requirement3" location="achievements.default.clickMaster" rule="==" value="true"/>
+			</node>
+			<node name="categories">
+				<node name="default"/>
+			</node>		
+		</achievement>
+-->		
+	
+		<!-- multiple-requirement achievement based achievement 
+		all requirements must be met in order to achieve
+		-->		
+<!--		<achievement name="clickingOverlord">
+			<node name="requirements">
+				<requirement name="requirement1" location="achievements.default.clickNovice" rule="==" value="true"/>
+				<requirement name="requirement2" location="achievements.default.clickMaster" rule="==" value="true"/>
+				<requirement name="requirement3" location="achievements.default.theFirstClick" rule="==" value="true"/>
+			</node>
+			<node name="categories">
+				<node name="default"/>
+			</node>
+			<node name="rewards">
+				<node name="reward" location="achievements.default.yourSuperSpecialReward.requirement1" rule="SET" value="true"/>
+			</node>
+			<node name="tags">
+				<node name="showSubRequirements"/>
+			</node>
+		</achievement>		
+		-->
+		<!-- an arbitary achievement that can be rewarded for completing some other achievement 
+			can't be "achieved" via requirements, but is only rewarded
+		-->
+<!--		<achievement name="yourSuperSpecialReward">
+			<node name="requirements">
+				<requirement name="requirement1" rule="IGNORE"/>
+			</node>	
+			<node name="categories">
+				<node name="default"/>
+			</node>			
+		</achievement>
+	-->	
+<!--		<node name="killMaster">
+			<node name="requirements">
+				<requirement name="requirement1" location="statistics.[category].kills" rule="moreThanEqualTo" value="30"/> 
+			</node>
+			<node name="rewards">
+				<node name="reward" location="statistics.general.achievementPoints" rule="ADD" value="10" />
+			</node>
+			<node name="categories"> 
+				<node name="mission_1" />
+				<node name="mission_2" />
+				<node name="mission_3" />
+				<node name="mission_4" />
+				<node name="general" />
+			</node>
+			<node name="tags">
+				<node name="lifeTime_Daily" />
+			</node>
+		</node>
+	
+		<node name="supremeKillMaster">
+			<node name="requirements" rule="moreThanEqualTo" value="2" >
+				<requirement name="requirement1" location="achievements.mission_1.killMaster" rule="==" value="true"/> 
+				<requirement name="requirement2" location="achievements.mission_2.killMaster" rule="==" value="true"/> 		
+			</node>
+			<node name="rewards">
+				<node name="rew_1" location="statistics.general.achievementPoints" rule="ADD" value="100" />
+				<node name="rew_2" location="weapons.smg.over9000.isLocked" rule="REPLACE" value="FALSE" />
+			</node>
+			<node name="categories">
+				<node name="general" />
+			</node>
+			
+			<node name="tags">
+			</node>
+		</node>
+	-->
+		
+	</node>
+
+
+	
+</achievements>

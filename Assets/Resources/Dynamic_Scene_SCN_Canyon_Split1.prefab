@@ -1,0 +1,6111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1688352043616840}
+  m_IsPrefabParent: 1
+--- !u!1 &1688352043616840
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4723629519734572}
+  m_Layer: 0
+  m_Name: Dynamic_Scene_SCN_Canyon_Split1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4723629519734572
+Transform:
+  m_GameObject: {fileID: 1688352043616840}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4756853337631893}
+  - {fileID: 4260331551745867}
+  - {fileID: 4533206135187644}
+  - {fileID: 4321074366847823}
+  - {fileID: 4277136400847025}
+  - {fileID: 4422822756388727}
+  - {fileID: 4053746685701510}
+  - {fileID: 4502765119218119}
+  - {fileID: 4334258841257512}
+  - {fileID: 4040470512660890}
+  - {fileID: 4457395918950764}
+  - {fileID: 4059371294826098}
+  - {fileID: 4835814462755418}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1970426360795267
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4756853337631893}
+  - component: {fileID: 111343991940708632}
+  - component: {fileID: 114239130913470548}
+  - component: {fileID: 65286489705830003}
+  m_Layer: 12
+  m_Name: Canyon_RocksA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4756853337631893
+Transform:
+  m_GameObject: {fileID: 1970426360795267}
+  m_LocalRotation: {x: 0.01630024, y: -0.1093939, z: -0.1464737, w: 0.9830121}
+  m_LocalPosition: {x: -422.0666, y: 1.812893, z: 1187.432}
+  m_LocalScale: {x: 0.03, y: 0.05220927, z: 0.05220927}
+  m_Children:
+  - {fileID: 4580732643079182}
+  m_Father: {fileID: 4723629519734572}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 3.758971, y: 12.1397, z: 17.34986}
+--- !u!111 &111343991940708632
+Animation:
+  m_GameObject: {fileID: 1970426360795267}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &114239130913470548
+MonoBehaviour:
+  m_GameObject: {fileID: 1970426360795267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d11e44f29427754abd87776c76e1b75, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65286489705830003
+BoxCollider:
+  m_GameObject: {fileID: 1970426360795267}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 114.5061, y: 21.1766, z: 83.85336}
+  m_Center: {x: -3.395367, y: 0, z: -4.038933}
+--- !u!1 &1531316068551413
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4580732643079182}
+  - component: {fileID: 111812129977940851}
+  m_Layer: 0
+  m_Name: Canyon_RocksA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4580732643079182
+Transform:
+  m_GameObject: {fileID: 1531316068551413}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -11.01481, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children:
+  - {fileID: 4048762655980592}
+  - {fileID: 4583285560106779}
+  - {fileID: 4698150011406183}
+  - {fileID: 4147230652387523}
+  - {fileID: 4230358225361262}
+  - {fileID: 4173031556819624}
+  - {fileID: 4627420533559875}
+  - {fileID: 4800347528464766}
+  - {fileID: 4471916756540570}
+  m_Father: {fileID: 4756853337631893}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &111812129977940851
+Animation:
+  m_GameObject: {fileID: 1531316068551413}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1955363576119414
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4048762655980592}
+  - component: {fileID: 33630325324716471}
+  - component: {fileID: 23331107631741011}
+  m_Layer: 16
+  m_Name: Canyon_Rocks1_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4048762655980592
+Transform:
+  m_GameObject: {fileID: 1955363576119414}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3535132, y: 0.06201374, z: 0.1167897}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4580732643079182}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33630325324716471
+MeshFilter:
+  m_GameObject: {fileID: 1955363576119414}
+  m_Mesh: {fileID: 4300000, guid: e5ce58c34b5de6248b6d15c0a17b16f9, type: 2}
+--- !u!23 &23331107631741011
+MeshRenderer:
+  m_GameObject: {fileID: 1955363576119414}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1713847481628850
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4583285560106779}
+  - component: {fileID: 33259330635224335}
+  - component: {fileID: 23652845877149656}
+  m_Layer: 16
+  m_Name: Canyon_Rocks1_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4583285560106779
+Transform:
+  m_GameObject: {fileID: 1713847481628850}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1308623, y: 0.06117977, z: -0.07249356}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4580732643079182}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33259330635224335
+MeshFilter:
+  m_GameObject: {fileID: 1713847481628850}
+  m_Mesh: {fileID: 4300000, guid: 642c69e289ea95c458a2d3613d28f300, type: 2}
+--- !u!23 &23652845877149656
+MeshRenderer:
+  m_GameObject: {fileID: 1713847481628850}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1324125587233366
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4698150011406183}
+  - component: {fileID: 33114568095798729}
+  - component: {fileID: 23445087350365642}
+  m_Layer: 16
+  m_Name: Canyon_Rocks1_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4698150011406183
+Transform:
+  m_GameObject: {fileID: 1324125587233366}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3078738, y: 0.02443071, z: -0.3031757}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4580732643079182}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33114568095798729
+MeshFilter:
+  m_GameObject: {fileID: 1324125587233366}
+  m_Mesh: {fileID: 4300000, guid: d79629376fabd5a40aecff0587656c8c, type: 2}
+--- !u!23 &23445087350365642
+MeshRenderer:
+  m_GameObject: {fileID: 1324125587233366}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1933401170874718
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4147230652387523}
+  - component: {fileID: 33709747645329939}
+  - component: {fileID: 23507124480199197}
+  m_Layer: 16
+  m_Name: Canyon_Rocks1_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4147230652387523
+Transform:
+  m_GameObject: {fileID: 1933401170874718}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3011959, y: 0.06643019, z: -0.1084069}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4580732643079182}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33709747645329939
+MeshFilter:
+  m_GameObject: {fileID: 1933401170874718}
+  m_Mesh: {fileID: 4300000, guid: 47cde9f3eec83064192c2d2eff62cae9, type: 2}
+--- !u!23 &23507124480199197
+MeshRenderer:
+  m_GameObject: {fileID: 1933401170874718}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1413203859402462
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4230358225361262}
+  - component: {fileID: 33512595797553114}
+  - component: {fileID: 23305664174915263}
+  m_Layer: 16
+  m_Name: Canyon_Rocks1_5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4230358225361262
+Transform:
+  m_GameObject: {fileID: 1413203859402462}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3861898, y: 0.08549383, z: 0.1125981}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4580732643079182}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33512595797553114
+MeshFilter:
+  m_GameObject: {fileID: 1413203859402462}
+  m_Mesh: {fileID: 4300000, guid: df4ce4a6db399a14294bc1e8790b4e91, type: 2}
+--- !u!23 &23305664174915263
+MeshRenderer:
+  m_GameObject: {fileID: 1413203859402462}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1395121009302909
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4173031556819624}
+  - component: {fileID: 33477323745905143}
+  - component: {fileID: 23889711977302669}
+  m_Layer: 16
+  m_Name: Canyon_Rocks1_6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4173031556819624
+Transform:
+  m_GameObject: {fileID: 1395121009302909}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.4270242, y: 0.06037724, z: -0.1396815}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4580732643079182}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33477323745905143
+MeshFilter:
+  m_GameObject: {fileID: 1395121009302909}
+  m_Mesh: {fileID: 4300000, guid: eaced75d1b112034fa669229d5ca268e, type: 2}
+--- !u!23 &23889711977302669
+MeshRenderer:
+  m_GameObject: {fileID: 1395121009302909}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1047942722299735
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4627420533559875}
+  - component: {fileID: 33463670659773171}
+  - component: {fileID: 23588371610114859}
+  m_Layer: 16
+  m_Name: Canyon_Rocks1_7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4627420533559875
+Transform:
+  m_GameObject: {fileID: 1047942722299735}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0260142, y: 0.03956629, z: 0.147701}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4580732643079182}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33463670659773171
+MeshFilter:
+  m_GameObject: {fileID: 1047942722299735}
+  m_Mesh: {fileID: 4300000, guid: 308bb8d74c5cd7d40b27cf1904801093, type: 2}
+--- !u!23 &23588371610114859
+MeshRenderer:
+  m_GameObject: {fileID: 1047942722299735}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1685215171046204
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4800347528464766}
+  - component: {fileID: 33081540362085261}
+  - component: {fileID: 23103894753323791}
+  m_Layer: 16
+  m_Name: Canyon_Rocks1_8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4800347528464766
+Transform:
+  m_GameObject: {fileID: 1685215171046204}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1946841, y: 0.06570901, z: -0.1510087}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4580732643079182}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33081540362085261
+MeshFilter:
+  m_GameObject: {fileID: 1685215171046204}
+  m_Mesh: {fileID: 4300000, guid: a88503b0822a5fe4eb1a13c5b03eb2f0, type: 2}
+--- !u!23 &23103894753323791
+MeshRenderer:
+  m_GameObject: {fileID: 1685215171046204}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1502893824475662
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4471916756540570}
+  - component: {fileID: 33826819697205882}
+  - component: {fileID: 23455899707339784}
+  m_Layer: 16
+  m_Name: Canyon_Rocks1_9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4471916756540570
+Transform:
+  m_GameObject: {fileID: 1502893824475662}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.05490582, y: 0.007839986, z: -0.2477859}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4580732643079182}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33826819697205882
+MeshFilter:
+  m_GameObject: {fileID: 1502893824475662}
+  m_Mesh: {fileID: 4300000, guid: 1bac5d0e5423b8d40bd50919ffb5477f, type: 2}
+--- !u!23 &23455899707339784
+MeshRenderer:
+  m_GameObject: {fileID: 1502893824475662}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1348648302234186
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4260331551745867}
+  - component: {fileID: 111086942396252856}
+  - component: {fileID: 114295578624964992}
+  - component: {fileID: 65607220658428574}
+  m_Layer: 12
+  m_Name: Canyon_RocksB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4260331551745867
+Transform:
+  m_GameObject: {fileID: 1348648302234186}
+  m_LocalRotation: {x: 0, y: 0.4751637, z: 0, w: 0.8798975}
+  m_LocalPosition: {x: -373.9461, y: 0.2882514, z: 1165.464}
+  m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
+  m_Children:
+  - {fileID: 4521080907384872}
+  m_Father: {fileID: 4723629519734572}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -56.74001, z: 0}
+--- !u!111 &111086942396252856
+Animation:
+  m_GameObject: {fileID: 1348648302234186}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &114295578624964992
+MonoBehaviour:
+  m_GameObject: {fileID: 1348648302234186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d11e44f29427754abd87776c76e1b75, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65607220658428574
+BoxCollider:
+  m_GameObject: {fileID: 1348648302234186}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 86.48702, y: 34.84729, z: 99.15853}
+  m_Center: {x: 5.008854, y: -9.536743E-07, z: -10.98936}
+--- !u!1 &1462232133908877
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4521080907384872}
+  - component: {fileID: 111437520904489546}
+  m_Layer: 0
+  m_Name: Canyon_RocksB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4521080907384872
+Transform:
+  m_GameObject: {fileID: 1462232133908877}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -19.62509, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children:
+  - {fileID: 4992814470340464}
+  - {fileID: 4769362236967125}
+  - {fileID: 4097590696689311}
+  - {fileID: 4435695399940538}
+  m_Father: {fileID: 4260331551745867}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &111437520904489546
+Animation:
+  m_GameObject: {fileID: 1462232133908877}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1871678954215286
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4992814470340464}
+  - component: {fileID: 33424685886423840}
+  - component: {fileID: 23877056201641070}
+  m_Layer: 16
+  m_Name: Canyon_Rocks2_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4992814470340464
+Transform:
+  m_GameObject: {fileID: 1871678954215286}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1816942, y: 0.06991217, z: 0.2035518}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521080907384872}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33424685886423840
+MeshFilter:
+  m_GameObject: {fileID: 1871678954215286}
+  m_Mesh: {fileID: 4300000, guid: 3c51e1f5b1a3c2a4b89c04e6db2695ff, type: 2}
+--- !u!23 &23877056201641070
+MeshRenderer:
+  m_GameObject: {fileID: 1871678954215286}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1841603968752551
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4769362236967125}
+  - component: {fileID: 33758670149451621}
+  - component: {fileID: 23248620587693518}
+  m_Layer: 16
+  m_Name: Canyon_Rocks2_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4769362236967125
+Transform:
+  m_GameObject: {fileID: 1841603968752551}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3530702, y: 0.01323843, z: 0.1578524}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521080907384872}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33758670149451621
+MeshFilter:
+  m_GameObject: {fileID: 1841603968752551}
+  m_Mesh: {fileID: 4300000, guid: 464c959fe369122468c7104b5aeb6cef, type: 2}
+--- !u!23 &23248620587693518
+MeshRenderer:
+  m_GameObject: {fileID: 1841603968752551}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1790264252414320
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4097590696689311}
+  - component: {fileID: 33145406021526278}
+  - component: {fileID: 23998095950168323}
+  m_Layer: 16
+  m_Name: Canyon_Rocks2_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4097590696689311
+Transform:
+  m_GameObject: {fileID: 1790264252414320}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1447749, y: 0.04563108, z: 0.06596538}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521080907384872}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33145406021526278
+MeshFilter:
+  m_GameObject: {fileID: 1790264252414320}
+  m_Mesh: {fileID: 4300000, guid: 9e15cb6aa5987994db7d2fad9088fbc8, type: 2}
+--- !u!23 &23998095950168323
+MeshRenderer:
+  m_GameObject: {fileID: 1790264252414320}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1012413576027731
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4435695399940538}
+  - component: {fileID: 33836614075967767}
+  - component: {fileID: 23941936635605747}
+  m_Layer: 16
+  m_Name: Canyon_Rocks2_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4435695399940538
+Transform:
+  m_GameObject: {fileID: 1012413576027731}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.06931132, y: 0.1428995, z: -0.2259282}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4521080907384872}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33836614075967767
+MeshFilter:
+  m_GameObject: {fileID: 1012413576027731}
+  m_Mesh: {fileID: 4300000, guid: a8011a34627803c47a200560c0935f8c, type: 2}
+--- !u!23 &23941936635605747
+MeshRenderer:
+  m_GameObject: {fileID: 1012413576027731}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1970482902651195
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4533206135187644}
+  - component: {fileID: 111697547934143744}
+  - component: {fileID: 114194650071249824}
+  - component: {fileID: 65661305967610091}
+  m_Layer: 12
+  m_Name: Canyon_RocksB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4533206135187644
+Transform:
+  m_GameObject: {fileID: 1970482902651195}
+  m_LocalRotation: {x: 0, y: 0.4751636, z: 0, w: 0.8798975}
+  m_LocalPosition: {x: -408.851, y: 1.212008, z: 1168.697}
+  m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
+  m_Children:
+  - {fileID: 4305836838765077}
+  m_Father: {fileID: 4723629519734572}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: -56.74, z: 0}
+--- !u!111 &111697547934143744
+Animation:
+  m_GameObject: {fileID: 1970482902651195}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &114194650071249824
+MonoBehaviour:
+  m_GameObject: {fileID: 1970482902651195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d11e44f29427754abd87776c76e1b75, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65661305967610091
+BoxCollider:
+  m_GameObject: {fileID: 1970482902651195}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 86.48702, y: 34.84729, z: 99.15853}
+  m_Center: {x: 5.008854, y: -9.536743E-07, z: -10.98936}
+--- !u!1 &1394231295125054
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4305836838765077}
+  - component: {fileID: 111474510942705077}
+  m_Layer: 0
+  m_Name: Canyon_RocksB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4305836838765077
+Transform:
+  m_GameObject: {fileID: 1394231295125054}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -19.62509, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children:
+  - {fileID: 4409266501132386}
+  - {fileID: 4445909339715222}
+  - {fileID: 4900854424363166}
+  - {fileID: 4428023227744781}
+  m_Father: {fileID: 4533206135187644}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &111474510942705077
+Animation:
+  m_GameObject: {fileID: 1394231295125054}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1414254150048309
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4409266501132386}
+  - component: {fileID: 33347974668513676}
+  - component: {fileID: 23309620331286511}
+  m_Layer: 16
+  m_Name: Canyon_Rocks2_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4409266501132386
+Transform:
+  m_GameObject: {fileID: 1414254150048309}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1816942, y: 0.06991217, z: 0.2035518}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4305836838765077}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33347974668513676
+MeshFilter:
+  m_GameObject: {fileID: 1414254150048309}
+  m_Mesh: {fileID: 4300000, guid: 3c51e1f5b1a3c2a4b89c04e6db2695ff, type: 2}
+--- !u!23 &23309620331286511
+MeshRenderer:
+  m_GameObject: {fileID: 1414254150048309}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1604996116233389
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4445909339715222}
+  - component: {fileID: 33918679020544846}
+  - component: {fileID: 23557256150883915}
+  m_Layer: 16
+  m_Name: Canyon_Rocks2_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4445909339715222
+Transform:
+  m_GameObject: {fileID: 1604996116233389}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3530702, y: 0.01323843, z: 0.1578524}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4305836838765077}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33918679020544846
+MeshFilter:
+  m_GameObject: {fileID: 1604996116233389}
+  m_Mesh: {fileID: 4300000, guid: 464c959fe369122468c7104b5aeb6cef, type: 2}
+--- !u!23 &23557256150883915
+MeshRenderer:
+  m_GameObject: {fileID: 1604996116233389}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1893324496664790
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4900854424363166}
+  - component: {fileID: 33826681799574392}
+  - component: {fileID: 23955530416667609}
+  m_Layer: 16
+  m_Name: Canyon_Rocks2_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4900854424363166
+Transform:
+  m_GameObject: {fileID: 1893324496664790}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1447749, y: 0.04563108, z: 0.06596538}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4305836838765077}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33826681799574392
+MeshFilter:
+  m_GameObject: {fileID: 1893324496664790}
+  m_Mesh: {fileID: 4300000, guid: 9e15cb6aa5987994db7d2fad9088fbc8, type: 2}
+--- !u!23 &23955530416667609
+MeshRenderer:
+  m_GameObject: {fileID: 1893324496664790}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1036132139266886
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4428023227744781}
+  - component: {fileID: 33185348710839215}
+  - component: {fileID: 23907308197888311}
+  m_Layer: 16
+  m_Name: Canyon_Rocks2_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4428023227744781
+Transform:
+  m_GameObject: {fileID: 1036132139266886}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.06931132, y: 0.1428995, z: -0.2259282}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4305836838765077}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33185348710839215
+MeshFilter:
+  m_GameObject: {fileID: 1036132139266886}
+  m_Mesh: {fileID: 4300000, guid: a8011a34627803c47a200560c0935f8c, type: 2}
+--- !u!23 &23907308197888311
+MeshRenderer:
+  m_GameObject: {fileID: 1036132139266886}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1457013312720216
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4321074366847823}
+  - component: {fileID: 111834035376470651}
+  - component: {fileID: 114715237338994239}
+  - component: {fileID: 65012142792515019}
+  m_Layer: 12
+  m_Name: Canyon_RocksB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4321074366847823
+Transform:
+  m_GameObject: {fileID: 1457013312720216}
+  m_LocalRotation: {x: 0, y: 0.9061971, z: 0, w: 0.4228555}
+  m_LocalPosition: {x: -322.0851, y: -16.49302, z: 1233.469}
+  m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
+  m_Children:
+  - {fileID: 4527129559508234}
+  m_Father: {fileID: 4723629519734572}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 180, y: -50.02999, z: -180}
+--- !u!111 &111834035376470651
+Animation:
+  m_GameObject: {fileID: 1457013312720216}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &114715237338994239
+MonoBehaviour:
+  m_GameObject: {fileID: 1457013312720216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d11e44f29427754abd87776c76e1b75, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65012142792515019
+BoxCollider:
+  m_GameObject: {fileID: 1457013312720216}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 86.48702, y: 34.84729, z: 99.15853}
+  m_Center: {x: 5.008854, y: -9.536743E-07, z: -10.98936}
+--- !u!1 &1363234178174631
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4527129559508234}
+  - component: {fileID: 111193082840787382}
+  m_Layer: 0
+  m_Name: Canyon_RocksB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4527129559508234
+Transform:
+  m_GameObject: {fileID: 1363234178174631}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -19.62509, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children:
+  - {fileID: 4032738927996314}
+  - {fileID: 4347160170600048}
+  - {fileID: 4912647513300682}
+  - {fileID: 4961880990081812}
+  m_Father: {fileID: 4321074366847823}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &111193082840787382
+Animation:
+  m_GameObject: {fileID: 1363234178174631}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1178228826906772
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4032738927996314}
+  - component: {fileID: 33575553825466902}
+  - component: {fileID: 23248471322708886}
+  m_Layer: 16
+  m_Name: Canyon_Rocks2_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4032738927996314
+Transform:
+  m_GameObject: {fileID: 1178228826906772}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1816942, y: 0.06991217, z: 0.2035518}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4527129559508234}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33575553825466902
+MeshFilter:
+  m_GameObject: {fileID: 1178228826906772}
+  m_Mesh: {fileID: 4300000, guid: 3c51e1f5b1a3c2a4b89c04e6db2695ff, type: 2}
+--- !u!23 &23248471322708886
+MeshRenderer:
+  m_GameObject: {fileID: 1178228826906772}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1761244885379794
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4347160170600048}
+  - component: {fileID: 33924572228702010}
+  - component: {fileID: 23312083441848649}
+  m_Layer: 16
+  m_Name: Canyon_Rocks2_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4347160170600048
+Transform:
+  m_GameObject: {fileID: 1761244885379794}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3530702, y: 0.01323843, z: 0.1578524}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4527129559508234}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33924572228702010
+MeshFilter:
+  m_GameObject: {fileID: 1761244885379794}
+  m_Mesh: {fileID: 4300000, guid: 464c959fe369122468c7104b5aeb6cef, type: 2}
+--- !u!23 &23312083441848649
+MeshRenderer:
+  m_GameObject: {fileID: 1761244885379794}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1009184870082888
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4912647513300682}
+  - component: {fileID: 33648516966380139}
+  - component: {fileID: 23378969828721303}
+  m_Layer: 16
+  m_Name: Canyon_Rocks2_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4912647513300682
+Transform:
+  m_GameObject: {fileID: 1009184870082888}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1447749, y: 0.04563108, z: 0.06596538}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4527129559508234}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33648516966380139
+MeshFilter:
+  m_GameObject: {fileID: 1009184870082888}
+  m_Mesh: {fileID: 4300000, guid: 9e15cb6aa5987994db7d2fad9088fbc8, type: 2}
+--- !u!23 &23378969828721303
+MeshRenderer:
+  m_GameObject: {fileID: 1009184870082888}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1589414546714459
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4961880990081812}
+  - component: {fileID: 33424522164459776}
+  - component: {fileID: 23258023664891404}
+  m_Layer: 16
+  m_Name: Canyon_Rocks2_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4961880990081812
+Transform:
+  m_GameObject: {fileID: 1589414546714459}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.06931132, y: 0.1428995, z: -0.2259282}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4527129559508234}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33424522164459776
+MeshFilter:
+  m_GameObject: {fileID: 1589414546714459}
+  m_Mesh: {fileID: 4300000, guid: a8011a34627803c47a200560c0935f8c, type: 2}
+--- !u!23 &23258023664891404
+MeshRenderer:
+  m_GameObject: {fileID: 1589414546714459}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1118369690792852
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4277136400847025}
+  - component: {fileID: 111489385580035765}
+  - component: {fileID: 114490805247636692}
+  - component: {fileID: 65083869922740666}
+  m_Layer: 12
+  m_Name: Canyon_RocksB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4277136400847025
+Transform:
+  m_GameObject: {fileID: 1118369690792852}
+  m_LocalRotation: {x: 0, y: 0.4751641, z: 0, w: 0.8798972}
+  m_LocalPosition: {x: -326.1284, y: -16.49302, z: 1246.613}
+  m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
+  m_Children:
+  - {fileID: 4579548697579136}
+  m_Father: {fileID: 4723629519734572}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: -56.74007, z: 0}
+--- !u!111 &111489385580035765
+Animation:
+  m_GameObject: {fileID: 1118369690792852}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &114490805247636692
+MonoBehaviour:
+  m_GameObject: {fileID: 1118369690792852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d11e44f29427754abd87776c76e1b75, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65083869922740666
+BoxCollider:
+  m_GameObject: {fileID: 1118369690792852}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 86.48702, y: 34.84729, z: 99.15853}
+  m_Center: {x: 5.008854, y: -9.536743E-07, z: -10.98936}
+--- !u!1 &1494407732920312
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4579548697579136}
+  - component: {fileID: 111638432135271096}
+  m_Layer: 0
+  m_Name: Canyon_RocksB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4579548697579136
+Transform:
+  m_GameObject: {fileID: 1494407732920312}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -19.62509, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children:
+  - {fileID: 4120502477055471}
+  - {fileID: 4393595552632894}
+  - {fileID: 4539403993456752}
+  - {fileID: 4339133656746143}
+  m_Father: {fileID: 4277136400847025}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &111638432135271096
+Animation:
+  m_GameObject: {fileID: 1494407732920312}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1485038983946002
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4120502477055471}
+  - component: {fileID: 33301306826041765}
+  - component: {fileID: 23723065110488520}
+  m_Layer: 16
+  m_Name: Canyon_Rocks2_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4120502477055471
+Transform:
+  m_GameObject: {fileID: 1485038983946002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1816942, y: 0.06991217, z: 0.2035518}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4579548697579136}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33301306826041765
+MeshFilter:
+  m_GameObject: {fileID: 1485038983946002}
+  m_Mesh: {fileID: 4300000, guid: 3c51e1f5b1a3c2a4b89c04e6db2695ff, type: 2}
+--- !u!23 &23723065110488520
+MeshRenderer:
+  m_GameObject: {fileID: 1485038983946002}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1806639298666990
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4393595552632894}
+  - component: {fileID: 33599446873754224}
+  - component: {fileID: 23088469438720405}
+  m_Layer: 16
+  m_Name: Canyon_Rocks2_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4393595552632894
+Transform:
+  m_GameObject: {fileID: 1806639298666990}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3530702, y: 0.01323843, z: 0.1578524}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4579548697579136}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33599446873754224
+MeshFilter:
+  m_GameObject: {fileID: 1806639298666990}
+  m_Mesh: {fileID: 4300000, guid: 464c959fe369122468c7104b5aeb6cef, type: 2}
+--- !u!23 &23088469438720405
+MeshRenderer:
+  m_GameObject: {fileID: 1806639298666990}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1293643503192232
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4539403993456752}
+  - component: {fileID: 33602757118027241}
+  - component: {fileID: 23446615681191880}
+  m_Layer: 16
+  m_Name: Canyon_Rocks2_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4539403993456752
+Transform:
+  m_GameObject: {fileID: 1293643503192232}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1447749, y: 0.04563108, z: 0.06596538}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4579548697579136}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33602757118027241
+MeshFilter:
+  m_GameObject: {fileID: 1293643503192232}
+  m_Mesh: {fileID: 4300000, guid: 9e15cb6aa5987994db7d2fad9088fbc8, type: 2}
+--- !u!23 &23446615681191880
+MeshRenderer:
+  m_GameObject: {fileID: 1293643503192232}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1649055619762615
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4339133656746143}
+  - component: {fileID: 33857134317375699}
+  - component: {fileID: 23616903602972666}
+  m_Layer: 16
+  m_Name: Canyon_Rocks2_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4339133656746143
+Transform:
+  m_GameObject: {fileID: 1649055619762615}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.06931132, y: 0.1428995, z: -0.2259282}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4579548697579136}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33857134317375699
+MeshFilter:
+  m_GameObject: {fileID: 1649055619762615}
+  m_Mesh: {fileID: 4300000, guid: a8011a34627803c47a200560c0935f8c, type: 2}
+--- !u!23 &23616903602972666
+MeshRenderer:
+  m_GameObject: {fileID: 1649055619762615}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1976697051515760
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4422822756388727}
+  - component: {fileID: 111742160435093967}
+  - component: {fileID: 65756116809556115}
+  - component: {fileID: 114982031844029263}
+  m_Layer: 12
+  m_Name: Canyon_RocksC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4422822756388727
+Transform:
+  m_GameObject: {fileID: 1976697051515760}
+  m_LocalRotation: {x: 0, y: -0.4202441, z: 0, w: 0.9074111}
+  m_LocalPosition: {x: -317.4407, y: -17.03352, z: 1254.766}
+  m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
+  m_Children:
+  - {fileID: 4995229749719829}
+  m_Father: {fileID: 4723629519734572}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 49.7, z: 0}
+--- !u!111 &111742160435093967
+Animation:
+  m_GameObject: {fileID: 1976697051515760}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!65 &65756116809556115
+BoxCollider:
+  m_GameObject: {fileID: 1976697051515760}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 116.8669, y: 76.16704, z: 112.4198}
+  m_Center: {x: -11.49832, y: 36.4537, z: -6.449629}
+--- !u!114 &114982031844029263
+MonoBehaviour:
+  m_GameObject: {fileID: 1976697051515760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d11e44f29427754abd87776c76e1b75, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1157647838040283
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4995229749719829}
+  - component: {fileID: 111872744913475905}
+  m_Layer: 0
+  m_Name: Canyon_RocksC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4995229749719829
+Transform:
+  m_GameObject: {fileID: 1157647838040283}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children:
+  - {fileID: 4027500822320416}
+  - {fileID: 4386872242212450}
+  - {fileID: 4041754120553146}
+  - {fileID: 4960694472915207}
+  - {fileID: 4331504629179502}
+  - {fileID: 4602596447551140}
+  - {fileID: 4500020285094829}
+  - {fileID: 4101803513724399}
+  - {fileID: 4206602937167704}
+  m_Father: {fileID: 4422822756388727}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &111872744913475905
+Animation:
+  m_GameObject: {fileID: 1157647838040283}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1865832244962311
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4027500822320416}
+  - component: {fileID: 33896491006148059}
+  - component: {fileID: 23008827661463339}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4027500822320416
+Transform:
+  m_GameObject: {fileID: 1865832244962311}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1778857, y: 0.1228095, z: -0.09942445}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4995229749719829}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33896491006148059
+MeshFilter:
+  m_GameObject: {fileID: 1865832244962311}
+  m_Mesh: {fileID: 4300000, guid: c68431cf1003fa745a25c9877dc0c319, type: 2}
+--- !u!23 &23008827661463339
+MeshRenderer:
+  m_GameObject: {fileID: 1865832244962311}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1710804485279665
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4386872242212450}
+  - component: {fileID: 33427796675301970}
+  - component: {fileID: 23648129787639415}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4386872242212450
+Transform:
+  m_GameObject: {fileID: 1710804485279665}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.2041688, y: 0.08471084, z: 0.196022}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4995229749719829}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33427796675301970
+MeshFilter:
+  m_GameObject: {fileID: 1710804485279665}
+  m_Mesh: {fileID: 4300000, guid: 39770e3c167b2964db2db68c1726d696, type: 2}
+--- !u!23 &23648129787639415
+MeshRenderer:
+  m_GameObject: {fileID: 1710804485279665}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1145193564962790
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4041754120553146}
+  - component: {fileID: 33761545415699490}
+  - component: {fileID: 23494326226744706}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4041754120553146
+Transform:
+  m_GameObject: {fileID: 1145193564962790}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.07234178, y: 0.09381475, z: 0.2022079}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4995229749719829}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33761545415699490
+MeshFilter:
+  m_GameObject: {fileID: 1145193564962790}
+  m_Mesh: {fileID: 4300000, guid: c69f9b367c0326a4ba6350796c617363, type: 2}
+--- !u!23 &23494326226744706
+MeshRenderer:
+  m_GameObject: {fileID: 1145193564962790}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1844591025454871
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4960694472915207}
+  - component: {fileID: 33679781690515604}
+  - component: {fileID: 23832266044910213}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4960694472915207
+Transform:
+  m_GameObject: {fileID: 1844591025454871}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5109508, y: 0.05563573, z: -0.1722998}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4995229749719829}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33679781690515604
+MeshFilter:
+  m_GameObject: {fileID: 1844591025454871}
+  m_Mesh: {fileID: 4300000, guid: eec4c894c8bc6cc44b6a23fe46c29c25, type: 2}
+--- !u!23 &23832266044910213
+MeshRenderer:
+  m_GameObject: {fileID: 1844591025454871}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1968701556657417
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4331504629179502}
+  - component: {fileID: 33801366985078267}
+  - component: {fileID: 23031255189072472}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4331504629179502
+Transform:
+  m_GameObject: {fileID: 1968701556657417}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.2778949, y: 0.03255711, z: 0.2031874}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4995229749719829}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33801366985078267
+MeshFilter:
+  m_GameObject: {fileID: 1968701556657417}
+  m_Mesh: {fileID: 4300000, guid: a068c2a40d64d3a4f8a08ef799ca22b3, type: 2}
+--- !u!23 &23031255189072472
+MeshRenderer:
+  m_GameObject: {fileID: 1968701556657417}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1260002667923761
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4602596447551140}
+  - component: {fileID: 33228869999086930}
+  - component: {fileID: 23285261318626653}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4602596447551140
+Transform:
+  m_GameObject: {fileID: 1260002667923761}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.01727099, y: 0.02941759, z: -0.4965569}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4995229749719829}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33228869999086930
+MeshFilter:
+  m_GameObject: {fileID: 1260002667923761}
+  m_Mesh: {fileID: 4300000, guid: f3c550f4f0a4ac14fae0ee593d17189c, type: 2}
+--- !u!23 &23285261318626653
+MeshRenderer:
+  m_GameObject: {fileID: 1260002667923761}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1416011362805661
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4500020285094829}
+  - component: {fileID: 33900638721965030}
+  - component: {fileID: 23608093066874483}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4500020285094829
+Transform:
+  m_GameObject: {fileID: 1416011362805661}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5020068, y: 0.03526701, z: -0.02682384}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4995229749719829}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33900638721965030
+MeshFilter:
+  m_GameObject: {fileID: 1416011362805661}
+  m_Mesh: {fileID: 4300000, guid: 2142efc3c9a9c814c9ecd4a195c0b1b9, type: 2}
+--- !u!23 &23608093066874483
+MeshRenderer:
+  m_GameObject: {fileID: 1416011362805661}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1959601924988696
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4101803513724399}
+  - component: {fileID: 33973198334656111}
+  - component: {fileID: 23959994046980288}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4101803513724399
+Transform:
+  m_GameObject: {fileID: 1959601924988696}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1842004, y: 0.3482463, z: -0.1905784}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4995229749719829}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33973198334656111
+MeshFilter:
+  m_GameObject: {fileID: 1959601924988696}
+  m_Mesh: {fileID: 4300000, guid: da218e059bad35844887d998fe110f42, type: 2}
+--- !u!23 &23959994046980288
+MeshRenderer:
+  m_GameObject: {fileID: 1959601924988696}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1010274506020272
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4206602937167704}
+  - component: {fileID: 33654655079753028}
+  - component: {fileID: 23165846880254722}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4206602937167704
+Transform:
+  m_GameObject: {fileID: 1010274506020272}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.4621568, y: 0.07948627, z: -0.4297359}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4995229749719829}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33654655079753028
+MeshFilter:
+  m_GameObject: {fileID: 1010274506020272}
+  m_Mesh: {fileID: 4300000, guid: 0d76434c8dd2574468338bc40693fd1c, type: 2}
+--- !u!23 &23165846880254722
+MeshRenderer:
+  m_GameObject: {fileID: 1010274506020272}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1144232903384022
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4053746685701510}
+  - component: {fileID: 111941377915367671}
+  - component: {fileID: 65780499480226613}
+  - component: {fileID: 114944247886261724}
+  m_Layer: 12
+  m_Name: Canyon_RocksC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4053746685701510
+Transform:
+  m_GameObject: {fileID: 1144232903384022}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -318.458, y: -17.15442, z: 1243.869}
+  m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
+  m_Children:
+  - {fileID: 4687818476945587}
+  m_Father: {fileID: 4723629519734572}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &111941377915367671
+Animation:
+  m_GameObject: {fileID: 1144232903384022}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!65 &65780499480226613
+BoxCollider:
+  m_GameObject: {fileID: 1144232903384022}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 116.8669, y: 76.16704, z: 112.4198}
+  m_Center: {x: -11.49832, y: 36.4537, z: -6.449629}
+--- !u!114 &114944247886261724
+MonoBehaviour:
+  m_GameObject: {fileID: 1144232903384022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d11e44f29427754abd87776c76e1b75, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1700573406483596
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4687818476945587}
+  - component: {fileID: 111950375236066442}
+  m_Layer: 0
+  m_Name: Canyon_RocksC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4687818476945587
+Transform:
+  m_GameObject: {fileID: 1700573406483596}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children:
+  - {fileID: 4589329418706194}
+  - {fileID: 4630406668346276}
+  - {fileID: 4577655114889286}
+  - {fileID: 4150385190160706}
+  - {fileID: 4859429453192012}
+  - {fileID: 4478070120430941}
+  - {fileID: 4708014603501597}
+  - {fileID: 4988926884517949}
+  - {fileID: 4694558004840778}
+  m_Father: {fileID: 4053746685701510}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &111950375236066442
+Animation:
+  m_GameObject: {fileID: 1700573406483596}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1106809020928398
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4589329418706194}
+  - component: {fileID: 33446319317935172}
+  - component: {fileID: 23744596542582255}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4589329418706194
+Transform:
+  m_GameObject: {fileID: 1106809020928398}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1778857, y: 0.1228095, z: -0.09942445}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4687818476945587}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33446319317935172
+MeshFilter:
+  m_GameObject: {fileID: 1106809020928398}
+  m_Mesh: {fileID: 4300000, guid: c68431cf1003fa745a25c9877dc0c319, type: 2}
+--- !u!23 &23744596542582255
+MeshRenderer:
+  m_GameObject: {fileID: 1106809020928398}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1378860828424342
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4630406668346276}
+  - component: {fileID: 33805859183651223}
+  - component: {fileID: 23738930008272412}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4630406668346276
+Transform:
+  m_GameObject: {fileID: 1378860828424342}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.2041688, y: 0.08471084, z: 0.196022}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4687818476945587}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33805859183651223
+MeshFilter:
+  m_GameObject: {fileID: 1378860828424342}
+  m_Mesh: {fileID: 4300000, guid: 39770e3c167b2964db2db68c1726d696, type: 2}
+--- !u!23 &23738930008272412
+MeshRenderer:
+  m_GameObject: {fileID: 1378860828424342}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1408841884261340
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4577655114889286}
+  - component: {fileID: 33526504337422045}
+  - component: {fileID: 23919056135819122}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4577655114889286
+Transform:
+  m_GameObject: {fileID: 1408841884261340}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.07234178, y: 0.09381475, z: 0.2022079}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4687818476945587}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33526504337422045
+MeshFilter:
+  m_GameObject: {fileID: 1408841884261340}
+  m_Mesh: {fileID: 4300000, guid: c69f9b367c0326a4ba6350796c617363, type: 2}
+--- !u!23 &23919056135819122
+MeshRenderer:
+  m_GameObject: {fileID: 1408841884261340}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1181835635259655
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4150385190160706}
+  - component: {fileID: 33202643397160944}
+  - component: {fileID: 23909029821452977}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4150385190160706
+Transform:
+  m_GameObject: {fileID: 1181835635259655}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5109508, y: 0.05563573, z: -0.1722998}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4687818476945587}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33202643397160944
+MeshFilter:
+  m_GameObject: {fileID: 1181835635259655}
+  m_Mesh: {fileID: 4300000, guid: eec4c894c8bc6cc44b6a23fe46c29c25, type: 2}
+--- !u!23 &23909029821452977
+MeshRenderer:
+  m_GameObject: {fileID: 1181835635259655}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1685972809158943
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4859429453192012}
+  - component: {fileID: 33204126747116967}
+  - component: {fileID: 23824144413061820}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4859429453192012
+Transform:
+  m_GameObject: {fileID: 1685972809158943}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.2778949, y: 0.03255711, z: 0.2031874}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4687818476945587}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33204126747116967
+MeshFilter:
+  m_GameObject: {fileID: 1685972809158943}
+  m_Mesh: {fileID: 4300000, guid: a068c2a40d64d3a4f8a08ef799ca22b3, type: 2}
+--- !u!23 &23824144413061820
+MeshRenderer:
+  m_GameObject: {fileID: 1685972809158943}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1410494901770075
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4478070120430941}
+  - component: {fileID: 33926422301863976}
+  - component: {fileID: 23258395840155969}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4478070120430941
+Transform:
+  m_GameObject: {fileID: 1410494901770075}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.01727099, y: 0.02941759, z: -0.4965569}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4687818476945587}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33926422301863976
+MeshFilter:
+  m_GameObject: {fileID: 1410494901770075}
+  m_Mesh: {fileID: 4300000, guid: f3c550f4f0a4ac14fae0ee593d17189c, type: 2}
+--- !u!23 &23258395840155969
+MeshRenderer:
+  m_GameObject: {fileID: 1410494901770075}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1291018784317499
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4708014603501597}
+  - component: {fileID: 33897321589538574}
+  - component: {fileID: 23842134517949487}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4708014603501597
+Transform:
+  m_GameObject: {fileID: 1291018784317499}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5020068, y: 0.03526701, z: -0.02682384}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4687818476945587}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33897321589538574
+MeshFilter:
+  m_GameObject: {fileID: 1291018784317499}
+  m_Mesh: {fileID: 4300000, guid: 2142efc3c9a9c814c9ecd4a195c0b1b9, type: 2}
+--- !u!23 &23842134517949487
+MeshRenderer:
+  m_GameObject: {fileID: 1291018784317499}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1304556762490415
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4988926884517949}
+  - component: {fileID: 33169171389391741}
+  - component: {fileID: 23475543260155921}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4988926884517949
+Transform:
+  m_GameObject: {fileID: 1304556762490415}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1842004, y: 0.3482463, z: -0.1905784}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4687818476945587}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33169171389391741
+MeshFilter:
+  m_GameObject: {fileID: 1304556762490415}
+  m_Mesh: {fileID: 4300000, guid: da218e059bad35844887d998fe110f42, type: 2}
+--- !u!23 &23475543260155921
+MeshRenderer:
+  m_GameObject: {fileID: 1304556762490415}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1792919028718106
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4694558004840778}
+  - component: {fileID: 33751420361280429}
+  - component: {fileID: 23469505685429380}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4694558004840778
+Transform:
+  m_GameObject: {fileID: 1792919028718106}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.4621568, y: 0.07948627, z: -0.4297359}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4687818476945587}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33751420361280429
+MeshFilter:
+  m_GameObject: {fileID: 1792919028718106}
+  m_Mesh: {fileID: 4300000, guid: 0d76434c8dd2574468338bc40693fd1c, type: 2}
+--- !u!23 &23469505685429380
+MeshRenderer:
+  m_GameObject: {fileID: 1792919028718106}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1312941517034859
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4502765119218119}
+  - component: {fileID: 111362864235277574}
+  - component: {fileID: 65036775459130095}
+  - component: {fileID: 114719535960796524}
+  m_Layer: 12
+  m_Name: Canyon_RocksC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4502765119218119
+Transform:
+  m_GameObject: {fileID: 1312941517034859}
+  m_LocalRotation: {x: -0.05302854, y: -0.05350025, z: -0.3645889, w: 0.9281167}
+  m_LocalPosition: {x: -429.072, y: 2.684289, z: 1201.835}
+  m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
+  m_Children:
+  - {fileID: 4675816847496778}
+  m_Father: {fileID: 4723629519734572}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: -3.439582, y: 7.930754, z: 42.65394}
+--- !u!111 &111362864235277574
+Animation:
+  m_GameObject: {fileID: 1312941517034859}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!65 &65036775459130095
+BoxCollider:
+  m_GameObject: {fileID: 1312941517034859}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 116.8669, y: 76.16704, z: 112.4198}
+  m_Center: {x: -11.49832, y: 36.4537, z: -6.449629}
+--- !u!114 &114719535960796524
+MonoBehaviour:
+  m_GameObject: {fileID: 1312941517034859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d11e44f29427754abd87776c76e1b75, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1302056696057429
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4675816847496778}
+  - component: {fileID: 111093303604417372}
+  m_Layer: 0
+  m_Name: Canyon_RocksC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4675816847496778
+Transform:
+  m_GameObject: {fileID: 1302056696057429}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children:
+  - {fileID: 4896396272594040}
+  - {fileID: 4080702548565583}
+  - {fileID: 4703513409740245}
+  - {fileID: 4707090848315835}
+  - {fileID: 4165970473524329}
+  - {fileID: 4444710428261253}
+  - {fileID: 4892806276949697}
+  - {fileID: 4227335062137944}
+  - {fileID: 4976385375844710}
+  m_Father: {fileID: 4502765119218119}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &111093303604417372
+Animation:
+  m_GameObject: {fileID: 1302056696057429}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1696674722707164
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4896396272594040}
+  - component: {fileID: 33165856472003074}
+  - component: {fileID: 23351205937893126}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4896396272594040
+Transform:
+  m_GameObject: {fileID: 1696674722707164}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1778857, y: 0.1228095, z: -0.09942445}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4675816847496778}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33165856472003074
+MeshFilter:
+  m_GameObject: {fileID: 1696674722707164}
+  m_Mesh: {fileID: 4300000, guid: c68431cf1003fa745a25c9877dc0c319, type: 2}
+--- !u!23 &23351205937893126
+MeshRenderer:
+  m_GameObject: {fileID: 1696674722707164}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1341176530716510
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4080702548565583}
+  - component: {fileID: 33150221368001541}
+  - component: {fileID: 23953899539706687}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4080702548565583
+Transform:
+  m_GameObject: {fileID: 1341176530716510}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.2041688, y: 0.08471084, z: 0.196022}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4675816847496778}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33150221368001541
+MeshFilter:
+  m_GameObject: {fileID: 1341176530716510}
+  m_Mesh: {fileID: 4300000, guid: 39770e3c167b2964db2db68c1726d696, type: 2}
+--- !u!23 &23953899539706687
+MeshRenderer:
+  m_GameObject: {fileID: 1341176530716510}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1663488379731869
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4703513409740245}
+  - component: {fileID: 33374347046765222}
+  - component: {fileID: 23637405499508814}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4703513409740245
+Transform:
+  m_GameObject: {fileID: 1663488379731869}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.07234178, y: 0.09381475, z: 0.2022079}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4675816847496778}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33374347046765222
+MeshFilter:
+  m_GameObject: {fileID: 1663488379731869}
+  m_Mesh: {fileID: 4300000, guid: c69f9b367c0326a4ba6350796c617363, type: 2}
+--- !u!23 &23637405499508814
+MeshRenderer:
+  m_GameObject: {fileID: 1663488379731869}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1000952687170899
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4707090848315835}
+  - component: {fileID: 33209186327603465}
+  - component: {fileID: 23004121898507123}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4707090848315835
+Transform:
+  m_GameObject: {fileID: 1000952687170899}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5109508, y: 0.05563573, z: -0.1722998}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4675816847496778}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33209186327603465
+MeshFilter:
+  m_GameObject: {fileID: 1000952687170899}
+  m_Mesh: {fileID: 4300000, guid: eec4c894c8bc6cc44b6a23fe46c29c25, type: 2}
+--- !u!23 &23004121898507123
+MeshRenderer:
+  m_GameObject: {fileID: 1000952687170899}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1258984981352005
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4165970473524329}
+  - component: {fileID: 33204426774302423}
+  - component: {fileID: 23466043404608040}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4165970473524329
+Transform:
+  m_GameObject: {fileID: 1258984981352005}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.2778949, y: 0.03255711, z: 0.2031874}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4675816847496778}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33204426774302423
+MeshFilter:
+  m_GameObject: {fileID: 1258984981352005}
+  m_Mesh: {fileID: 4300000, guid: a068c2a40d64d3a4f8a08ef799ca22b3, type: 2}
+--- !u!23 &23466043404608040
+MeshRenderer:
+  m_GameObject: {fileID: 1258984981352005}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1544160369461651
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4444710428261253}
+  - component: {fileID: 33009572604808857}
+  - component: {fileID: 23998927751900333}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4444710428261253
+Transform:
+  m_GameObject: {fileID: 1544160369461651}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.01727099, y: 0.02941759, z: -0.4965569}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4675816847496778}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33009572604808857
+MeshFilter:
+  m_GameObject: {fileID: 1544160369461651}
+  m_Mesh: {fileID: 4300000, guid: f3c550f4f0a4ac14fae0ee593d17189c, type: 2}
+--- !u!23 &23998927751900333
+MeshRenderer:
+  m_GameObject: {fileID: 1544160369461651}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1972751522722393
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4892806276949697}
+  - component: {fileID: 33688140398168775}
+  - component: {fileID: 23854889228076139}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4892806276949697
+Transform:
+  m_GameObject: {fileID: 1972751522722393}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5020068, y: 0.03526701, z: -0.02682384}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4675816847496778}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33688140398168775
+MeshFilter:
+  m_GameObject: {fileID: 1972751522722393}
+  m_Mesh: {fileID: 4300000, guid: 2142efc3c9a9c814c9ecd4a195c0b1b9, type: 2}
+--- !u!23 &23854889228076139
+MeshRenderer:
+  m_GameObject: {fileID: 1972751522722393}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1798172172116843
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4227335062137944}
+  - component: {fileID: 33117543509794907}
+  - component: {fileID: 23023402330548900}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4227335062137944
+Transform:
+  m_GameObject: {fileID: 1798172172116843}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1842004, y: 0.3482463, z: -0.1905784}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4675816847496778}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33117543509794907
+MeshFilter:
+  m_GameObject: {fileID: 1798172172116843}
+  m_Mesh: {fileID: 4300000, guid: da218e059bad35844887d998fe110f42, type: 2}
+--- !u!23 &23023402330548900
+MeshRenderer:
+  m_GameObject: {fileID: 1798172172116843}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1752812116849636
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4976385375844710}
+  - component: {fileID: 33606989404781744}
+  - component: {fileID: 23139520824233715}
+  m_Layer: 16
+  m_Name: Canyon_Rock1_9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4976385375844710
+Transform:
+  m_GameObject: {fileID: 1752812116849636}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.4621568, y: 0.07948627, z: -0.4297359}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4675816847496778}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33606989404781744
+MeshFilter:
+  m_GameObject: {fileID: 1752812116849636}
+  m_Mesh: {fileID: 4300000, guid: 0d76434c8dd2574468338bc40693fd1c, type: 2}
+--- !u!23 &23139520824233715
+MeshRenderer:
+  m_GameObject: {fileID: 1752812116849636}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1775656098523793
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4334258841257512}
+  - component: {fileID: 111096593014434031}
+  - component: {fileID: 114456446052096164}
+  - component: {fileID: 65446338078057957}
+  m_Layer: 12
+  m_Name: Canyon_RocksD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4334258841257512
+Transform:
+  m_GameObject: {fileID: 1775656098523793}
+  m_LocalRotation: {x: 0.1491513, y: 0.5249614, z: -0.06098357, w: 0.8357334}
+  m_LocalPosition: {x: -417.1972, y: 1.969373, z: 1181.828}
+  m_LocalScale: {x: 0.03, y: 0.05036, z: 0.05036}
+  m_Children:
+  - {fileID: 4972440785513715}
+  m_Father: {fileID: 4723629519734572}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 24.61789, y: -63.59167, z: -7.05998}
+--- !u!111 &111096593014434031
+Animation:
+  m_GameObject: {fileID: 1775656098523793}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &114456446052096164
+MonoBehaviour:
+  m_GameObject: {fileID: 1775656098523793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d11e44f29427754abd87776c76e1b75, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65446338078057957
+BoxCollider:
+  m_GameObject: {fileID: 1775656098523793}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 112.29, y: 83.28802, z: 86.3}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1041221886399652
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4972440785513715}
+  - component: {fileID: 111306868337504997}
+  m_Layer: 0
+  m_Name: Canyon_RocksD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4972440785513715
+Transform:
+  m_GameObject: {fileID: 1041221886399652}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -42.91367, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children:
+  - {fileID: 4443623809348251}
+  - {fileID: 4049187361367077}
+  - {fileID: 4930421465614840}
+  - {fileID: 4745802785640432}
+  - {fileID: 4740364349139063}
+  - {fileID: 4379860404162915}
+  m_Father: {fileID: 4334258841257512}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &111306868337504997
+Animation:
+  m_GameObject: {fileID: 1041221886399652}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1480878838550831
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4443623809348251}
+  - component: {fileID: 33003609908832060}
+  - component: {fileID: 23696587556203597}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4443623809348251
+Transform:
+  m_GameObject: {fileID: 1480878838550831}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3242941, y: 0.0601069, z: -0.1535186}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4972440785513715}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33003609908832060
+MeshFilter:
+  m_GameObject: {fileID: 1480878838550831}
+  m_Mesh: {fileID: 4300000, guid: 65c110d6decbcec499273a7daff764a6, type: 2}
+--- !u!23 &23696587556203597
+MeshRenderer:
+  m_GameObject: {fileID: 1480878838550831}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1451198407868006
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4049187361367077}
+  - component: {fileID: 33776138800219712}
+  - component: {fileID: 23731956598211737}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4049187361367077
+Transform:
+  m_GameObject: {fileID: 1451198407868006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1738285, y: 0.02259685, z: -0.3357942}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4972440785513715}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33776138800219712
+MeshFilter:
+  m_GameObject: {fileID: 1451198407868006}
+  m_Mesh: {fileID: 4300000, guid: 9c00255071eb0d74fbc9f0974e153a17, type: 2}
+--- !u!23 &23731956598211737
+MeshRenderer:
+  m_GameObject: {fileID: 1451198407868006}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1345232001492562
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4930421465614840}
+  - component: {fileID: 33613036658836266}
+  - component: {fileID: 23924262710800236}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4930421465614840
+Transform:
+  m_GameObject: {fileID: 1345232001492562}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.004160919, y: 0.0836222, z: 0.2452072}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4972440785513715}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33613036658836266
+MeshFilter:
+  m_GameObject: {fileID: 1345232001492562}
+  m_Mesh: {fileID: 4300000, guid: 39e4d35c54b537648a3d8cf702d9d71a, type: 2}
+--- !u!23 &23924262710800236
+MeshRenderer:
+  m_GameObject: {fileID: 1345232001492562}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1980522493574812
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4745802785640432}
+  - component: {fileID: 33241777745543976}
+  - component: {fileID: 23223908375241322}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4745802785640432
+Transform:
+  m_GameObject: {fileID: 1980522493574812}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3157218, y: 0.05845062, z: 0.02724176}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4972440785513715}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33241777745543976
+MeshFilter:
+  m_GameObject: {fileID: 1980522493574812}
+  m_Mesh: {fileID: 4300000, guid: d63b79d56af3aa748bd5ca8deaa51843, type: 2}
+--- !u!23 &23223908375241322
+MeshRenderer:
+  m_GameObject: {fileID: 1980522493574812}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1613400915293812
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4740364349139063}
+  - component: {fileID: 33245745677993166}
+  - component: {fileID: 23374028384042617}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4740364349139063
+Transform:
+  m_GameObject: {fileID: 1613400915293812}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.2182938, y: 0.06386168, z: 0.01901118}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4972440785513715}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33245745677993166
+MeshFilter:
+  m_GameObject: {fileID: 1613400915293812}
+  m_Mesh: {fileID: 4300000, guid: da7dd61fa2d1d204987675ee6140a850, type: 2}
+--- !u!23 &23374028384042617
+MeshRenderer:
+  m_GameObject: {fileID: 1613400915293812}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1024699050903901
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4379860404162915}
+  - component: {fileID: 33179809733839384}
+  - component: {fileID: 23398862109616743}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4379860404162915
+Transform:
+  m_GameObject: {fileID: 1024699050903901}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.07834263, y: 0.3961166, z: -0.01872828}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4972440785513715}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33179809733839384
+MeshFilter:
+  m_GameObject: {fileID: 1024699050903901}
+  m_Mesh: {fileID: 4300000, guid: f259505005c6eba42968c80aa39f6781, type: 2}
+--- !u!23 &23398862109616743
+MeshRenderer:
+  m_GameObject: {fileID: 1024699050903901}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1612942828691026
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4040470512660890}
+  - component: {fileID: 111471043219491165}
+  - component: {fileID: 114059656492714162}
+  - component: {fileID: 65024666618364642}
+  m_Layer: 12
+  m_Name: Canyon_RocksD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4040470512660890
+Transform:
+  m_GameObject: {fileID: 1612942828691026}
+  m_LocalRotation: {x: 0.02523852, y: 0.712496, z: 0.008059252, w: 0.7011758}
+  m_LocalPosition: {x: -432.4094, y: 2.064925, z: 1236.355}
+  m_LocalScale: {x: 0.05036, y: 0.05036, z: 0.05036}
+  m_Children:
+  - {fileID: 4584319900695273}
+  m_Father: {fileID: 4723629519734572}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 109.4726, y: -87.14998, z: -108.0801}
+--- !u!111 &111471043219491165
+Animation:
+  m_GameObject: {fileID: 1612942828691026}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &114059656492714162
+MonoBehaviour:
+  m_GameObject: {fileID: 1612942828691026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d11e44f29427754abd87776c76e1b75, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65024666618364642
+BoxCollider:
+  m_GameObject: {fileID: 1612942828691026}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 45.4, y: 83.28802, z: 55.8}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1851085571253665
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4584319900695273}
+  - component: {fileID: 111960822416650714}
+  m_Layer: 0
+  m_Name: Canyon_RocksD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4584319900695273
+Transform:
+  m_GameObject: {fileID: 1851085571253665}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -42.91367, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children:
+  - {fileID: 4140432252016638}
+  - {fileID: 4331397915270204}
+  - {fileID: 4334591999385451}
+  - {fileID: 4355956525859188}
+  - {fileID: 4179976384206481}
+  - {fileID: 4271416342632722}
+  m_Father: {fileID: 4040470512660890}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &111960822416650714
+Animation:
+  m_GameObject: {fileID: 1851085571253665}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1214728435669048
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4140432252016638}
+  - component: {fileID: 33544615520488250}
+  - component: {fileID: 23365432970501222}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4140432252016638
+Transform:
+  m_GameObject: {fileID: 1214728435669048}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3242941, y: 0.0601069, z: -0.1535186}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4584319900695273}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33544615520488250
+MeshFilter:
+  m_GameObject: {fileID: 1214728435669048}
+  m_Mesh: {fileID: 4300000, guid: 65c110d6decbcec499273a7daff764a6, type: 2}
+--- !u!23 &23365432970501222
+MeshRenderer:
+  m_GameObject: {fileID: 1214728435669048}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1826213471138027
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4331397915270204}
+  - component: {fileID: 33687649605886622}
+  - component: {fileID: 23133654675800204}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4331397915270204
+Transform:
+  m_GameObject: {fileID: 1826213471138027}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1738285, y: 0.02259685, z: -0.3357942}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4584319900695273}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33687649605886622
+MeshFilter:
+  m_GameObject: {fileID: 1826213471138027}
+  m_Mesh: {fileID: 4300000, guid: 9c00255071eb0d74fbc9f0974e153a17, type: 2}
+--- !u!23 &23133654675800204
+MeshRenderer:
+  m_GameObject: {fileID: 1826213471138027}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1003121181155633
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4334591999385451}
+  - component: {fileID: 33144284600796710}
+  - component: {fileID: 23150146708425228}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4334591999385451
+Transform:
+  m_GameObject: {fileID: 1003121181155633}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.004160919, y: 0.0836222, z: 0.2452072}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4584319900695273}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33144284600796710
+MeshFilter:
+  m_GameObject: {fileID: 1003121181155633}
+  m_Mesh: {fileID: 4300000, guid: 39e4d35c54b537648a3d8cf702d9d71a, type: 2}
+--- !u!23 &23150146708425228
+MeshRenderer:
+  m_GameObject: {fileID: 1003121181155633}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1711271893147416
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4355956525859188}
+  - component: {fileID: 33007386726128152}
+  - component: {fileID: 23842340864570216}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4355956525859188
+Transform:
+  m_GameObject: {fileID: 1711271893147416}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3157218, y: 0.05845062, z: 0.02724176}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4584319900695273}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33007386726128152
+MeshFilter:
+  m_GameObject: {fileID: 1711271893147416}
+  m_Mesh: {fileID: 4300000, guid: d63b79d56af3aa748bd5ca8deaa51843, type: 2}
+--- !u!23 &23842340864570216
+MeshRenderer:
+  m_GameObject: {fileID: 1711271893147416}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1118714936747152
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4179976384206481}
+  - component: {fileID: 33947895125791023}
+  - component: {fileID: 23890138427868242}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4179976384206481
+Transform:
+  m_GameObject: {fileID: 1118714936747152}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.2182938, y: 0.06386168, z: 0.01901118}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4584319900695273}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33947895125791023
+MeshFilter:
+  m_GameObject: {fileID: 1118714936747152}
+  m_Mesh: {fileID: 4300000, guid: da7dd61fa2d1d204987675ee6140a850, type: 2}
+--- !u!23 &23890138427868242
+MeshRenderer:
+  m_GameObject: {fileID: 1118714936747152}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1138398388343969
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4271416342632722}
+  - component: {fileID: 33757128761223971}
+  - component: {fileID: 23818666307216012}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4271416342632722
+Transform:
+  m_GameObject: {fileID: 1138398388343969}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.07834263, y: 0.3961166, z: -0.01872828}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4584319900695273}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33757128761223971
+MeshFilter:
+  m_GameObject: {fileID: 1138398388343969}
+  m_Mesh: {fileID: 4300000, guid: f259505005c6eba42968c80aa39f6781, type: 2}
+--- !u!23 &23818666307216012
+MeshRenderer:
+  m_GameObject: {fileID: 1138398388343969}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1161681687928113
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4457395918950764}
+  - component: {fileID: 111225059467537645}
+  - component: {fileID: 114120240363809620}
+  - component: {fileID: 65241841989420290}
+  m_Layer: 12
+  m_Name: Canyon_RocksD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4457395918950764
+Transform:
+  m_GameObject: {fileID: 1161681687928113}
+  m_LocalRotation: {x: 0, y: 0.4744724, z: 0, w: 0.8802704}
+  m_LocalPosition: {x: -397.9618, y: 1.346796, z: 1165.787}
+  m_LocalScale: {x: 0.05291894, y: 0.05036, z: 0.05036}
+  m_Children:
+  - {fileID: 4252616444434923}
+  m_Father: {fileID: 4723629519734572}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: -56.65001, z: 0}
+--- !u!111 &111225059467537645
+Animation:
+  m_GameObject: {fileID: 1161681687928113}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &114120240363809620
+MonoBehaviour:
+  m_GameObject: {fileID: 1161681687928113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d11e44f29427754abd87776c76e1b75, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65241841989420290
+BoxCollider:
+  m_GameObject: {fileID: 1161681687928113}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 112.29, y: 83.28802, z: 86.3}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1358809472995896
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4252616444434923}
+  - component: {fileID: 111722853376112840}
+  m_Layer: 0
+  m_Name: Canyon_RocksD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4252616444434923
+Transform:
+  m_GameObject: {fileID: 1358809472995896}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -42.91367, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children:
+  - {fileID: 4971729392576850}
+  - {fileID: 4433046139991475}
+  - {fileID: 4808304067215745}
+  - {fileID: 4734013469377839}
+  - {fileID: 4186488705799251}
+  - {fileID: 4590257075932808}
+  m_Father: {fileID: 4457395918950764}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &111722853376112840
+Animation:
+  m_GameObject: {fileID: 1358809472995896}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1567083732046190
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4971729392576850}
+  - component: {fileID: 33772570633113103}
+  - component: {fileID: 23671125085764458}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4971729392576850
+Transform:
+  m_GameObject: {fileID: 1567083732046190}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3242941, y: 0.0601069, z: -0.1535186}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4252616444434923}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33772570633113103
+MeshFilter:
+  m_GameObject: {fileID: 1567083732046190}
+  m_Mesh: {fileID: 4300000, guid: 65c110d6decbcec499273a7daff764a6, type: 2}
+--- !u!23 &23671125085764458
+MeshRenderer:
+  m_GameObject: {fileID: 1567083732046190}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1850321201898824
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4433046139991475}
+  - component: {fileID: 33950965563199659}
+  - component: {fileID: 23363769018091456}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4433046139991475
+Transform:
+  m_GameObject: {fileID: 1850321201898824}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1738285, y: 0.02259685, z: -0.3357942}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4252616444434923}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33950965563199659
+MeshFilter:
+  m_GameObject: {fileID: 1850321201898824}
+  m_Mesh: {fileID: 4300000, guid: 9c00255071eb0d74fbc9f0974e153a17, type: 2}
+--- !u!23 &23363769018091456
+MeshRenderer:
+  m_GameObject: {fileID: 1850321201898824}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1765643098259427
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4808304067215745}
+  - component: {fileID: 33258263322540745}
+  - component: {fileID: 23768853726551880}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4808304067215745
+Transform:
+  m_GameObject: {fileID: 1765643098259427}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.004160919, y: 0.0836222, z: 0.2452072}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4252616444434923}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33258263322540745
+MeshFilter:
+  m_GameObject: {fileID: 1765643098259427}
+  m_Mesh: {fileID: 4300000, guid: 39e4d35c54b537648a3d8cf702d9d71a, type: 2}
+--- !u!23 &23768853726551880
+MeshRenderer:
+  m_GameObject: {fileID: 1765643098259427}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1320029656953039
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4734013469377839}
+  - component: {fileID: 33415179325695865}
+  - component: {fileID: 23622498922597531}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4734013469377839
+Transform:
+  m_GameObject: {fileID: 1320029656953039}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3157218, y: 0.05845062, z: 0.02724176}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4252616444434923}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33415179325695865
+MeshFilter:
+  m_GameObject: {fileID: 1320029656953039}
+  m_Mesh: {fileID: 4300000, guid: d63b79d56af3aa748bd5ca8deaa51843, type: 2}
+--- !u!23 &23622498922597531
+MeshRenderer:
+  m_GameObject: {fileID: 1320029656953039}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1016028278668018
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4186488705799251}
+  - component: {fileID: 33375876686123233}
+  - component: {fileID: 23355295282721391}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4186488705799251
+Transform:
+  m_GameObject: {fileID: 1016028278668018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.2182938, y: 0.06386168, z: 0.01901118}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4252616444434923}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33375876686123233
+MeshFilter:
+  m_GameObject: {fileID: 1016028278668018}
+  m_Mesh: {fileID: 4300000, guid: da7dd61fa2d1d204987675ee6140a850, type: 2}
+--- !u!23 &23355295282721391
+MeshRenderer:
+  m_GameObject: {fileID: 1016028278668018}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1150862836345472
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4590257075932808}
+  - component: {fileID: 33564066525521301}
+  - component: {fileID: 23751113298662906}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4590257075932808
+Transform:
+  m_GameObject: {fileID: 1150862836345472}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.07834263, y: 0.3961166, z: -0.01872828}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4252616444434923}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33564066525521301
+MeshFilter:
+  m_GameObject: {fileID: 1150862836345472}
+  m_Mesh: {fileID: 4300000, guid: f259505005c6eba42968c80aa39f6781, type: 2}
+--- !u!23 &23751113298662906
+MeshRenderer:
+  m_GameObject: {fileID: 1150862836345472}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1989341346607579
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4059371294826098}
+  - component: {fileID: 111197709972268562}
+  - component: {fileID: 114085272606326759}
+  - component: {fileID: 65807119377740251}
+  m_Layer: 12
+  m_Name: Canyon_RocksD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4059371294826098
+Transform:
+  m_GameObject: {fileID: 1989341346607579}
+  m_LocalRotation: {x: 0.02276101, y: 0.5353993, z: 0.01356001, w: 0.8441834}
+  m_LocalPosition: {x: -277.7116, y: -14.87547, z: 1262.818}
+  m_LocalScale: {x: 0.05036, y: 0.05036, z: 0.05036}
+  m_Children:
+  - {fileID: 4726613380058022}
+  m_Father: {fileID: 4723629519734572}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 7.090765, y: -64.59971, z: -6.326518}
+--- !u!111 &111197709972268562
+Animation:
+  m_GameObject: {fileID: 1989341346607579}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &114085272606326759
+MonoBehaviour:
+  m_GameObject: {fileID: 1989341346607579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d11e44f29427754abd87776c76e1b75, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65807119377740251
+BoxCollider:
+  m_GameObject: {fileID: 1989341346607579}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 80.1, y: 83.28802, z: 55.7}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1216598644008478
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4726613380058022}
+  - component: {fileID: 111841211744007790}
+  m_Layer: 0
+  m_Name: Canyon_RocksD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4726613380058022
+Transform:
+  m_GameObject: {fileID: 1216598644008478}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -42.91367, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children:
+  - {fileID: 4797395149076072}
+  - {fileID: 4166030404024794}
+  - {fileID: 4112343627462538}
+  - {fileID: 4657321918352624}
+  - {fileID: 4457161764082697}
+  - {fileID: 4195794690941713}
+  m_Father: {fileID: 4059371294826098}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &111841211744007790
+Animation:
+  m_GameObject: {fileID: 1216598644008478}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1127325850915602
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4797395149076072}
+  - component: {fileID: 33935529271827044}
+  - component: {fileID: 23220263605486857}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4797395149076072
+Transform:
+  m_GameObject: {fileID: 1127325850915602}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3242941, y: 0.0601069, z: -0.1535186}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4726613380058022}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33935529271827044
+MeshFilter:
+  m_GameObject: {fileID: 1127325850915602}
+  m_Mesh: {fileID: 4300000, guid: 65c110d6decbcec499273a7daff764a6, type: 2}
+--- !u!23 &23220263605486857
+MeshRenderer:
+  m_GameObject: {fileID: 1127325850915602}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1514020640371055
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4166030404024794}
+  - component: {fileID: 33127693873366298}
+  - component: {fileID: 23492625437085568}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4166030404024794
+Transform:
+  m_GameObject: {fileID: 1514020640371055}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1738285, y: 0.02259685, z: -0.3357942}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4726613380058022}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33127693873366298
+MeshFilter:
+  m_GameObject: {fileID: 1514020640371055}
+  m_Mesh: {fileID: 4300000, guid: 9c00255071eb0d74fbc9f0974e153a17, type: 2}
+--- !u!23 &23492625437085568
+MeshRenderer:
+  m_GameObject: {fileID: 1514020640371055}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1241308959397162
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4112343627462538}
+  - component: {fileID: 33848824110707047}
+  - component: {fileID: 23036406679329167}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4112343627462538
+Transform:
+  m_GameObject: {fileID: 1241308959397162}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.004160919, y: 0.0836222, z: 0.2452072}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4726613380058022}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33848824110707047
+MeshFilter:
+  m_GameObject: {fileID: 1241308959397162}
+  m_Mesh: {fileID: 4300000, guid: 39e4d35c54b537648a3d8cf702d9d71a, type: 2}
+--- !u!23 &23036406679329167
+MeshRenderer:
+  m_GameObject: {fileID: 1241308959397162}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1607993585067722
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4657321918352624}
+  - component: {fileID: 33415383318052195}
+  - component: {fileID: 23977808591291000}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4657321918352624
+Transform:
+  m_GameObject: {fileID: 1607993585067722}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3157218, y: 0.05845062, z: 0.02724176}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4726613380058022}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33415383318052195
+MeshFilter:
+  m_GameObject: {fileID: 1607993585067722}
+  m_Mesh: {fileID: 4300000, guid: d63b79d56af3aa748bd5ca8deaa51843, type: 2}
+--- !u!23 &23977808591291000
+MeshRenderer:
+  m_GameObject: {fileID: 1607993585067722}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1796861460316009
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4457161764082697}
+  - component: {fileID: 33152325344036110}
+  - component: {fileID: 23480381619717714}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4457161764082697
+Transform:
+  m_GameObject: {fileID: 1796861460316009}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.2182938, y: 0.06386168, z: 0.01901118}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4726613380058022}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33152325344036110
+MeshFilter:
+  m_GameObject: {fileID: 1796861460316009}
+  m_Mesh: {fileID: 4300000, guid: da7dd61fa2d1d204987675ee6140a850, type: 2}
+--- !u!23 &23480381619717714
+MeshRenderer:
+  m_GameObject: {fileID: 1796861460316009}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1079327093808715
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4195794690941713}
+  - component: {fileID: 33648840801916279}
+  - component: {fileID: 23940050897981704}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4195794690941713
+Transform:
+  m_GameObject: {fileID: 1079327093808715}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.07834263, y: 0.3961166, z: -0.01872828}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4726613380058022}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33648840801916279
+MeshFilter:
+  m_GameObject: {fileID: 1079327093808715}
+  m_Mesh: {fileID: 4300000, guid: f259505005c6eba42968c80aa39f6781, type: 2}
+--- !u!23 &23940050897981704
+MeshRenderer:
+  m_GameObject: {fileID: 1079327093808715}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1176032998819486
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4835814462755418}
+  - component: {fileID: 111819063013923701}
+  - component: {fileID: 114085860020755646}
+  - component: {fileID: 65897999254450086}
+  m_Layer: 12
+  m_Name: Canyon_RocksD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4835814462755418
+Transform:
+  m_GameObject: {fileID: 1176032998819486}
+  m_LocalRotation: {x: 0.02276109, y: 0.5353994, z: 0.01356028, w: 0.8441834}
+  m_LocalPosition: {x: -424.2917, y: 2.376484, z: 1244.623}
+  m_LocalScale: {x: 0.05036001, y: 0.05036, z: 0.05036}
+  m_Children:
+  - {fileID: 4785289563206482}
+  m_Father: {fileID: 4723629519734572}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 7.090826, y: -64.59972, z: -6.326595}
+--- !u!111 &111819063013923701
+Animation:
+  m_GameObject: {fileID: 1176032998819486}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &114085860020755646
+MonoBehaviour:
+  m_GameObject: {fileID: 1176032998819486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d11e44f29427754abd87776c76e1b75, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65897999254450086
+BoxCollider:
+  m_GameObject: {fileID: 1176032998819486}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 45.4, y: 83.28802, z: 55.8}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1154611186087148
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4785289563206482}
+  - component: {fileID: 111027411132638038}
+  m_Layer: 0
+  m_Name: Canyon_RocksD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4785289563206482
+Transform:
+  m_GameObject: {fileID: 1154611186087148}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -42.91367, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children:
+  - {fileID: 4821072469576141}
+  - {fileID: 4453518878000235}
+  - {fileID: 4982903376375370}
+  - {fileID: 4404362735425448}
+  - {fileID: 4198519698642552}
+  - {fileID: 4490865547270233}
+  m_Father: {fileID: 4835814462755418}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &111027411132638038
+Animation:
+  m_GameObject: {fileID: 1154611186087148}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1207609997281911
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4821072469576141}
+  - component: {fileID: 33852837447596481}
+  - component: {fileID: 23986227039059576}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4821072469576141
+Transform:
+  m_GameObject: {fileID: 1207609997281911}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3242941, y: 0.0601069, z: -0.1535186}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4785289563206482}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33852837447596481
+MeshFilter:
+  m_GameObject: {fileID: 1207609997281911}
+  m_Mesh: {fileID: 4300000, guid: 65c110d6decbcec499273a7daff764a6, type: 2}
+--- !u!23 &23986227039059576
+MeshRenderer:
+  m_GameObject: {fileID: 1207609997281911}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1043470151675862
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4453518878000235}
+  - component: {fileID: 33509592298438895}
+  - component: {fileID: 23269912155292559}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4453518878000235
+Transform:
+  m_GameObject: {fileID: 1043470151675862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1738285, y: 0.02259685, z: -0.3357942}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4785289563206482}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33509592298438895
+MeshFilter:
+  m_GameObject: {fileID: 1043470151675862}
+  m_Mesh: {fileID: 4300000, guid: 9c00255071eb0d74fbc9f0974e153a17, type: 2}
+--- !u!23 &23269912155292559
+MeshRenderer:
+  m_GameObject: {fileID: 1043470151675862}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1180780872394625
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4982903376375370}
+  - component: {fileID: 33798931768201669}
+  - component: {fileID: 23599781430063025}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4982903376375370
+Transform:
+  m_GameObject: {fileID: 1180780872394625}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.004160919, y: 0.0836222, z: 0.2452072}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4785289563206482}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33798931768201669
+MeshFilter:
+  m_GameObject: {fileID: 1180780872394625}
+  m_Mesh: {fileID: 4300000, guid: 39e4d35c54b537648a3d8cf702d9d71a, type: 2}
+--- !u!23 &23599781430063025
+MeshRenderer:
+  m_GameObject: {fileID: 1180780872394625}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1887655755838363
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4404362735425448}
+  - component: {fileID: 33362454808279676}
+  - component: {fileID: 23384525039811871}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4404362735425448
+Transform:
+  m_GameObject: {fileID: 1887655755838363}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3157218, y: 0.05845062, z: 0.02724176}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4785289563206482}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33362454808279676
+MeshFilter:
+  m_GameObject: {fileID: 1887655755838363}
+  m_Mesh: {fileID: 4300000, guid: d63b79d56af3aa748bd5ca8deaa51843, type: 2}
+--- !u!23 &23384525039811871
+MeshRenderer:
+  m_GameObject: {fileID: 1887655755838363}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1378267746980395
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4198519698642552}
+  - component: {fileID: 33206130971903983}
+  - component: {fileID: 23077712326895611}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4198519698642552
+Transform:
+  m_GameObject: {fileID: 1378267746980395}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.2182938, y: 0.06386168, z: 0.01901118}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4785289563206482}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33206130971903983
+MeshFilter:
+  m_GameObject: {fileID: 1378267746980395}
+  m_Mesh: {fileID: 4300000, guid: da7dd61fa2d1d204987675ee6140a850, type: 2}
+--- !u!23 &23077712326895611
+MeshRenderer:
+  m_GameObject: {fileID: 1378267746980395}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1623827285915066
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4490865547270233}
+  - component: {fileID: 33871716357007620}
+  - component: {fileID: 23886672962044738}
+  m_Layer: 16
+  m_Name: Canyon_Rock4_6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4490865547270233
+Transform:
+  m_GameObject: {fileID: 1623827285915066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.07834263, y: 0.3961166, z: -0.01872828}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4785289563206482}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33871716357007620
+MeshFilter:
+  m_GameObject: {fileID: 1623827285915066}
+  m_Mesh: {fileID: 4300000, guid: f259505005c6eba42968c80aa39f6781, type: 2}
+--- !u!23 &23886672962044738
+MeshRenderer:
+  m_GameObject: {fileID: 1623827285915066}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f39af51ec7cebe749907c383703abe44, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

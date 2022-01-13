@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1553785980705612}
+  m_IsPrefabParent: 1
+--- !u!1 &1553785980705612
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4660720706803647}
+  m_Layer: 0
+  m_Name: Setup_Arena_Swamp_Straight2_End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4660720706803647
+Transform:
+  m_GameObject: {fileID: 1553785980705612}
+  m_LocalRotation: {x: 0, y: -0.3007058, z: 0, w: 0.953717}
+  m_LocalPosition: {x: -330.6104, y: -174.2066, z: 2045.635}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4201895842936329}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 35, z: 0}
+--- !u!1 &1131858635769122
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4201895842936329}
+  - component: {fileID: 114761951679473752}
+  - component: {fileID: 65043263938919427}
+  - component: {fileID: 114201395568767494}
+  - component: {fileID: 114913803784971241}
+  m_Layer: 0
+  m_Name: Lightswitcher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4201895842936329
+Transform:
+  m_GameObject: {fileID: 1131858635769122}
+  m_LocalRotation: {x: 0, y: -0.3421022, z: 0, w: 0.9396628}
+  m_LocalPosition: {x: 590.769, y: 186.0053, z: -546.9523}
+  m_LocalScale: {x: 2.91317, y: 4.033391, z: 299.9001}
+  m_Children: []
+  m_Father: {fileID: 4660720706803647}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 40.01, z: 0}
+--- !u!114 &114761951679473752
+MonoBehaviour:
+  m_GameObject: {fileID: 1131858635769122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d57209fda02cad44cb28bb6270c1b685, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65043263938919427
+BoxCollider:
+  m_GameObject: {fileID: 1131858635769122}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 17.1, y: 10.05, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114201395568767494
+MonoBehaviour:
+  m_GameObject: {fileID: 1131858635769122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 042eead2f8cf0b34d86268a62699b5de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114913803784971241
+MonoBehaviour:
+  m_GameObject: {fileID: 1131858635769122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507df684864d98940a4ffe2f2efb85b6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

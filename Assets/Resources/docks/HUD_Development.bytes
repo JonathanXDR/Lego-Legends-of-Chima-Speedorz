@@ -1,0 +1,161 @@
+<dock name="HUD_Development" overlay="false" modal="false" active="false" interactive="false">
+  
+  <uiobj name="HUDObjectTextBox"  zdepth="1.0" textid="Unique Text Style 1" textfont="EuroCaps" textalign="left" textanchor="top" textscale="0.25" lineheight="0.7">
+	<node name="textstyle" edge="0.5" outline="0" outlinesize="0.32"  glowx="-8" glowy="-7.5" glowstart="0" glowend="2.0">
+		<color name="outlineColor" hash="000000FF"/>
+		<color name="glowColor" hash="0000007F"/>
+	</node>
+    <anchor name="anchor" left="true" top="true" right="true" bottom="false" anchorModeH="stretch" anchorModeV="stretch"/>
+    <rect name="bounds" xoffset="50" yoffset="50" width="50" height="100"/>
+    <vcolours name="colour" value="4">
+      <color name="topLeft" value="0" hash="F3DF00FF"/>
+      <color name="topRight" value="1" hash="F3DF00FF"/>
+      <color name="bottomLeft" value="2" r="0.7765" g="0.4706" b="0.0" a="1.0"/>
+      <color name="bottomRight" value="3" r="0.7765" g="0.4706" b="0.0" a="1.0"/>
+    </vcolours>
+  </uiobj>
+  
+	
+  <uiobj name="HUDObjectTextBox2"  zdepth="2.0" textid="Unique Text Style 2" textfont="EuroCaps" textalign="left" textanchor="top" textscale="0.25" lineheight="0.7">
+	<node name="textstyle" edge="0" outline="0.1" outlinesize="0.32"  glowx="0" glowy="0" glowstart="0" glowend="2.0">
+		<color name="outlineColor" hash="FF0000FF"/>
+		<color name="glowColor" hash="FFFFFFFF"/>
+	</node>
+    <anchor name="anchor" left="true" top="true" right="true" bottom="false" anchorModeH="stretch" anchorModeV="stretch"/>
+    <rect name="bounds" xoffset="50" yoffset="150" width="50" height="100"/>
+    <vcolours name="colour" value="4">
+      <color name="topLeft" value="0" hash="F3DF00FF"/>
+      <color name="topRight" value="1" hash="F3DF00FF"/>
+      <color name="bottomLeft" value="2" r="0.7765" g="0.4706" b="0.0" a="1.0"/>
+      <color name="bottomRight" value="3" r="0.7765" g="0.4706" b="0.0" a="1.0"/>
+    </vcolours>
+  </uiobj>
+	
+	<!--node name="myTextStyle1" edge="0.1" outline="0.6" outlinesize="0.32"  glowx="0" glowy="0" glowstart="0" glowend="1.0">
+		<color name="outlineColor" hash="FFFFFFFF"/>
+		<color name="glowColor" hash="FFFFFFFF"/>
+	</node-->
+	
+	<!-- this is a style that has been serialised from the inspector ... -->
+	
+	<node name="myTextStyle1">
+	  <Neuron name="edge" value="0.1" />
+	  <Neuron name="outline" value="0.4" />
+	  <Neuron name="outlinesize" value="0.1" />
+	  <Neuron name="glowx" value="0" />
+	  <Neuron name="glowy" value="0" />
+	  <Neuron name="glowstart" value="0" />
+	  <Neuron name="glowend" value="1" />
+	  <color name="outlineColor">
+	    <Neuron name="hash" value="572453FF" />
+	    <Neuron name="r" value="0.345098" />
+	    <Neuron name="g" value="0.145098" />
+	    <Neuron name="b" value="0.3254902" />
+	    <Neuron name="a" value="1" />
+	  </color>
+	  <color name="glowColor">
+	    <Neuron name="hash" value="FFFFFFFF" />
+	    <Neuron name="r" value="1" />
+	    <Neuron name="g" value="1" />
+	    <Neuron name="b" value="1" />
+	    <Neuron name="a" value="1" />
+	  </color>
+	</node>
+	
+  <uiobj name="HUDObjectTextBox3"  zdepth="2.0" textstyleref="../../myTextStyle1" textid="Shared Text Style" textfont="EuroCaps" textalign="left" textanchor="top" textscale="0.25" lineheight="0.7">
+    <anchor name="anchor" left="true" top="true" right="true" bottom="false" anchorModeH="stretch" anchorModeV="stretch"/>
+    <rect name="bounds" xoffset="50" yoffset="250" width="50" height="100"/>
+    <vcolours name="colour" value="4">
+      <color name="topLeft" value="0" hash="F3DF00FF"/>
+      <color name="topRight" value="1" hash="F3DF00FF"/>
+      <color name="bottomLeft" value="2" r="0.7765" g="0.4706" b="0.0" a="1.0"/>
+      <color name="bottomRight" value="3" r="0.7765" g="0.4706" b="0.0" a="1.0"/>
+    </vcolours>
+  </uiobj>
+	
+  <uiobj name="HUDObjectTextBox4"  zdepth="2.0" textstyleref="../../myTextStyle1" textid="Shared Text Style" textfont="EuroCaps" textalign="left" textanchor="top" textscale="0.25" lineheight="0.7">
+    <anchor name="anchor" left="true" top="true" right="true" bottom="false" anchorModeH="stretch" anchorModeV="stretch"/>
+    <rect name="bounds" xoffset="50" yoffset="350" width="50" height="100"/>
+    <vcolours name="colour" value="4">
+      <color name="topLeft" value="0" hash="F3DF00FF"/>
+      <color name="topRight" value="1" hash="F3DF00FF"/>
+      <color name="bottomLeft" value="2" r="0.7765" g="0.4706" b="0.0" a="1.0"/>
+      <color name="bottomRight" value="3" r="0.7765" g="0.4706" b="0.0" a="1.0"/>
+    </vcolours>
+  </uiobj>
+	
+  <!--uiobj name="HUDObjectTextBox_2"  zdepth="2.0" textid="The quick frown box jumped over the lazy dogs. 0123456789 !?*%@" textfont="Arial_72" textalign="left" textanchor="top" textscale="1.0" shader="Custom/TextMultiChannelGradient">
+    <anchor name="anchor" left="true" top="true" right="true" bottom="true" anchorModeH="stretch" anchorModeV="stretch"/>
+    <rect name="bounds" xoffset="50" yoffset="50" width="50" height="50"/>
+    <vcolours name="colour" value="4">
+      <color name="topLeft" value="0" hash="F3DF00FF"/>
+      <color name="topRight" value="1" hash="F3DF00FF"/>
+      <color name="bottomLeft" value="2" r="0.7765" g="0.4706" b="0.0" a="1.0"/>
+      <color name="bottomRight" value="3" r="0.7765" g="0.4706" b="0.0" a="1.0"/>
+    </vcolours>
+  </uiobj-->
+	
+  <!--uiobj name="HUDObjectImage" zdepth="0.0" image="Textures/Debug/pixelart_512x512_a" imageanchor="centre" imageoffsetx="0" imageoffsety="0" imagefitting="keep">
+    <anchor name="anchor" left="true" top="true" right="false" bottom="false" anchorModeH="center" anchorModeV="center"/>
+    <rect name="bounds" xoffset="100" yoffset="100" width="200" height="200"/>
+    <vcolours name="colour" value="4">
+      <color name="topLeft" value="0" r="1.0" g="0.0" b="0.0" a="1.0"/>
+      <color name="topRight" value="1" r="1.0" g="1.0" b="1.0" a="1.0"/>
+      <color name="bottomLeft" value="2" r="0.0" g="1.0" b="0.0" a="1.0"/>
+      <color name="bottomRight" value="3" r="0.0" g="0.5" b="1.0" a="1.0"/>
+    </vcolours>
+  </uiobj-->
+  
+	<!--uiobj name="9-slice" zdepth="10" border="50">
+		
+		<anchor name="anchor" left="true" top="true" right="true" bottom="true" anchorModeH="center" anchorModeV="center"/>
+    	<rect name="bounds" xoffset="0" yoffset="0" width="400" height="300"/>
+		
+		<uiobj name="topleft" zdepth="0" image="exampleDialog/9-slice_tl" pack="Textures/ExampleDialog/TexturePack" imageanchor="centre" imageoffsetx="0" imageoffsety="0" imagescalex="-1.0" imagescaley="1.0" imagefitting="keep">
+			<anchor name="anchor" left="true" top="true" right="false" bottom="false" anchorModeH="center" anchorModeV="center"/>
+	    	<rect name="bounds" xoffset="0" yoffset="0" width="../../../border" height="../../../border"/>
+		</uiobj>
+		
+		<uiobj name="topright" zdepth="0" image="exampleDialog/9-slice_tr" pack="Textures/ExampleDialog/TexturePack" imageanchor="top left" imageoffsetx="0" imageoffsety="0" imagefitting="keep">
+			<anchor name="anchor" left="false" top="true" right="true" bottom="false" anchorModeH="center" anchorModeV="center"/>
+	    	<rect name="bounds" xoffset="0" yoffset="0" width="../../../border" height="../../../border"/>
+		</uiobj>
+		
+		<uiobj name="bottomleft" zdepth="0" image="exampleDialog/9-slice_bl" pack="Textures/ExampleDialog/TexturePack" imageanchor="top left" imageoffsetx="0" imageoffsety="0" imagefitting="keep">
+			<anchor name="anchor" left="true" top="false" right="false" bottom="true" anchorModeH="center" anchorModeV="center"/>
+	    	<rect name="bounds" xoffset="0" yoffset="0" width="../../../border" height="../../../border"/>
+		</uiobj>
+		
+		<uiobj name="bottomright" zdepth="0" image="exampleDialog/9-slice_br" pack="Textures/ExampleDialog/TexturePack" imageanchor="top left" imageoffsetx="0" imageoffsety="0" imagefitting="keep">
+			<anchor name="anchor" left="false" top="false" right="true" bottom="true" anchorModeH="center" anchorModeV="center"/>
+	    	<rect name="bounds" xoffset="0" yoffset="0" width="../../../border" height="../../../border"/>
+		</uiobj>
+		
+		<uiobj name="center" zdepth="0" image="exampleDialog/9-slice_center" pack="Textures/ExampleDialog/TexturePack" imageanchor="top left" imageoffsetx="0" imageoffsety="0" imagefitting="fit">
+			<anchor name="anchor" left="true" top="true" right="true" bottom="true" anchorModeH="stretch" anchorModeV="stretch"/>
+	    	<rect name="bounds" xoffset="../../../border" yoffset="../../../border" width="../../../border" height="../../../border"/>
+		</uiobj>
+		
+		<uiobj name="left" zdepth="0" image="exampleDialog/9-slice_l" pack="Textures/ExampleDialog/TexturePack" imageanchor="top left" imageoffsetx="0" imageoffsety="0" imagefitting="fit">
+			<anchor name="anchor" left="true" top="true" right="false" bottom="true" anchorModeH="center" anchorModeV="stretch"/>
+	    	<rect name="bounds" xoffset="0" yoffset="../../../border" width="../../../border" height="../../../border"/>
+		</uiobj>
+		
+		<uiobj name="right" zdepth="0" image="exampleDialog/9-slice_r" pack="Textures/ExampleDialog/TexturePack" imageanchor="top left" imageoffsetx="0" imageoffsety="0" imagefitting="fit">
+			<anchor name="anchor" left="false" top="true" right="true" bottom="true" anchorModeH="center" anchorModeV="stretch"/>
+	    	<rect name="bounds" xoffset="0" yoffset="../../../border" width="../../../border" height="../../../border"/>
+		</uiobj>
+		
+		<uiobj name="top" zdepth="0" image="exampleDialog/9-slice_t" pack="Textures/ExampleDialog/TexturePack" imageanchor="top left" imageoffsetx="0" imageoffsety="0" imagefitting="fit">
+			<anchor name="anchor" left="true" top="true" right="true" bottom="false" anchorModeH="stretch" anchorModeV="center"/>
+	    	<rect name="bounds" xoffset="../../../border" yoffset="0" width="../../../border" height="../../../border"/>
+		</uiobj>
+		
+		<uiobj name="bottom" zdepth="0" image="exampleDialog/9-slice_b" pack="Textures/ExampleDialog/TexturePack" imageanchor="top left" imageoffsetx="0" imageoffsety="0" imagefitting="fit">
+			<anchor name="anchor" left="true" top="false" right="true" bottom="true" anchorModeH="stretch" anchorModeV="center"/>
+	    	<rect name="bounds" xoffset="../../../border" yoffset="0" width="../../../border" height="../../../border"/>
+		</uiobj>
+		
+	</uiobj-->
+	
+</dock>

@@ -1,0 +1,181 @@
+<FlowFacade name="flow">
+  
+  <node name="Intro">
+    <node name="Login" value="Login"/>
+	<node name="SAFE_SIGN_IN" value="Dialog"/>
+	<node name="CONNECT_TO_INTERNET" value="Dialog"/>
+	<node name="ShopFront" value="ShopFront"/>
+	<node name="CoolStuff_Bio" value="CoolStuff_Bio"/>
+	<node name="CoolStuff_Home" value="CoolStuff_Home"/>
+	<node name="Friends" value="Friends"/>
+	<node name="Achievements" value="Achievements"/>
+    <node name="TournamentSelect" value="TournamentSelect" />
+	<node name="CreditsScreen" value="CreditsScreen"/>	
+    <node name="Intro" value="Intro" />
+    <node name="CharacterShop" value="CharacterShop" />	
+	<node name="EndOfRace" value="EndOfRace"/>
+	<node name="trackerManager" value="Intro" />		
+  </node>
+	
+  <node name="Dialog">
+	<node name="self" value="Dialog"/>
+  </node>
+	
+  <node name="Login">
+    <node name="TournamentSelect" value="TournamentSelect" />
+    <node name="Intro" value="Intro" />
+	  <node name="trackerManager" value="Login" />		
+  </node>
+	
+  <node name="Friends">
+    <node name="Login" value="Login"/>
+	  <node name="trackerManager" value="Friends" />		
+  </node>
+	
+  <node name="CreditsScreen">
+    <node name="Login" value="Login"/>
+	  <node name="trackerManager" value="CreditsScreen" />		
+  </node>
+	
+  <node name="Loading">
+    <node name="Complete" value="Game_Web" web="Game_Web" mobile="Game_Mobile" />
+    <node name="Intro" value="Intro" />
+	  <node name="trackerManager" value="Loading" />		
+  </node>
+	
+  <node name="Game_Web">
+	  <node name="Pause" value="Pause_Web" web="Pause_Web" mobile="Pause_Mobile"/>
+    <node name="EndOfRace" value="EndOfRace"/>
+    <node name="Tutorial" value="TutorialScreen_Web" web="TutorialScreen_Web" mobile="TutorialScreen_Mobile"/>
+    <node name="cupWin" value="cupWin" />							
+	  <node name="trackerManager" value="Game_Web" web="Game_Web" mobile="Game_Mobile" />		
+  </node>
+	
+  <node name="Game_Mobile">
+	  <node name="Pause" value="Pause_Web" web="Pause_Web" mobile="Pause_Mobile"/>
+    <node name="EndOfRace" value="EndOfRace"/>
+    <node name="Tutorial" value="TutorialScreen_Web" web="TutorialScreen_Web" mobile="TutorialScreen_Mobile"/>
+    <node name="cupWin" value="cupWin" />							
+	  <node name="trackerManager" value="Game_Web" web="Game_Web" mobile="Game_Mobile" />		
+  </node>
+	
+  <node name="EndOfRace">
+    <node name="LevelSelect" value="LevelSelect" />
+    <node name="Loading" value="Loading" />
+    <node name="Login" value="Login"/>
+	  <node name="MainMenu" value="Intro" />
+    <node name="SpeedorSaleScreen" value="SpeedorSaleScreen"/>
+    <node name="TournamentSelect" value="TournamentSelect" />		
+    <node name="cupWin" value="cupWin" />		
+    <node name="trackerManager" value="EndOfRace" />		
+  </node>
+	
+  <node name="LevelSelect">
+    <node name="Loading" value="Loading" />
+	  <node name="MainMenu" value="TournamentSelect" />
+    <node name="Login" value="Login"/>
+	  <node name="trackerManager" value="LevelSelect" />		
+  </node>
+	
+  <node name="Pause_Web">
+    <node name="Loading" value="Loading" />
+    <node name="Game" value="Game_Web" web="Game_Web" mobile="Game_Mobile" />
+    <node name="Intro" value="Intro" />
+	  <node name="trackerManager" value="Pause_Web" web="Pause_Web" mobile="Pause_Mobile" />		
+  </node>
+	
+  <node name="Pause_Mobile">
+    <node name="Loading" value="Loading" />
+    <node name="Game" value="Game_Web" web="Game_Web" mobile="Game_Mobile" />
+    <node name="Intro" value="Intro" />
+	  <node name="trackerManager" value="Pause_Web" web="Pause_Web" mobile="Pause_Mobile" />		
+  </node>
+	
+  <node name="ShopFront">
+    <node name="CharacterShop" value="CharacterShop" />
+    <node name="SpeedorShop" value="SpeedorShop" />
+    <node name="Login" value="Login"/>
+    <node name="Intro" value="Intro" />
+    <node name="trackerManager" value="ShopFront" />		
+  </node>
+	
+  <node name="CoolStuff_Home">
+ 	  <node name="CoolStuff_Bio" value="CoolStuff_Bio" />
+    <node name="CoolStuff_News" value="CoolStuff_News" />
+    <node name="CoolStuff_Vids" value="CoolStuff_Vids" />
+	<node name="trackerManager" value="CoolStuff_Home" />		
+  </node>
+	
+  <node name="CoolStuff_Bio">
+    <node name="Login" value="Login"/>
+	  <node name="trackerManager" value="CoolStuff_Bio" />		
+  </node>
+	
+  <node name="CoolStuff_News">
+	  <node name="trackerManager" value="CoolStuff_News" />		
+  </node>
+	
+  <node name="CoolStuff_Vids">
+	<node name="trackerManager" value="CoolStuff_Vids" />		
+  </node>
+	
+  <node name="Achievements">
+    <node name="Login" value="Login"/>
+	  <node name="trackerManager" value="Achievements" />		
+  </node>
+	
+  <node name="CharacterShop">
+    <node name="Login" value="Login"/>
+    <node name="SpeedorShop" value="SpeedorShop" />		
+    <node name="ShopFront" value="ShopFront"/>
+    <node name="Intro" value="Intro" />		
+	  <node name="trackerManager" value="CharacterShop" />		
+  </node>
+
+  <node name="SpeedorShop">
+    <node name="Login" value="Login"/>
+    <node name="ShopFront" value="ShopFront"/>
+    <node name="CharacterShop" value="CharacterShop" />
+    <node name="TournamentSelect" value="TournamentSelect" />		
+    <node name="trackerManager" value="SpeedorShop" />		
+  </node>
+
+  <node name="TournamentSelect">
+    <node name="LevelSelect" value="LevelSelect" />
+    <node name="Login" value="Login"/>
+	<node name="MainMenu" value="Intro" />
+    <node name="cupWin" value="cupWin" />					
+	<node name="trackerManager" value="TournamentSelect" />		
+  </node>
+
+  <node name="TutorialScreen_Web">
+	  <node name="trackerManager" value="TutorialScreen_Web" web="TutorialScreen_Web" mobile="TutorialScreen_Mobile" />		
+  </node>
+	
+  <node name="TutorialScreen_Mobile">
+	  <node name="trackerManager" value="TutorialScreen_Web" web="TutorialScreen_Web" mobile="TutorialScreen_Mobile" />		
+  </node>
+
+  <node name="copyrightInfo">
+    <node name="Intro" value="Intro" />
+	  <node name="trackerManager" value="copyrightInfo" />		
+  </node>
+	
+  <node name="SpeedorSaleScreen">
+    <node name="LevelSelect" value="LevelSelect" />
+    <node name="Loading" value="Loading" />
+    <node name="SpeedorShop" value="SpeedorShop" />
+    <node name="TournamentSelect" value="TournamentSelect" />			
+    <node name="cupWin" value="cupWin" />					
+    <node name="trackerManager" value="SpeedorShop" />		
+  </node>
+	
+  <node name="cupWin">
+    <node name="LevelSelect" value="LevelSelect" />
+    <node name="TournamentSelect" value="TournamentSelect" />
+    <node name="EndOfRace" value="EndOfRace"/>		
+    <node name="trackerManager" value="cupWin" />		
+  </node>
+	
+  
+</FlowFacade>

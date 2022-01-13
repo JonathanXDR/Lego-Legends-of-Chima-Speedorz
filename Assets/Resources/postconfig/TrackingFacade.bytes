@@ -1,0 +1,139 @@
+<TrackingFacade name="trackingFacade">
+	<Trackers name="Trackers">
+		<FlurryTracker name="FlurryTracker" type="flurryTracker" value="config/flurry" /> 
+		<!-- <PlaytomicTracker name="PlaytomicTracker" type="PlaytomicTracker" value="config/playtomic" /> -->
+		<GaTracker name="GaTracker" type="GaTracker" /> 
+	</Trackers>
+		
+	<node name="metrics">
+    	<node name="StartRoute01" value="Route 1" group="Race Start" timer="Start"/>		
+    	<node name="StartRoute02" value="Route 2" group="Race Start" timer="Start"/>		
+    	<node name="StartRoute03" value="Route 3" group="Race Start" timer="Start"/>		
+    	<node name="StartRoute04" value="Route 4" group="Race Start" timer="Start"/>		
+    	<node name="StartRoute05" value="Route 5" group="Race Start" timer="Start"/>		
+    	<node name="StartRoute06" value="Route 6" group="Race Start" timer="Start"/>		
+    	<node name="StartRoute07" value="Route 7" group="Race Start" timer="Start"/>		
+    	<node name="StartRoute08" value="Route 8" group="Race Start" timer="Start"/>		
+    	<node name="StartRoute09" value="Route 9" group="Race Start" timer="Start"/>		
+    	<node name="StartRoute10" value="Route 10" group="Race Start" timer="Start"/>		
+    	<node name="StartRoute11" value="Route 11" group="Race Start" timer="Start"/>		
+    	<node name="StartRoute12" value="Route 12" group="Race Start" timer="Start"/>		
+    	<node name="StartRoute13" value="Route 13" group="Race Start" timer="Start"/>		
+    	<node name="StartRoute14" value="Route 14" group="Race Start" timer="Start"/>		
+    	<node name="StartRoute15" value="Route 15" group="Race Start" timer="Start"/>		
+    	<node name="StartRoute16" value="Route 16" group="Race Start" timer="Start"/>		
+    	<node name="StartRoute17" value="Route 17" group="Race Start" timer="Start"/>		
+    	<node name="StartRoute18" value="Route 18" group="Race Start" timer="Start"/>		
+
+		
+    	<node name="EndRoute01" value="End Route 1" timer="StartRoute01" />
+    	<node name="EndRoute02" value="End Route 2" timer="StartRoute02" />
+    	<node name="EndRoute03" value="End Route 3" timer="StartRoute03" />
+    	<node name="EndRoute04" value="End Route 4" timer="StartRoute04" />
+    	<node name="EndRoute05" value="End Route 5" timer="StartRoute05" />
+    	<node name="EndRoute06" value="End Route 6" timer="StartRoute06" />
+    	<node name="EndRoute07" value="End Route 7" timer="StartRoute07" />
+    	<node name="EndRoute08" value="End Route 8" timer="StartRoute08" />
+    	<node name="EndRoute09" value="End Route 9" timer="StartRoute09" />
+    	<node name="EndRoute10" value="End Route 10" timer="StartRoute10" />
+    	<node name="EndRoute11" value="End Route 11" timer="StartRoute11" />
+    	<node name="EndRoute12" value="End Route 12" timer="StartRoute12" />
+    	<node name="EndRoute13" value="End Route 13" timer="StartRoute13" />
+    	<node name="EndRoute14" value="End Route 14" timer="StartRoute14" />
+    	<node name="EndRoute15" value="End Route 15" timer="StartRoute15" />
+    	<node name="EndRoute16" value="End Route 16" timer="StartRoute16" />
+    	<node name="EndRoute17" value="End Route 17" timer="StartRoute17" />
+    	<node name="EndRoute18" value="End Route 18" timer="StartRoute18" />
+
+		<!-- Start timers -->
+    	<node name="StartRoute" value="Game - Start Route" timer="Start" >
+			<node name="Route" type="parameter" value="core/facades/trackingFacade/trackingData/route" />
+			<node name="Head" type="parameter" value="core/facades/gameDataFacade/gameDataSaved/character/head" />	
+			<node name="Torso" type="parameter" value="core/facades/gameDataFacade/gameDataSaved/character/torso" />	
+			<node name="Legs" type="parameter" value="core/facades/gameDataFacade/gameDataSaved/character/legs" />	
+			<node name="Speedor" type="parameter" value="core/facades/gameDataFacade/gameDataSaved/character/speedor" />				
+		</node>		
+
+		<!-- End timers -->
+    	<node name="EndRoute" value="Game - End Route" timer="StartRoute" />			
+		
+		<node name="Intro" value="Screen - Intro" group="Screens" type="pageview" />
+    	<node name="Login" value="Screen - Login" group="Screens" type="pageview" />
+    	<node name="Pause" value="Screen - Pause" group="Screens" type="pageview" />
+    	<node name="Main" value="Screen - Main Menu" group="Screens" type="pageview" />
+    	<node name="Friends" value="Screen - Friends Menu" group="Screens" type="pageview" />			
+    	<node name="ShopFront" value="Screen - Shop Front" group="Screens" type="pageview" />
+    	<node name="CharacterShop" value="Screen - Shop Character" group="Screens" type="pageview" />		
+    	<node name="SpeedorShop" value="Screen - Shop Speedor" group="Screens" type="pageview" />
+		<node name="CoolStuff_Home" value="Screen - CoolStuff" group="Screens" type="pageview" />
+    	<node name="CoolStuff_Bio" value="Screen - CoolStuff Bios" group="Screens" type="pageview" />
+    	<node name="CoolStuff_News" value="Screen - CoolStuff News" group="Screens" type="pageview" />
+    	<node name="CoolStuff_Vids" value="Screen - CoolStuff Vids" group="Screens" type="pageview" />			
+    	<node name="EndOfRace" value="Screen - End of Race" group="Screens" type="pageview" />
+    	<node name="LevelSelect" value="Screen - Level Select" group="Screens" type="pageview" />
+    	<node name="CreditsScreen" value="Screen - Credits" group="Screens" type="pageview" />
+    	<node name="Loading" value="Screen - Loading" group="Screens" type="pageview" />
+    	<node name="Game" value="Screen - Game" group="Screens" type="pageview" />
+    	<node name="Pause" value="Screen - Pause" group="Screens" type="pageview" />
+    	<node name="Achievements" value="Screen - Achievements" group="Screens" type="pageview" />
+    	<node name="TournamentSelect" value="Screen - Tournament Select" group="Screens" type="pageview" />
+    	<node name="TutorialScreen" value="Screen - Tutorial" group="Screens" type="pageview" />
+    	<node name="TutorialScreen" value="Screen - Loading" group="Screens" type="pageview" />
+    	<node name="copyrightInfo" value="Screen - Copyright" group="Screens" type="pageview" />		
+
+    	<node name="iPod4" value="iPod4" />		
+		
+        <node name="SPEEDOR_CRAGGER" value="CRAGGER" group="Purchase - Speedor" />
+        <node name="SPEEDOR_CRAWLEY" value="CRAWLEY" group="Purchase - Speedor" />
+        <node name="SPEEDOR_CROMINUS" value="CROMINUS" group="Purchase - Speedor" />
+        <node name="SPEEDOR_EGLOR" value="EGLOR" group="Purchase - Speedor" />
+        <node name="SPEEDOR_EQUILA" value="EQUILA" group="Purchase - Speedor" />
+        <node name="SPEEDOR_LAVAL" value="LAVAL" group="Purchase - Speedor" />
+        <node name="SPEEDOR_LENNOX" value="LENNOX" group="Purchase - Speedor" />
+        <node name="SPEEDOR_LEONIDAS" value="LEONIDAS" group="Purchase - Speedor" />
+        <node name="SPEEDOR_LIONFS" value="LIONFS" group="Purchase - Speedor" />
+        <node name="SPEEDOR_LONGTOOTH" value="LONGTOOTH" group="Purchase - Speedor" />
+        <node name="SPEEDOR_RAZAR" value="RAZAR" group="Purchase - Speedor" />
+        <node name="SPEEDOR_WAKZ" value="WAKZ" group="Purchase - Speedor" />
+        <node name="SPEEDOR_WINZAR" value="WINZAR" group="Purchase - Speedor" />
+        <node name="SPEEDOR_WOLFFS" value="WOLFFS" group="Purchase - Speedor" />
+        <node name="SPEEDOR_WORRIZ" value="WORRIZ" group="Purchase - Speedor" />
+
+    	<node name="Route01Stars" value="core/facades/trackingFacade/trackingData/stars" group="Game - Race Award" />		
+    	<node name="Route02Stars" value="core/facades/trackingFacade/trackingData/stars" group="Game - Race Award" />		
+    	<node name="Route03Stars" value="core/facades/trackingFacade/trackingData/stars" group="Game - Race Award" />		
+    	<node name="Route04Stars" value="core/facades/trackingFacade/trackingData/stars" group="Game - Race Award" />		
+    	<node name="Route05Stars" value="core/facades/trackingFacade/trackingData/stars" group="Game - Race Award" />		
+    	<node name="Route06Stars" value="core/facades/trackingFacade/trackingData/stars" group="Game - Race Award" />
+    	<node name="Route07Stars" value="core/facades/trackingFacade/trackingData/stars" group="Game - Race Award" />		
+    	<node name="Route08Stars" value="core/facades/trackingFacade/trackingData/stars" group="Game - Race Award" />		
+    	<node name="Route09Stars" value="core/facades/trackingFacade/trackingData/stars" group="Game - Race Award" />		
+    	<node name="Route10Stars" value="core/facades/trackingFacade/trackingData/stars" group="Game - Race Award" />		
+    	<node name="Route11Stars" value="core/facades/trackingFacade/trackingData/stars" group="Game - Race Award" />		
+    	<node name="Route12Stars" value="core/facades/trackingFacade/trackingData/stars" group="Game - Race Award" />		
+    	<node name="Route13Stars" value="core/facades/trackingFacade/trackingData/stars" group="Game - Race Award" />		
+    	<node name="Route14Stars" value="core/facades/trackingFacade/trackingData/stars" group="Game - Race Award" />		
+    	<node name="Route15Stars" value="core/facades/trackingFacade/trackingData/stars" group="Game - Race Award" />		
+    	<node name="Route16Stars" value="core/facades/trackingFacade/trackingData/stars" group="Game - Race Award" />		
+    	<node name="Route17Stars" value="core/facades/trackingFacade/trackingData/stars" group="Game - Race Award" />		
+    	<node name="Route18Stars" value="core/facades/trackingFacade/trackingData/stars" group="Game - Race Award" />				
+		
+		<!-- Route complete -->		
+    	<node name="CompleteRoute" value="Race Completed" >
+			<node name="Stars" type="parameter" label="core/facades/trackingFacade/trackingData/routeLabel" value="core/facades/trackingFacade/trackingData/stars" />
+		</node>		
+
+		<!-- Route complete -->		
+    	<node name="AchievementComplete" value="Achievements" >
+			<node name="Achievement" type="parameter" value="core/facades/trackingFacade/trackingData/achievement" />
+		</node>	
+		
+	</node>
+					
+	<node name="trackingData">
+		<node name="route" value="" />
+		<node name="stars" value="" />
+		<node name="routeLabel" value="" />		
+		<node name="achievement" value="" />
+	</node>
+</TrackingFacade>

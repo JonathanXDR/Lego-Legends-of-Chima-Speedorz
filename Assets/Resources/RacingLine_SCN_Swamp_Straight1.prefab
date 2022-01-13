@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1057126178690824}
+  m_IsPrefabParent: 1
+--- !u!1 &1057126178690824
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4902581574778354}
+  m_Layer: 0
+  m_Name: RacingLine_SCN_Swamp_Straight1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4902581574778354
+Transform:
+  m_GameObject: {fileID: 1057126178690824}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -460.3851, y: -14.83984, z: 1861.733}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4730567362571425}
+  - {fileID: 4093213271514361}
+  - {fileID: 4774029065981633}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1568685811709576
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4730567362571425}
+  - component: {fileID: 114491814295821188}
+  m_Layer: 0
+  m_Name: Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730567362571425
+Transform:
+  m_GameObject: {fileID: 1568685811709576}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 460.3851, y: 14.83984, z: -1861.733}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4902581574778354}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114491814295821188
+MonoBehaviour:
+  m_GameObject: {fileID: 1568685811709576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 139885c017b41a94c93c156f72406f44, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1927056510105595
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4093213271514361}
+  - component: {fileID: 114662714604032778}
+  m_Layer: 0
+  m_Name: Straight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4093213271514361
+Transform:
+  m_GameObject: {fileID: 1927056510105595}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 460.3851, y: 14.83984, z: -1861.733}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4902581574778354}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114662714604032778
+MonoBehaviour:
+  m_GameObject: {fileID: 1927056510105595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 139885c017b41a94c93c156f72406f44, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1008204252374485
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4774029065981633}
+  - component: {fileID: 114812257006000270}
+  m_Layer: 0
+  m_Name: Left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4774029065981633
+Transform:
+  m_GameObject: {fileID: 1008204252374485}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 460.3851, y: 14.83984, z: -1861.733}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4902581574778354}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114812257006000270
+MonoBehaviour:
+  m_GameObject: {fileID: 1008204252374485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 139885c017b41a94c93c156f72406f44, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

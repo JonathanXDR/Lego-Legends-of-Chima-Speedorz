@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1610077062459409}
+  m_IsPrefabParent: 1
+--- !u!1 &1610077062459409
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4808010962358485}
+  m_Layer: 0
+  m_Name: Setup_Canyon_Straight1a
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4808010962358485
+Transform:
+  m_GameObject: {fileID: 1610077062459409}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4628604482995472}
+  - {fileID: 4150985641967202}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791003470950867
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4628604482995472}
+  - component: {fileID: 114899788963843839}
+  - component: {fileID: 65491330162929417}
+  m_Layer: 0
+  m_Name: lightprobeSwitch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4628604482995472
+Transform:
+  m_GameObject: {fileID: 1791003470950867}
+  m_LocalRotation: {x: 0, y: 0.05723071, z: 0, w: 0.998361}
+  m_LocalPosition: {x: -422.7078, y: 4.02425, z: 1290.261}
+  m_LocalScale: {x: 15.64208, y: 68.08189, z: 5.653811}
+  m_Children: []
+  m_Father: {fileID: 4808010962358485}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -6.561742, z: 0}
+--- !u!114 &114899788963843839
+MonoBehaviour:
+  m_GameObject: {fileID: 1791003470950867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d57209fda02cad44cb28bb6270c1b685, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65491330162929417
+BoxCollider:
+  m_GameObject: {fileID: 1791003470950867}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1984036395593376
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4150985641967202}
+  - component: {fileID: 65176583600036825}
+  - component: {fileID: 114543612065674253}
+  - component: {fileID: 114682507820920421}
+  m_Layer: 12
+  m_Name: Unloader Canyon Split 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4150985641967202
+Transform:
+  m_GameObject: {fileID: 1984036395593376}
+  m_LocalRotation: {x: 0, y: 0.06351276, z: 0, w: 0.9979811}
+  m_LocalPosition: {x: -421.6559, y: 3.161075, z: 1299.88}
+  m_LocalScale: {x: 11.80004, y: 51.99364, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4808010962358485}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -7.282928, z: 0}
+--- !u!65 &65176583600036825
+BoxCollider:
+  m_GameObject: {fileID: 1984036395593376}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114543612065674253
+MonoBehaviour:
+  m_GameObject: {fileID: 1984036395593376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507df684864d98940a4ffe2f2efb85b6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114682507820920421
+MonoBehaviour:
+  m_GameObject: {fileID: 1984036395593376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 042eead2f8cf0b34d86268a62699b5de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

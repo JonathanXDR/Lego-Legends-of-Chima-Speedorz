@@ -1,0 +1,73 @@
+<root name="core">
+		
+	<!-- displays the build version -->
+	<xml name="buildXmlLoader" value="build" create="init"/>
+	<xml name="configXmlLoader" value="config" bootParamOverride="config" create="init">
+		<xml name="localisationFacade" value="postConfig/LocalisationFacade" parent="core/facades"/>	
+		<xml name="trackingFacade" value="postConfig/trackingFacade" parent="core/facades"/>
+	</xml>
+	<xml name="loadInitialXmls" value="postConfig/init" parent="core"/>
+	<xml name="loadGameDataFacade" value="GameDataFacade" create="init" parent="core/facades"/>
+    <xml name="loadSavedData" value="SaveData" create="init" parent="core/facades"/>
+  <node name="game"/>
+
+	<!-- nodes or relays added to this at runtime will receive a tick message every frame -->
+	<node name="tick"/>
+	
+	<!-- something to add events to if you want (at runtime) -->
+	<node name="events"/>
+	
+	<node name="facades">
+
+		<SaveDataFacade name="saveData" stageId="0" difficultyId="0">
+			<node name="targets">
+        <node name="money" value="core/facades/gameDataFacade/gameDataSaved/STUD_POINTS"/>
+        <node name="sound" value="core/facades/gameDataFacade/gameDataSaved/sound"/>
+        <node name="character" value="core/facades/gameDataFacade/gameDataSaved/character"/>
+        <node name="tutorials" value="core/facades/gameDataFacade/gameDataSaved/tutorials"/>
+        <node name="incentives" value="core/facades/gameDataFacade/gameDataSaved/progression/incentives"/>
+        <node name="shopItems" value="core/facades/gameDataFacade/gameDataSaved/progression/shopItems"/>
+        <node name="routes" value="core/facades/gameDataFacade/gameDataSaved/progression/routes"/>
+        <node name="playerStats" value="core/facades/gameDataFacade/gameDataSaved/playerStats"/>
+        <node name="vaultData" value="core/facades/gameDataFacade/gameDataSaved/vaultData"/>
+        <node name="extraData" value="core/facades/gameDataFacade/gameDataSaved/extraData"/>
+        <node name="vaultCodes" value="core/facades/gameDataFacade/gameDataSaved/vaultCodes"/>
+      </node>
+		</SaveDataFacade>
+		
+		<!-- root of all GUI in the Trillian system -->
+		<GUILayoutFacade name="guiLayoutFacade" debugMaterial="Materials/Debug/DebugRender">
+			<node name="root"/>
+			<node name="fonts" default="ytm" >
+				<GUIFont name="ytm" value="ytm"/>
+				<GUIFont name="gillSans" value="gillSans"/>
+			</node>
+		</GUILayoutFacade>
+		
+		<GUIRenderFacade name="guiRenderFacade">
+			<node name="guiCameras" guiCamStartDepth="10" >
+				<camera name="gui00" depth="0" farClipPlane="102.0" />
+				</node>
+		</GUIRenderFacade>
+
+		<!-- handles brain-specific handling of User Account events -->
+		<ChimaUserAccountFacade name="chimaUA" config="default" saveData="/facades/saveData"/>
+		<!--ChimaFriendshipFacade name="chimaFriendship" config="friendshipService"/-->
+		
+		<!-- handles signing in generically, according to configuration XMLs -->
+		<UserAccountFacade name="userAccountFacade">    <!-- UA callbacks -->
+			<node name="checkSignInCallback" value="/facades/chimaUA"/>
+			<node name="signInCallback" value="/facades/chimaUA"/>
+			<node name="signOutCallback" value="/facades/chimaUA"/>
+			<node name="registerNewAccountCallback" value="/facades/chimaUA"/>
+			<node name="saveStateCallback" value="/facades/chimaUA"/>
+			<node name="loadStateCallback" value="/facades/chimaUA"/>
+		</UserAccountFacade>
+		
+		<StatisticsFacade name="StatisticsFacade"/>
+		
+		<AchievementsFacade name="AchievementsFacade" create="init"/>
+
+	</node>
+	
+</root>

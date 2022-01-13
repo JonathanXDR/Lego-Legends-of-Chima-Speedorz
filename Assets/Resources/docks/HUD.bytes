@@ -1,0 +1,22 @@
+<dock name="HUD" overlay="true" modal="false" active="false" interactive="true">
+	<uiobj name="ScoreContainer">
+		<anchor name="anchor" left="true" top="true" right="false" bottom="false" anchorModeH="center" anchorModeV="center"/>	
+		<rect name="bounds" xoffset="20" yoffset="20"/>
+		<GUILoader name="Score_Loader" value="Components/HUD/HUD_Score" create="self" visible="true" active="false"/>
+	</uiobj>	
+	<uiobj name="LivesContainer">
+		<anchor name="anchor" left="false" top="true" right="true" bottom="false" anchorModeH="center" anchorModeV="center"/>	
+		<rect name="bounds" xoffset="20" yoffset="20"/>
+		<GUILoader name="Score_Loader" value="Components/HUD/HUD_Lives" create="self" visible="true" active="false"/>
+	</uiobj>	
+	<uiobj name="LeftJoystick">
+		<anchor name="anchor" left="true" top="false" right="false" bottom="true" anchorModeH="center" anchorModeV="center"/>
+		<rect name="bounds" xoffset="20" yoffset="20"/>
+		<GUILoader name="LeftJoystick_Loader" value="Components/HUD/HUD_Joystick" create="self" visible="true" active="false"/>
+	</uiobj>
+	<uiobj name="RightJoystick">
+		<anchor name="anchor" left="false" top="false" right="true" bottom="true" anchorModeH="center" anchorModeV="center"/>	
+		<rect name="bounds" xoffset="20" yoffset="20"/>
+		<GUILoader name="RightJoystick_Loader" value="Components/HUD/HUD_Joystick" create="self" visible="true" active="false"/>
+	</uiobj>	
+</dock>

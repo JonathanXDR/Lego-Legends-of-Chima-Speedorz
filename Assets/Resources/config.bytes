@@ -1,0 +1,37 @@
+<node name="config">
+	<node name="webLanguage" value="EN_UK"/>
+
+	<node name="playerCharacter" value="0100001"/>
+
+	<node name="showLegoAddress" value="1"/>
+
+	<node name="fileLocation">
+		<node name="localisationWeb" value="localisation"/>
+		<node name="localisation" value="localisation"/>
+	</node>
+	
+	<node name="languageCode" value="1033"/> <!-- US -->
+	
+	<node name="playtomic"> 
+		<node name="Name" value="TTGLOC"/>
+		<node name="SubType" value="default"/>
+		<!-- MAIN GAME -->
+		<node name="MainRelease">
+			<node name="SWFID" value="951655"/>
+			<node name="GUID" value="44185d6b36174cfb"/>
+			<node name="API_Key" value="0b064d2d4c37447e8be9bcd8898776"/>
+		</node>
+		<!-- PARTNERS -->
+		<node name="PartnersRelease">
+			<node name="SWFID" value="951656"/>
+			<node name="GUID" value="5af98bb124e645e8"/>
+			<node name="API_Key" value="bbc56efb53c8427faa38bb01c62959"/>
+		</node>
+		<node name="trackerUrl" value=""/> 
+	</node>		
+	
+	<node name="flurry"> 
+		<node name="API_Key" value="3F37RQPJJ92MVN495HFN" />
+	</node>  
+	
+</node>

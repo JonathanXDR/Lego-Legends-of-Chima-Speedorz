@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1911382573340046}
+  m_IsPrefabParent: 1
+--- !u!1 &1911382573340046
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4547180865209290}
+  - component: {fileID: 111419355468313230}
+  - component: {fileID: 114914202727378232}
+  m_Layer: 0
+  m_Name: Slalom_Challenge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4547180865209290
+Transform:
+  m_GameObject: {fileID: 1911382573340046}
+  m_LocalRotation: {x: 0, y: -0.5526417, z: 0, w: 0.833419}
+  m_LocalPosition: {x: 1344.604, y: 7.511574, z: -137.6082}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4916869359625843}
+  - {fileID: 4927048805917377}
+  - {fileID: 4681834324195774}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 67.09686, z: 0}
+--- !u!111 &111419355468313230
+Animation:
+  m_GameObject: {fileID: 1911382573340046}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &114914202727378232
+MonoBehaviour:
+  m_GameObject: {fileID: 1911382573340046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e232525acd79e248be7c93df6cc8105, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1660945397826320
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4916869359625843}
+  - component: {fileID: 33387521232102797}
+  - component: {fileID: 23092240839871362}
+  m_Layer: 17
+  m_Name: Flames
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4916869359625843
+Transform:
+  m_GameObject: {fileID: 1660945397826320}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.2326015, y: 0.04292089, z: 0.04110572}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4547180865209290}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33387521232102797
+MeshFilter:
+  m_GameObject: {fileID: 1660945397826320}
+  m_Mesh: {fileID: 4300000, guid: 0af39917bdda48f47a8663fc524770d7, type: 2}
+--- !u!23 &23092240839871362
+MeshRenderer:
+  m_GameObject: {fileID: 1660945397826320}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 444cdf02225de8f4dab984d966154258, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1567733987692980
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4927048805917377}
+  m_Layer: 0
+  m_Name: Pickups
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4927048805917377
+Transform:
+  m_GameObject: {fileID: 1567733987692980}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.892188E-05, y: -0.7274827, z: -6.940709E-05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4228438206129344}
+  m_Father: {fileID: 4547180865209290}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1133472341567417
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4228438206129344}
+  - component: {fileID: 111030014352913687}
+  - component: {fileID: 65118102668820341}
+  - component: {fileID: 114796147414279058}
+  m_Layer: 13
+  m_Name: Monitor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4228438206129344
+Transform:
+  m_GameObject: {fileID: 1133472341567417}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.006121052, y: 1.369396, z: -0.03806989}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4927048805917377}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &111030014352913687
+Animation:
+  m_GameObject: {fileID: 1133472341567417}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 83f0364a35d3aa24fb71bac8ab145dbe, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!65 &65118102668820341
+BoxCollider:
+  m_GameObject: {fileID: 1133472341567417}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.7, y: 5.33, z: 0.39}
+  m_Center: {x: 0, y: 1.72, z: 0}
+--- !u!114 &114796147414279058
+MonoBehaviour:
+  m_GameObject: {fileID: 1133472341567417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 819a9b690cd46444e8f0729e4de19e27, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1368625882471371
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4681834324195774}
+  - component: {fileID: 33628943155484604}
+  - component: {fileID: 23495471820334689}
+  m_Layer: 17
+  m_Name: Slalom_Gate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4681834324195774
+Transform:
+  m_GameObject: {fileID: 1368625882471371}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.2326015, y: 0.04292089, z: 0.04110572}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4547180865209290}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33628943155484604
+MeshFilter:
+  m_GameObject: {fileID: 1368625882471371}
+  m_Mesh: {fileID: 4300000, guid: 72f99532a91187d4eba5fa4b6e8840fd, type: 2}
+--- !u!23 &23495471820334689
+MeshRenderer:
+  m_GameObject: {fileID: 1368625882471371}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 444cdf02225de8f4dab984d966154258, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

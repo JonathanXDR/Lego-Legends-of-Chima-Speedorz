@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1607202169426708}
+  m_IsPrefabParent: 1
+--- !u!1 &1607202169426708
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4895099317856245}
+  m_Layer: 0
+  m_Name: Setup_SCN_Arena_Swamp_Straight2_End3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4895099317856245
+Transform:
+  m_GameObject: {fileID: 1607202169426708}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -96.45232, y: -61.99066, z: 2397.314}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4940720074475630}
+  - {fileID: 4830368616755015}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1325381568947133
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4940720074475630}
+  - component: {fileID: 65595329436291890}
+  - component: {fileID: 114778003874500829}
+  - component: {fileID: 114372953687251156}
+  m_Layer: 12
+  m_Name: Unloader_SCN_Swamp_Straight2_End3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4940720074475630
+Transform:
+  m_GameObject: {fileID: 1325381568947133}
+  m_LocalRotation: {x: 0, y: 0.1304142, z: 0, w: 0.9914596}
+  m_LocalPosition: {x: -1.07682, y: 68.79775, z: 11.44482}
+  m_LocalScale: {x: 35.40543, y: 19.40634, z: 2.681384}
+  m_Children: []
+  m_Father: {fileID: 4895099317856245}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -14.98706, z: 0}
+--- !u!65 &65595329436291890
+BoxCollider:
+  m_GameObject: {fileID: 1325381568947133}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114778003874500829
+MonoBehaviour:
+  m_GameObject: {fileID: 1325381568947133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507df684864d98940a4ffe2f2efb85b6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114372953687251156
+MonoBehaviour:
+  m_GameObject: {fileID: 1325381568947133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 042eead2f8cf0b34d86268a62699b5de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1847990378946080
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4830368616755015}
+  - component: {fileID: 65221292287100006}
+  - component: {fileID: 114113709702300834}
+  m_Layer: 12
+  m_Name: LightSwitcher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4830368616755015
+Transform:
+  m_GameObject: {fileID: 1847990378946080}
+  m_LocalRotation: {x: 0, y: 0.1304139, z: 0, w: 0.9914597}
+  m_LocalPosition: {x: 31.67665, y: 68.79775, z: 131.3838}
+  m_LocalScale: {x: 35.40543, y: 39.69637, z: 304.7762}
+  m_Children: []
+  m_Father: {fileID: 4895099317856245}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -14.98703, z: 0}
+--- !u!65 &65221292287100006
+BoxCollider:
+  m_GameObject: {fileID: 1847990378946080}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114113709702300834
+MonoBehaviour:
+  m_GameObject: {fileID: 1847990378946080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d57209fda02cad44cb28bb6270c1b685, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

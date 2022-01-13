@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1083036702254084}
+  m_IsPrefabParent: 1
+--- !u!1 &1083036702254084
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4994909913261533}
+  m_Layer: 0
+  m_Name: Setup_Swamp_Split1a
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4994909913261533
+Transform:
+  m_GameObject: {fileID: 1083036702254084}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -377.8305, y: -9.78995, z: 1967.213}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4817616050176639}
+  - {fileID: 4200553842053210}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1028316112092440
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4817616050176639}
+  - component: {fileID: 114797159348309703}
+  - component: {fileID: 114565316649284099}
+  - component: {fileID: 65438284041994475}
+  m_Layer: 12
+  m_Name: Scene Loader_SCN_Swamp_Straight_2_3_Common
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4817616050176639
+Transform:
+  m_GameObject: {fileID: 1028316112092440}
+  m_LocalRotation: {x: 0, y: 0.5645477, z: 0, w: 0.8254005}
+  m_LocalPosition: {x: 117.5793, y: 10.26325, z: -11.70996}
+  m_LocalScale: {x: 11.62493, y: 2.541178, z: 2.541178}
+  m_Children: []
+  m_Father: {fileID: 4994909913261533}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -68.74177, z: 0}
+--- !u!114 &114797159348309703
+MonoBehaviour:
+  m_GameObject: {fileID: 1028316112092440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507df684864d98940a4ffe2f2efb85b6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114565316649284099
+MonoBehaviour:
+  m_GameObject: {fileID: 1028316112092440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f02f69431ac48be4f9bf90f2ac15b639, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65438284041994475
+BoxCollider:
+  m_GameObject: {fileID: 1028316112092440}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1784228759772157
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4200553842053210}
+  - component: {fileID: 65358964259011943}
+  - component: {fileID: 114913352916494550}
+  - component: {fileID: 114831596792083373}
+  m_Layer: 12
+  m_Name: Unloader_Swamp_Split_and_Straight1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4200553842053210
+Transform:
+  m_GameObject: {fileID: 1784228759772157}
+  m_LocalRotation: {x: 0, y: -0.1727058, z: 0, w: 0.9849735}
+  m_LocalPosition: {x: -11.1362, y: 10.09774, z: -57.84509}
+  m_LocalScale: {x: 1, y: 2.088979, z: 12.38869}
+  m_Children: []
+  m_Father: {fileID: 4994909913261533}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 19.89036, z: 0}
+--- !u!65 &65358964259011943
+BoxCollider:
+  m_GameObject: {fileID: 1784228759772157}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114913352916494550
+MonoBehaviour:
+  m_GameObject: {fileID: 1784228759772157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507df684864d98940a4ffe2f2efb85b6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114831596792083373
+MonoBehaviour:
+  m_GameObject: {fileID: 1784228759772157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 042eead2f8cf0b34d86268a62699b5de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1668916310187037}
+  m_IsPrefabParent: 1
+--- !u!1 &1668916310187037
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4818484658432260}
+  m_Layer: 0
+  m_Name: Setup_SCN_Arena
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4818484658432260
+Transform:
+  m_GameObject: {fileID: 1668916310187037}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4273373813910006}
+  - {fileID: 4966463025556417}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1458683752776722
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4273373813910006}
+  - component: {fileID: 114131342437870809}
+  - component: {fileID: 65816828244906540}
+  m_Layer: 12
+  m_Name: lightprobeSwitch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4273373813910006
+Transform:
+  m_GameObject: {fileID: 1458683752776722}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -128.828, y: 12.85276, z: 11.31098}
+  m_LocalScale: {x: 4.049262, y: 9.895699, z: 13.89444}
+  m_Children: []
+  m_Father: {fileID: 4818484658432260}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114131342437870809
+MonoBehaviour:
+  m_GameObject: {fileID: 1458683752776722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d57209fda02cad44cb28bb6270c1b685, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65816828244906540
+BoxCollider:
+  m_GameObject: {fileID: 1458683752776722}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1999432623569965
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4966463025556417}
+  - component: {fileID: 65967059899220796}
+  - component: {fileID: 114295850438532336}
+  - component: {fileID: 114078594018455196}
+  m_Layer: 12
+  m_Name: Unloader_Swamp_Straight1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4966463025556417
+Transform:
+  m_GameObject: {fileID: 1999432623569965}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -130.262, y: 17.01401, z: 11.6298}
+  m_LocalScale: {x: 1.736127, y: 13.97635, z: 22.92333}
+  m_Children: []
+  m_Father: {fileID: 4818484658432260}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65967059899220796
+BoxCollider:
+  m_GameObject: {fileID: 1999432623569965}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114295850438532336
+MonoBehaviour:
+  m_GameObject: {fileID: 1999432623569965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507df684864d98940a4ffe2f2efb85b6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114078594018455196
+MonoBehaviour:
+  m_GameObject: {fileID: 1999432623569965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 042eead2f8cf0b34d86268a62699b5de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

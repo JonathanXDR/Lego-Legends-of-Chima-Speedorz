@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1568030164193939}
+  m_IsPrefabParent: 1
+--- !u!1 &1568030164193939
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4366547183445524}
+  m_Layer: 0
+  m_Name: Challenges_SCN_Canyon_Straight3b
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4366547183445524
+Transform:
+  m_GameObject: {fileID: 1568030164193939}
+  m_LocalRotation: {x: 0, y: -0.1725884, z: 0, w: 0.9849941}
+  m_LocalPosition: {x: 565.9105, y: -0.7937737, z: 1380.593}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4764097060167714}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 19.8767, z: 0}
+--- !u!1 &1112986366464892
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4764097060167714}
+  - component: {fileID: 114593241965967559}
+  - component: {fileID: 65926441266589287}
+  m_Layer: 0
+  m_Name: ChallengeLocation1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4764097060167714
+Transform:
+  m_GameObject: {fileID: 1112986366464892}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4782896970676487}
+  - {fileID: 4630455496955757}
+  m_Father: {fileID: 4366547183445524}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114593241965967559
+MonoBehaviour:
+  m_GameObject: {fileID: 1112986366464892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b24b8f6dd2e19ab458847db065dc7c34, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65926441266589287
+BoxCollider:
+  m_GameObject: {fileID: 1112986366464892}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1370028164005805
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4782896970676487}
+  - component: {fileID: 65549782769830425}
+  - component: {fileID: 114800027492151545}
+  m_Layer: 2
+  m_Name: CameraVolume1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4782896970676487
+Transform:
+  m_GameObject: {fileID: 1370028164005805}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4764097060167714}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65549782769830425
+BoxCollider:
+  m_GameObject: {fileID: 1370028164005805}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 35, y: 25, z: 120}
+  m_Center: {x: 0, y: 5, z: -6}
+--- !u!114 &114800027492151545
+MonoBehaviour:
+  m_GameObject: {fileID: 1370028164005805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b77992ff24b2a04d9004dd4014b02ba, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1042796642895921
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4630455496955757}
+  - component: {fileID: 114473967944767208}
+  m_Layer: 0
+  m_Name: Rip1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4630455496955757
+Transform:
+  m_GameObject: {fileID: 1042796642895921}
+  m_LocalRotation: {x: 0.005128834, y: 0.003770692, z: -0.0005147044, w: 0.9999796}
+  m_LocalPosition: {x: -0.7622513, y: 0.1584512, z: -65.87521}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4764097060167714}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0.5875138, y: -0.4323873, z: 0.05676509}
+--- !u!114 &114473967944767208
+MonoBehaviour:
+  m_GameObject: {fileID: 1042796642895921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac758dbfcb0a49d438b2f00e0ed927de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

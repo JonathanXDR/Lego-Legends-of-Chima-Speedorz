@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1539500272336767}
+  m_IsPrefabParent: 1
+--- !u!1 &1539500272336767
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4215577204614810}
+  - component: {fileID: 64838150820141676}
+  m_Layer: 0
+  m_Name: Floor_SCN_Swamp_Straight2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4215577204614810
+Transform:
+  m_GameObject: {fileID: 1539500272336767}
+  m_LocalRotation: {x: 0, y: 0.7113516, z: 0, w: 0.7028363}
+  m_LocalPosition: {x: -1666.258, y: 4.118176, z: 1882.994}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 180, y: -89.31001, z: -180}
+--- !u!64 &64838150820141676
+MeshCollider:
+  m_GameObject: {fileID: 1539500272336767}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 31feb3b72dbbe264b82aa11e1ac3773a, type: 2}

@@ -1,0 +1,96 @@
+	<uiobj name="ScrollWrapper" zdepth="4.0">
+		<anchor name="anchor" left="true" top="true" right="false" bottom="false"/>
+		<rect name="bounds" xoffset="50" yoffset="10" width="640" height="480"/>		
+	
+		<uiobj name="ScrollBarBackground">
+			<anchor name="anchor" left="true" top="true" right="false" bottom="false"/>
+			<rect name="bounds" xoffset="370" yoffset="25" width="25" height="70"/>		
+	
+		
+		
+		
+		
+		</uiobj>
+		
+		
+		<uiobj name="ShiftUp" zdepth="5.0" textid=" ">
+			<anchor name="anchor" left="true" top="true" right="false" bottom="false" anchorModeH="center" anchorModeV="center"/>
+			<rect name="bounds" xoffset="370" yoffset="0" width="25" height="25"/>
+			<GUILoader name="ExampleButton_Loader" value="Components/Input/UpButton" create="init" visible="true" active="false"/>
+			<Timeline name="onHeld">
+				<Timeline name="held" startTime="0.0">
+					<node name="events">
+						<node name="mainMenuPlayLink">
+							<node name="targets">
+								<node name="shiftScrollAreaUp" value="--ScrollWrapper/ScrollContainer/ScrollArea"/>
+							</node>
+							<node name="messages">
+								<node name="shiftY" value="1"/>
+							</node>
+						</node>
+					</node>
+				</Timeline>
+			</Timeline>
+		</uiobj>			
+		
+		
+		<uiobj name="ShiftDown" zdepth="5.0" textid=" ">
+			<anchor name="anchor" left="true" top="true" right="false" bottom="false" anchorModeH="center" anchorModeV="center"/>
+			<rect name="bounds" xoffset="370" yoffset="95" width="25" height="25"/>
+			<GUILoader name="ExampleButton_Loader" value="Components/Input/DownButton" create="init" visible="true" active="false"/>
+			<Timeline name="onHeld">
+				<Timeline name="held" startTime="0.0">
+					<node name="events">
+						<node name="mainMenuPlayLink">
+							<node name="targets">
+								<node name="shiftScrollAreaDown" value="--ScrollWrapper/ScrollContainer/ScrollArea"/>
+							</node>
+							<node name="messages">
+								<node name="shiftY" value="-1"/>
+							</node>
+						</node>
+					</node>
+				</Timeline>
+			</Timeline>
+		</uiobj>			
+		
+		<uiobj name="ScrollContainer" zdepth="1.0">
+			<anchor name="anchor" left="true" top="true" right="false" bottom="false"/>
+			<rect name="bounds" xoffset="50" yoffset="0" width="320" height="120"/>	
+			
+				
+			<uiobj name="Title" zdepth="2.0" textid="Some Scroll Area Text" textfont="Arial_32" textalign="right" textanchor="top" textscale="1.0">
+				<anchor name="anchor" left="false" top="true" right="true" bottom="false"/>
+				<rect name="bounds" xoffset="0" yoffset="0" width="100" height="200"/>
+			</uiobj>			
+	
+			<uiobj name="HUDObjectImage" zdepth="1.0" image="Textures/Debug/fullscreen640" imageanchor="top left" imagescale="1.0" imageoffsetx="0" imageoffsety="0" imagefitting="fit">
+				<anchor name="anchor" left="true" top="true" right="false" bottom="false"/>
+				<rect name="bounds" xoffset="0" yoffset="0" width="640" height="480"/>
+			</uiobj>				
+			
+			<uiobj name="PlayButton" zdepth="5.0" textid="Play">
+				<anchor name="anchor" left="true" top="false" right="true" bottom="true" anchorModeH="center" anchorModeV="center"/>
+				<rect name="bounds" xoffset="0" yoffset="40" width="200" height="50"/>
+				<GUILoader name="ExampleButton_Loader" value="Components/Input/ExampleButton" create="init" visible="true" active="false"/>
+				<Timeline name="onRelease">
+					<Timeline name="up" startTime="0.0">
+						<node name="events">
+							<node name="mainMenuPlayLink">
+								<node name="targets">
+									<node name="flowFacade" value="--core/flow"/>
+								</node>
+								<node name="messages">
+									<node name="followLink" link="_x002A_PLAY_x002A_"/>
+								</node>
+							</node>
+						</node>
+					</Timeline>
+				</Timeline>
+			</uiobj>			
+			
+			
+			<scrollarea name="ScrollArea"/>
+
+		</uiobj>		
+	</uiobj>

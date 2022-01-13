@@ -1,0 +1,68 @@
+<dock name="Main Menu" overlay="false" modal="false" active="false" interactive="true">	
+  <uiobj name="Title" zdepth="5.0" textid="Main Menu" textfont="Arial" textalign="center" textanchor="top" textscale="0.2">
+		<node name="textStyle">
+		  <Neuron name="edge" value="0" />
+		  <Neuron name="outline" value="0" />
+		  <Neuron name="outlinesize" value="0" />
+		  <Neuron name="glowx" value="0" />
+		  <Neuron name="glowy" value="0" />
+		  <Neuron name="glowstart" value="-0.5" />
+		  <Neuron name="glowend" value="1" />
+		  <color name="outlineColor">
+		    <Neuron name="hash" value="000000FF" />
+		    <Neuron name="r" value="0" />
+		    <Neuron name="g" value="0" />
+		    <Neuron name="b" value="0" />
+		    <Neuron name="a" value="1" />
+		  </color>
+		  <color name="glowColor">
+		    <Neuron name="hash" value="FFFFFF00" />
+		    <Neuron name="r" value="1" />
+		    <Neuron name="g" value="1" />
+		    <Neuron name="b" value="1" />
+		    <Neuron name="a" value="0" />
+		  </color>
+		</node>
+    <anchor name="anchor" left="true" top="true" right="true" bottom="false" anchorModeH="center" anchorModeV="center"/>
+    <rect name="bounds" xoffset="0" yoffset="40" width="400" height="200"/>
+  </uiobj>
+	
+	
+	
+  <uiobj name="PlayButton" zdepth="5.0" textid="Play">
+    <anchor name="anchor" left="true" top="false" right="true" bottom="true" anchorModeH="center" anchorModeV="center"/>
+    <rect name="bounds" xoffset="0" yoffset="40" width="200" height="50"/>
+	  <Timeline name="onRelease">
+		  <Timeline name="up" startTime="0.0">
+			  <node name="events">
+				  <node name="mainMenuPlayLink">
+					  <node name="targets">
+						  <node name="flowFacade" value="/flow"/>
+					  </node>
+					  <node name="messages">
+						  <node name="followLink" link="_x002A_PLAY_x002A_"/>
+					  </node>
+				  </node>
+			  </node>
+		  </Timeline>
+	  </Timeline>
+		
+		<uiobj name="background" zdepth="0" image="Textures/Debug/greenbutton200x50" imageanchor="centre" imagefitting="keep">
+			<anchor name="anchor" left="true" top="true" right="true" bottom="true" anchorModeH="dock" anchorModeV="dock"/>
+			<rect name="bounds" xoffset="0" yoffset="0" width="1" height="1"/>
+  		</uiobj>
+			
+	  <GUILoader name="__loader" value="Components/Input/OverlayButton" image="Textures/Debug/greenbutton_overlay" create="self" visible="true" active="false"/>
+   </uiobj>
+	
+	
+  
+	<uiobj name="MainMenuScrollBox" zdepth="1.0">
+		<anchor name="anchor" left="true" top="true" right="true" bottom="false" anchorModeH="center" anchorModeV="center"/>
+		<rect name="bounds" xoffset="100" yoffset="50" width="400" height="300"/>
+    <GUILoader name="ScrollContents_Loader" value="Components/Input/MainMenuScrollContentsExample" create="self" visible="true" active="false"/>
+    <GUILoader name="ScrollTemplate_Loader" value="Components/Input/ScrollAreaBaseTemplate" create="self" visible="true" active="false"/>
+	</uiobj>	
+
+	
+</dock>

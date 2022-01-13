@@ -1,0 +1,26 @@
+<uiobj name="AchievementTemplate" zdepth="10.0">
+	<anchor name="anchor" left="true" top="true" right="false" bottom="false" anchorModeH="center" anchorModeV="center"/>
+	<rect name="bounds" xoffset="100" yoffset="0" width="512" height="64"/>
+
+	<uiobj name="BackgroundImage" zdepth="5.0" image="Textures/Achievements/achievementBackground" imageanchor="top left" imagescale="1.0" imageoffsetx="0" imageoffsety="0" imagefitting="fit">
+		<anchor name="anchor" left="true" top="true" right="false" bottom="false" anchorModeH="center" anchorModeV="center"/>
+		<rect name="bounds" xoffset="0" yoffset="0" width="512" height="64"/>
+	</uiobj>
+
+	
+	<uiobj name="AchievementName" zdepth="15.0" textid="Achievement Name" textfont="Arial_32" textalign="left" textanchor="top" textscale="1">
+		<anchor name="anchor" left="true" top="true" right="false" bottom="false" anchorModeH="center" anchorModeV="center"/>
+		<rect name="bounds" xoffset="10" yoffset="8" width="502" height="32"/>
+	</uiobj>
+	
+	<uiobj name="AchievementProgress" zdepth="15.0" textid="0%" textfont="Arial_32" textalign="right" textanchor="top" textscale="1">
+		<anchor name="anchor" left="false" top="true" right="true" bottom="false" anchorModeH="center" anchorModeV="center"/>
+		<rect name="bounds" xoffset="64" yoffset="8" width="502" height="32"/>
+	</uiobj>	
+	
+	<uiobj name="CompletedIcon" zdepth="15.0" image="Textures/Achievements/achilocked" imageanchor="top right" imagescale="1.0" imageoffsetx="0" imageoffsety="0" imagefitting="fit">
+		<anchor name="anchor" left="false" top="true" right="right" bottom="false" anchorModeH="center" anchorModeV="center"/>
+		<rect name="bounds" xoffset="0" yoffset="0" width="64" height="64"/>
+	</uiobj>	
+	
+</uiobj>

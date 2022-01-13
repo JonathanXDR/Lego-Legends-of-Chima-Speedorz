@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1571453762505358}
+  m_IsPrefabParent: 1
+--- !u!1 &1571453762505358
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4640256030866873}
+  m_Layer: 0
+  m_Name: Challenges_SCN_Jungle_Straight2a
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4640256030866873
+Transform:
+  m_GameObject: {fileID: 1571453762505358}
+  m_LocalRotation: {x: 0, y: 0.5199885, z: 0, w: 0.8541733}
+  m_LocalPosition: {x: 202.9854, y: -0.5841217, z: 585.5983}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4451092842303056}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -62.66296, z: 0}
+--- !u!1 &1986272525636620
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4451092842303056}
+  - component: {fileID: 114594165691175039}
+  - component: {fileID: 65024492916150452}
+  m_Layer: 0
+  m_Name: ChallengeLocation1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4451092842303056
+Transform:
+  m_GameObject: {fileID: 1986272525636620}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4589754213441991}
+  - {fileID: 4624664764085348}
+  m_Father: {fileID: 4640256030866873}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114594165691175039
+MonoBehaviour:
+  m_GameObject: {fileID: 1986272525636620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b24b8f6dd2e19ab458847db065dc7c34, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65024492916150452
+BoxCollider:
+  m_GameObject: {fileID: 1986272525636620}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1750703758026839
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4589754213441991}
+  - component: {fileID: 65319168670153405}
+  - component: {fileID: 114941303614800737}
+  m_Layer: 2
+  m_Name: CameraVolume1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4589754213441991
+Transform:
+  m_GameObject: {fileID: 1750703758026839}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4451092842303056}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65319168670153405
+BoxCollider:
+  m_GameObject: {fileID: 1750703758026839}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 35, y: 25, z: 120}
+  m_Center: {x: 0, y: 5, z: -6}
+--- !u!114 &114941303614800737
+MonoBehaviour:
+  m_GameObject: {fileID: 1750703758026839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b77992ff24b2a04d9004dd4014b02ba, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1434928459673402
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4624664764085348}
+  - component: {fileID: 114396194740530105}
+  m_Layer: 0
+  m_Name: Rip1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4624664764085348
+Transform:
+  m_GameObject: {fileID: 1434928459673402}
+  m_LocalRotation: {x: 0, y: 0.002003476, z: 0, w: 0.999998}
+  m_LocalPosition: {x: -1.033078, y: 4.679499, z: -65.93391}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4451092842303056}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0.2295816, z: 0}
+--- !u!114 &114396194740530105
+MonoBehaviour:
+  m_GameObject: {fileID: 1434928459673402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac758dbfcb0a49d438b2f00e0ed927de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

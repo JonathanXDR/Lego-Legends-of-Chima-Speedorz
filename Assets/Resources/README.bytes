@@ -1,0 +1,77 @@
+How to configure the build for localisation
+
+===========================================
+
+When the game is played locally it uses default configuration and localisation data embedded in the build.
+
+The config.xml and localisation.xml are provided for hosting and are not used by a local build.
+
+===========================================
+
+To point the game to an external config file you can either host the config file or distribute with a pre-set config file. 
+
+To Host:
+Add the config file to use to a public FTP site.
+Enter its URL into the index.html on line 45, an example line would be:
+unityObject.embedUnity("unityPlayer", "WebPlayer.unity3d?config=http://demos.4t2.co.uk/legohfb/TTGLOC/config_EN_UK.xml", 640, 480, params);
+
+To Supply A Preset Config:
+Make sure that the config file is supplied in the same directory as the main game executable file (WebPlayer.unity3d)
+add the name of the config file to line 45 of the index.html file. An example line would be:
+unityObject.embedUnity("unityPlayer", "WebPlayer.unity3d?config=config_EN_UK.xml", 640, 480, params);
+
+===========================================
+
+The config.xml contains four nodes of relevance:
+
+-------------------------------------------
+
+1. <node name="webLanguage" value="EN_UK"/> is used to set the language by code (as defined in localisation.xml)
+
+-------------------------------------------
+
+2. <node name="localisationWeb" value="localisation"/> is used to point the game to a localisation URL.
+
+To point the game to a localisation URL, host the localisation.xml and point the above node to its URL.
+
+The localisation.xml contains ALL languages. To add a language, simply add a line into each node for the translation.
+
+Also, when adding languages, please add the language to the node at the top of the localisation.xml file, 
+which currently looks like this:
+
+<list value="CS|DE|EN_DK|EN_NL|EN_UK|ES|ES_LA|FI|FR|FR_CA|IT|JP|KO|NO|PL|ZHSI" />
+
+-------------------------------------------
+
+3. <node name="playerCharacter" value="0100001"/> is used to define the player's starting character.
+
+introduced for the partner version of the game, but work fine with the main release as well. 
+
+Codes are used to not make it immediately obvious to Partner sites which character they have been set 
+(and so how to manually change it themselves)
+
+The possible codes to use are as follows:
+0100001, LION_FOOTSOLDIOR - default in the full game. 
+0100010, LION_LONGTOOTH
+0100100, LION_LENNOX
+0101000, LION_LAGRAVIS
+0200001, CROC_CROOLER
+0200010, CROC_CRUG
+0200100, CROC_CROMINUS
+0300001, EAGLE_ERIS
+0400001, WOLF_WORRIS
+
+These codes will change in the future as a few of these characters are going to be competitors in future level releases and the player cant be the same as the competitors. 
+
+-------------------------------------------
+
+4. <node name="showLegoAddress" value="1"/> is used to define if the lego.com site address (or localised equivalent) is shown in the game. 
+
+The partner versions only have two levels to play and the others have "Play more at Lego.com" shown over them. 
+
+Some partners prefer not to show or endorse other sites from thier own, if this is the case then change the value to "0"
+
+and the text will not be shown. 
+
+*** this line has no effect on Main release builds ***
+

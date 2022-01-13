@@ -1,0 +1,272 @@
+<uiobj name="ScrollBox" inherit="zdepth" >
+  <anchor name="anchor" left="true" top="true" right="true" bottom="true" anchorModeH="dock" anchorModeV="dock"/>
+  <rect name="bounds"/>
+
+  <uiobj name="ScrollContainer" zdepth="1.0">
+    <anchor name="anchor" left="true" top="true" right="true" bottom="true" anchorModeH="stretch" anchorModeV="stretch"/>
+    <rect name="bounds" xoffset="0" yoffset="0" width="25" height="25"/>
+    <!--the bounds rect here is used to define the width of the horiz and vert scroll bar area 
+      (i.e. how much to clip the view area by for the scroll bars)
+       width - vertical scroll bar width
+       height - horizontal scroll bar width-->
+    
+    <scrollarea
+        name="ScrollArea"
+        vScrollBar="--ScrollBox/ScrollBarV"
+        vScrollBarDragger="--ScrollBox/ScrollBarV/ScrollBarThumbZone/Thumb/ThumbDrag"
+        hScrollBar="--ScrollBox/ScrollBarH"
+        hScrollBarDragger="--ScrollBox/ScrollBarH/ScrollBarThumbZone/Thumb/ThumbDrag"/>
+        
+  </uiobj>
+
+  <!-- vertical scrollbar with buttons -->
+  <uiobj name="ScrollBarV" active="true">
+
+    <anchor name="anchor" left="false" top="true" right="true" bottom="true" anchorModeH="center" anchorModeV="stretch"/>
+    <rect name="bounds" xoffset="0" yoffset="0" width="25" height="25"/>
+
+    <uiobj name="ScrollUp" zdepth="5.0" textid=" ">
+      <anchor name="anchor" left="false" top="true" right="true" bottom="false" anchorModeH="center" anchorModeV="center"/>
+      <rect name="bounds" xoffset="0" yoffset="0" width="25" height="25"/>
+      <GUILoader name="ExampleButton_Loader" value="Components/Input/UpButton" create="init" visible="true" active="false"/>
+      <Timeline name="onPress">
+        <Timeline name="press" startTime="0.0">
+          <node name="events">
+            <node name="event0">
+              <node name="targets">
+                <node name="scrollArea" value="--ScrollBox/ScrollContainer/ScrollArea"/>
+              </node>
+              <node name="messages">
+                <node name="shiftY" value="10"/>
+              </node>
+            </node>
+          </node>
+        </Timeline>
+      </Timeline>
+      <Timeline name="onHeld">
+        <Timeline name="held" startTime="0.0">
+          <node name="events">
+            <node name="event0">
+              <node name="targets">
+                <node name="scrollArea" value="--ScrollBox/ScrollContainer/ScrollArea"/>
+              </node>
+              <node name="messages">
+                <node name="shiftY" value="1"/>
+              </node>
+            </node>
+          </node>
+        </Timeline>
+      </Timeline>
+    </uiobj>
+
+
+    <uiobj name="ScrollDown" zdepth="5.0" textid=" ">
+      <anchor name="anchor" left="false" top="false" right="true" bottom="true" anchorModeH="center" anchorModeV="center"/>
+      <rect name="bounds" xoffset="0" yoffset="0" width="25" height="25"/>
+      <GUILoader name="ExampleButton_Loader" value="Components/Input/DownButton" create="init" visible="true" active="false"/>
+      <Timeline name="onPress">
+        <Timeline name="press" startTime="0.0">
+          <node name="events">
+            <node name="event0">
+              <node name="targets">
+                <node name="scrollArea" value="--ScrollBox/ScrollContainer/ScrollArea"/>
+              </node>
+              <node name="messages">
+                <node name="shiftY" value="-10"/>
+              </node>
+            </node>
+          </node>
+        </Timeline>
+      </Timeline>
+      <Timeline name="onHeld">
+        <Timeline name="held" startTime="0.0">
+          <node name="events">
+            <node name="event0">
+              <node name="targets">
+                <node name="scrollArea" value="--ScrollBox/ScrollContainer/ScrollArea"/>
+              </node>
+              <node name="messages">
+                <node name="shiftY" value="-1"/>
+              </node>
+            </node>
+          </node>
+        </Timeline>
+      </Timeline>
+    </uiobj>
+
+    <uiobj name="ScrollBarThumbZone">
+
+      <anchor name="anchor" left="false" top="true" right="true" bottom="true" anchorModeH="center" anchorModeV="stretch"/>
+      <rect name="bounds" xoffset="0" yoffset="25" width="25" height="25"/>
+
+      <!-- Draggers must be anchored to the top left -->
+      <uiobj name="Thumb" zdepth="5.0">
+
+        <anchor name="anchor"/>
+        <rect name="bounds" xoffset="0" yoffset="0" width="25" height="80"/>
+
+        <uiobj name="ThumbGfxTop" image="scrollbar/vert-3-slice_t" pack="Textures/ExampleScrollbars/ScrollbarBackground/TexturePack" imageanchor="top left" imagescale="1.0" imageoffsetx="0" imageoffsety="0" imagefitting="keep">
+          <anchor name="anchor" left="true" top="true" right="false" bottom="false" anchorModeH="center" anchorModeV="center"/>
+          <rect name="bounds" xoffset="0" yoffset="0" width="25" height="10"/>
+        </uiobj>
+
+        <uiobj name="ThumbGfxMid" image="scrollbar/vert-3-slice_m" pack="Textures/ExampleScrollbars/ScrollbarBackground/TexturePack" imageanchor="top left" imagescale="1.0" imageoffsetx="0" imageoffsety="0" imagefitting="fit">
+          <anchor name="anchor" left="true" top="true" right="false" bottom="true" anchorModeH="center" anchorModeV="stretch"/>
+          <rect name="bounds" xoffset="0" yoffset="10" width="25" height="10"/>
+        </uiobj>
+
+        <uiobj name="ThumbGfxBot" image="scrollbar/vert-3-slice_b" pack="Textures/ExampleScrollbars/ScrollbarBackground/TexturePack" imageanchor="top left" imagescale="1.0" imageoffsetx="0" imageoffsety="0" imagefitting="keep">
+          <anchor name="anchor" left="true" top="false" right="false" bottom="true" anchorModeH="center" anchorModeV="center"/>
+          <rect name="bounds" xoffset="0" yoffset="0" width="25" height="10"/>
+        </uiobj>
+
+        <dragger name="ThumbDrag">
+          <Timeline name="Drag">
+            <Timeline name="drag" startTime="0.0">
+              <node name="events">
+                <node name="event0">
+                  <node name="targets">
+                    <node name="scrollArea" value="--ScrollBox/ScrollContainer/ScrollArea"/>
+                  </node>
+                  <node name="messages">
+                    <node name="setYPercentageFromDragger" value="--ThumbDrag"/>
+                  </node>
+                </node>
+              </node>
+            </Timeline>
+          </Timeline>
+        </dragger>
+
+      </uiobj>
+
+    </uiobj>
+
+  </uiobj>
+  <!-- END vertical scrollbar with buttons -->
+
+  <!-- horizontal scrollbar with buttons -->
+  <uiobj name="ScrollBarH" active="true">
+
+    <anchor name="anchor" left="true" top="false" right="true" bottom="true" anchorModeH="stretch" anchorModeV="centre"/>
+    <rect name="bounds" xoffset="0" yoffset="0" width="25" height="25"/>
+
+    <uiobj name="ScrollLeft" zdepth="5.0" textid=" ">
+      <anchor name="anchor" left="true" top="false" right="false" bottom="true" anchorModeH="center" anchorModeV="center"/>
+      <rect name="bounds" xoffset="0" yoffset="0" width="25" height="25"/>
+      <GUILoader name="ExampleButton_Loader" value="Components/Input/LeftButton" create="init" visible="true" active="false"/>
+      <Timeline name="onPress">
+        <Timeline name="press" startTime="0.0">
+          <node name="events">
+            <node name="event0">
+              <node name="targets">
+                <node name="scrollArea" value="--ScrollBox/ScrollContainer/ScrollArea"/>
+              </node>
+              <node name="messages">
+                <node name="shiftX" value="-10"/>
+              </node>
+            </node>
+          </node>
+        </Timeline>
+      </Timeline>
+      <Timeline name="onHeld">
+        <Timeline name="held" startTime="0.0">
+          <node name="events">
+            <node name="event0">
+              <node name="targets">
+                <node name="scrollArea" value="--ScrollBox/ScrollContainer/ScrollArea"/>
+              </node>
+              <node name="messages">
+                <node name="shiftX" value="-1"/>
+              </node>
+            </node>
+          </node>
+        </Timeline>
+      </Timeline>
+    </uiobj>
+
+
+    <uiobj name="ScrollRight" zdepth="5.0" textid=" ">
+      <anchor name="anchor" left="false" top="false" right="true" bottom="true" anchorModeH="center" anchorModeV="center"/>
+      <rect name="bounds" xoffset="0" yoffset="0" width="25" height="25"/>
+      <GUILoader name="ExampleButton_Loader" value="Components/Input/RightButton" create="init" visible="true" active="false"/>
+      <Timeline name="onPress">
+        <Timeline name="press" startTime="0.0">
+          <node name="events">
+            <node name="event0">
+              <node name="targets">
+                <node name="scrollArea" value="--ScrollBox/ScrollContainer/ScrollArea"/>
+              </node>
+              <node name="messages">
+                <node name="shiftX" value="10"/>
+              </node>
+            </node>
+          </node>
+        </Timeline>
+      </Timeline>
+      <Timeline name="onHeld">
+        <Timeline name="held" startTime="0.0">
+          <node name="events">
+            <node name="event0">
+              <node name="targets">
+                <node name="scrollArea" value="--ScrollBox/ScrollContainer/ScrollArea"/>
+              </node>
+              <node name="messages">
+                <node name="shiftX" value="1"/>
+              </node>
+            </node>
+          </node>
+        </Timeline>
+      </Timeline>
+    </uiobj>
+
+    <uiobj name="ScrollBarThumbZone">
+
+      <anchor name="anchor" left="true" top="false" right="true" bottom="true" anchorModeH="stretch" anchorModeV="centre"/>
+      <rect name="bounds" xoffset="25" yoffset="0" width="25" height="25"/>
+
+      <!-- Draggers must be anchored to the top left -->
+      <uiobj name="Thumb" zdepth="5.0">
+
+        <anchor name="anchor"/>
+        <rect name="bounds" xoffset="0" yoffset="0" width="80" height="25"/>
+
+        <uiobj name="ThumbGfxLeft" image="scrollbar/horiz-3-slice_l" pack="Textures/ExampleScrollbars/ScrollbarBackground/TexturePack" imageanchor="top left" imagescale="1.0" imageoffsetx="0" imageoffsety="0" imagefitting="keep">
+          <anchor name="anchor" left="true" top="true" right="false" bottom="false" anchorModeH="center" anchorModeV="center"/>
+          <rect name="bounds" xoffset="0" yoffset="0" width="10" height="25"/>
+        </uiobj>
+
+        <uiobj name="ThumbGfxMid" image="scrollbar/horiz-3-slice_m" pack="Textures/ExampleScrollbars/ScrollbarBackground/TexturePack" imageanchor="top left" imagescale="1.0" imageoffsetx="0" imageoffsety="0" imagefitting="fit">
+          <anchor name="anchor" left="true" top="false" right="true" bottom="true" anchorModeH="stretch" anchorModeV="centre"/>
+          <rect name="bounds" xoffset="10" yoffset="0" width="10" height="25"/>
+        </uiobj>
+
+        <uiobj name="ThumbGfxBot" image="scrollbar/horiz-3-slice_r" pack="Textures/ExampleScrollbars/ScrollbarBackground/TexturePack" imageanchor="top left" imagescale="1.0" imageoffsetx="0" imageoffsety="0" imagefitting="keep">
+          <anchor name="anchor" left="false" top="false" right="true" bottom="true" anchorModeH="center" anchorModeV="center"/>
+          <rect name="bounds" xoffset="0" yoffset="0" width="10" height="25"/>
+        </uiobj>
+
+        <dragger name="ThumbDrag">
+          <Timeline name="Drag">
+            <Timeline name="drag" startTime="0.0">
+              <node name="events">
+                <node name="event0">
+                  <node name="targets">
+                    <node name="scrollArea" value="--ScrollBox/ScrollContainer/ScrollArea"/>
+                  </node>
+                  <node name="messages">
+                    <node name="setXPercentageFromDragger" value="--ThumbDrag"/>
+                  </node>
+                </node>
+              </node>
+            </Timeline>
+          </Timeline>
+        </dragger>
+
+      </uiobj>
+
+    </uiobj>
+
+  </uiobj>
+
+  <!-- END horizontal scrollbar with buttons -->
+</uiobj>

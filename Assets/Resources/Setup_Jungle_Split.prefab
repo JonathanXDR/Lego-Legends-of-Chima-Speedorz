@@ -1,0 +1,350 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1587125398268329}
+  m_IsPrefabParent: 1
+--- !u!1 &1587125398268329
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4031679453203900}
+  m_Layer: 0
+  m_Name: Setup_Jungle_Split
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4031679453203900
+Transform:
+  m_GameObject: {fileID: 1587125398268329}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 36.69938, y: 20.74313, z: 179.7083}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4827740969122236}
+  - {fileID: 4752941551385180}
+  - {fileID: 4658609352376446}
+  - {fileID: 4500902411800173}
+  - {fileID: 4387191347384616}
+  - {fileID: 4116640757841370}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1796589375216202
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4827740969122236}
+  - component: {fileID: 33565368172488405}
+  - component: {fileID: 65710374310797404}
+  - component: {fileID: 23904894291958538}
+  - component: {fileID: 114503073954991260}
+  m_Layer: 12
+  m_Name: lightprobeSwitcher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4827740969122236
+Transform:
+  m_GameObject: {fileID: 1796589375216202}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -36.53411, y: -18.94843, z: 52.1163}
+  m_LocalScale: {x: 19.12415, y: 3.766454, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4031679453203900}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33565368172488405
+MeshFilter:
+  m_GameObject: {fileID: 1796589375216202}
+  m_Mesh: {fileID: 4300000, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+--- !u!65 &65710374310797404
+BoxCollider:
+  m_GameObject: {fileID: 1796589375216202}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &23904894291958538
+MeshRenderer:
+  m_GameObject: {fileID: 1796589375216202}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114503073954991260
+MonoBehaviour:
+  m_GameObject: {fileID: 1796589375216202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d57209fda02cad44cb28bb6270c1b685, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1924743483646327
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4752941551385180}
+  - component: {fileID: 114073013634679717}
+  - component: {fileID: 65949509964411764}
+  m_Layer: 12
+  m_Name: Scene Loader Jungle Split1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4752941551385180
+Transform:
+  m_GameObject: {fileID: 1924743483646327}
+  m_LocalRotation: {x: 0, y: -0.2193354, z: 0, w: 0.9756495}
+  m_LocalPosition: {x: -46.5133, y: -19.85089, z: 79.98775}
+  m_LocalScale: {x: 19.31601, y: 11.09747, z: 0.6745187}
+  m_Children: []
+  m_Father: {fileID: 4031679453203900}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 25.34, z: 0}
+--- !u!114 &114073013634679717
+MonoBehaviour:
+  m_GameObject: {fileID: 1924743483646327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b8938ac393ba404980fbd3a36373a38, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65949509964411764
+BoxCollider:
+  m_GameObject: {fileID: 1924743483646327}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1899414905004526
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4658609352376446}
+  - component: {fileID: 114656517195405009}
+  - component: {fileID: 65527253281994883}
+  m_Layer: 12
+  m_Name: Scene Loader Jungle Split2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4658609352376446
+Transform:
+  m_GameObject: {fileID: 1899414905004526}
+  m_LocalRotation: {x: 0, y: 0.2897836, z: 0, w: 0.9570922}
+  m_LocalPosition: {x: -28.44235, y: -12.94435, z: 78.16985}
+  m_LocalScale: {x: 19.31601, y: 20.80093, z: 0.674519}
+  m_Children: []
+  m_Father: {fileID: 4031679453203900}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: -33.69, z: 0}
+--- !u!114 &114656517195405009
+MonoBehaviour:
+  m_GameObject: {fileID: 1899414905004526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b8938ac393ba404980fbd3a36373a38, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65527253281994883
+BoxCollider:
+  m_GameObject: {fileID: 1899414905004526}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1091449577376183
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4500902411800173}
+  - component: {fileID: 65616337134482144}
+  - component: {fileID: 114211665938853769}
+  - component: {fileID: 114494849899613093}
+  m_Layer: 12
+  m_Name: Unloader Start
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4500902411800173
+Transform:
+  m_GameObject: {fileID: 1091449577376183}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -36.74206, y: -17.64963, z: 55.19591}
+  m_LocalScale: {x: 11.15346, y: 7.366744, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4031679453203900}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65616337134482144
+BoxCollider:
+  m_GameObject: {fileID: 1091449577376183}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114211665938853769
+MonoBehaviour:
+  m_GameObject: {fileID: 1091449577376183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507df684864d98940a4ffe2f2efb85b6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114494849899613093
+MonoBehaviour:
+  m_GameObject: {fileID: 1091449577376183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 042eead2f8cf0b34d86268a62699b5de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1619693016568763
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4387191347384616}
+  - component: {fileID: 65719265043253881}
+  - component: {fileID: 114456299723825139}
+  - component: {fileID: 114272563600976388}
+  m_Layer: 12
+  m_Name: Unloader_Jungle_Common_Straight1_routes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4387191347384616
+Transform:
+  m_GameObject: {fileID: 1619693016568763}
+  m_LocalRotation: {x: 0, y: 0.2847344, z: 0, w: 0.9586065}
+  m_LocalPosition: {x: -16.02448, y: -20.12538, z: 97.25795}
+  m_LocalScale: {x: 16.46628, y: 1.628549, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4031679453203900}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: -33.08595, z: 0}
+--- !u!65 &65719265043253881
+BoxCollider:
+  m_GameObject: {fileID: 1619693016568763}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114456299723825139
+MonoBehaviour:
+  m_GameObject: {fileID: 1619693016568763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507df684864d98940a4ffe2f2efb85b6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114272563600976388
+MonoBehaviour:
+  m_GameObject: {fileID: 1619693016568763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 042eead2f8cf0b34d86268a62699b5de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1685769010579320
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4116640757841370}
+  - component: {fileID: 65644107522191543}
+  - component: {fileID: 114099520098725428}
+  - component: {fileID: 114427733687995553}
+  m_Layer: 12
+  m_Name: Unloader_Jungle_Common_Straight2_Routes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4116640757841370
+Transform:
+  m_GameObject: {fileID: 1685769010579320}
+  m_LocalRotation: {x: 0, y: -0.1127676, z: 0, w: 0.9936215}
+  m_LocalPosition: {x: -48.87437, y: -19.84908, z: 96.44853}
+  m_LocalScale: {x: 16.46628, y: 1.628549, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4031679453203900}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 12.94976, z: 0}
+--- !u!65 &65644107522191543
+BoxCollider:
+  m_GameObject: {fileID: 1685769010579320}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114099520098725428
+MonoBehaviour:
+  m_GameObject: {fileID: 1685769010579320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507df684864d98940a4ffe2f2efb85b6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114427733687995553
+MonoBehaviour:
+  m_GameObject: {fileID: 1685769010579320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 042eead2f8cf0b34d86268a62699b5de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

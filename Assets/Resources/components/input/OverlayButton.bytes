@@ -1,0 +1,109 @@
+<uiobj name="OverlayButton">
+	
+	<anchor name="anchor" left="true" top="true" right="true" bottom="true" anchorModeH="dock" anchorModeV="dock"/>
+	<rect name="bounds" xoffset="0" yoffset="0" width="1" height="1"/>
+	
+	<!-- ratio of height to width of buttonMask gfx is 0.27967 -->
+	
+	<uiobj name="background" zdepth="1" inheritPath="../../.." inherit="image,pack" removePath="../../.." remove="image,pack" image="Textures/Debug/white" shader="Custom/VertexColorUnlit Additive" imageanchor="centre" imagefitting="fit">
+		<anchor name="anchor" left="true" top="true" right="true" bottom="true" anchorModeH="dock" anchorModeV="dock"/>
+		<rect name="bounds" xoffset="0" yoffset="0" width="1" height="1"/>
+		<vcolours name="colour" value="4">
+
+		    <color name="topLeft" value="0" r="0.0" g="0.0" b="0.0" a="1.0"/>
+		    <color name="topRight" value="1" r="0.0" g="0.0" b="0.0" a="1.0"/>
+		    <color name="bottomLeft" value="2" r="0.0" g="0.0" b="0.0" a="1.0"/>
+		    <color name="bottomRight" value="3" r="0.0" g="0.0" b="0.0" a="1.0"/>
+
+  		</vcolours>
+	</uiobj>
+	
+	<button name="button" container="../../..">
+	
+		<node name="alpha" value="0.0"/>
+		
+		<proc name="lerp" type="lerp" input="0.0" min="0.0" max="onOver/length">
+			<node name="outputs">
+				<node value="--button/alpha"/>
+			</node>
+		</proc>
+				
+		<Timeline name="onPress">
+			<Timeline name="down" startTime="0.0">
+				<node name="events">
+					<node name="colorChange">
+						<node name="targets">
+							<node name="background" value="--OverlayButton/background"/>
+						</node>
+						<node name="messages">
+							<node name="changeColorAll">
+								<vcolours name="colour" value="4">
+								    <color name="topLeft" value="0" hash="2F2F2FFF"/>
+								    <color name="topRight" value="1" hash="2F2F2FFF"/>
+								    <color name="bottomLeft" value="2" hash="2F2F7FFF"/>
+								    <color name="bottomRight" value="3" hash="2F2F7FFF"/>
+								</vcolours>
+							</node>
+						</node>
+					</node>
+				</node>
+			</Timeline>
+		</Timeline>
+	
+		<Timeline name="onOver" length="5.0" type="repeat">
+			<Timeline name="over" startTime="0.0">
+				<node name="events">
+					<node name="changeAlpha">
+						<node name="targets">
+							<node name="alpha" value="--button/lerp/input"/>
+						</node>
+						<node name="messages">
+							<node name="setNumber" value="--onOver/currentTime"/>
+						</node>
+					</node>
+					
+				</node>
+			</Timeline>
+		</Timeline>
+	
+		<node name="updateButtonColors">
+						<node name="targets">
+							<node name="background" value="--OverlayButton/background"/>
+						</node>
+						<node name="messages">
+							<node name="changeColorAll">
+								<vcolours name="colour" value="4">
+								    <color name="topLeft" value="0" hash="1A1A1A00" a="--button/alpha"/>
+								    <color name="topRight" value="1" hash="1A1A1A00" a="--button/alpha"/>
+								    <color name="bottomLeft" value="2" hash="10101F00" a="--button/alpha"/>
+								    <color name="bottomRight" value="3" hash="10101F00" a="--button/alpha"/>
+								</vcolours>
+							</node>
+						</node>
+					</node>
+		
+		<Timeline name="onLeave">
+			<Timeline name="leave" startTime="0.0">
+				<node name="events">
+					<node name="colorChange">
+						<node name="targets">
+							<node name="background" value="--OverlayButton/background"/>
+						</node>
+						<node name="messages">
+							<node name="changeColorAll">
+								<vcolours name="colour" value="4">
+								    <color name="topLeft" value="0" hash="000000FF"/>
+								    <color name="topRight" value="1" hash="000000FF"/>
+								    <color name="bottomLeft" value="2" hash="000000FF"/>
+								    <color name="bottomRight" value="3" hash="000000FF"/>
+								</vcolours>
+							</node>
+						</node>
+					</node>
+				</node>
+			</Timeline>
+		</Timeline>
+		
+	</button>
+	
+</uiobj>

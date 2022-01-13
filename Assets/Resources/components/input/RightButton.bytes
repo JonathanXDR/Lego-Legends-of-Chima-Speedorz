@@ -1,0 +1,122 @@
+<uiobj name="RightButton">
+	<anchor name="anchor" left="true" top="true" right="true" bottom="true" anchorModeH="stretch" anchorModeV="stretch"/>
+	<rect name="bounds" xoffset="0" yoffset="0" width="1" height="1"/>
+	
+	<uiobj name="background" zdepth="0" image="Textures/ExampleScrollbars/scrollButtonHorizOff_HR" imageanchor="centre" imagefitting="fit">
+		<anchor name="anchor" left="true" top="true" right="true" bottom="true" anchorModeH="stretch" anchorModeV="stretch"/>
+		<rect name="bounds" xoffset="0" yoffset="0" width="1" height="1"/>
+	</uiobj>
+	
+	<uiobj name="over" zdepth="0" visible="false" image="Textures/ExampleScrollbars/scrollButtonHorizOver_HR" imageanchor="centre" imagefitting="fit">
+		<anchor name="anchor" left="true" top="true" right="true" bottom="true" anchorModeH="stretch" anchorModeV="stretch"/>
+		<rect name="bounds" xoffset="0" yoffset="0" width="1" height="1"/>
+	</uiobj>
+	
+	<uiobj name="down" zdepth="0" visible="false" image="Textures/ExampleScrollbars/scrollButtonHorizDown_HR" imageanchor="centre" imagefitting="fit">
+		<anchor name="anchor" left="true" top="true" right="true" bottom="true" anchorModeH="stretch" anchorModeV="stretch"/>
+		<rect name="bounds" xoffset="0" yoffset="0" width="1" height="1"/>
+	</uiobj>
+	
+	<uiobj name="label" zdepth="1"  inherit="textid" inheritPath="../../.." remove="textid" removePath="../../.." textfont="Arial_32" textalign="center" textanchor="top" textscale="1.0">
+		<anchor name="anchor" left="true" top="true" right="true" bottom="true" anchorModeH="stretch" anchorModeV="stretch"/>
+		<rect name="bounds" xoffset="0" yoffset="0" width="1" height="1"/>
+	</uiobj>
+	
+	<button name="button" container="../../..">
+	
+		<Timeline name="onPress">
+			<Timeline name="down" startTime="0.0">
+				<node name="events">
+					<node name="downVisible">
+						<node name="targets">
+							<node name="backgroundImage" value="--RightButton/down"/>
+						</node>
+						<node name="messages">
+							<node name="changeVisibility" value="true"/>
+						</node>
+					</node>
+					<node name="backgroundInvisible">
+						<node name="targets">
+							<node name="backgroundImage" value="--RightButton/background"/>
+						</node>
+						<node name="messages">
+							<node name="changeVisibility" value="false"/>
+						</node>
+					</node>
+					<node name="overInvisible">
+						<node name="targets">
+							<node name="overImage" value="--RightButton/over"/>
+						</node>
+						<node name="messages">
+							<node name="changeVisibility" value="false"/>
+						</node>
+					</node>
+				</node>
+			</Timeline>
+		</Timeline>
+	
+		<Timeline name="onOver">
+			<Timeline name="over" startTime="0.0">
+				<node name="events">
+					<node name="downInvisible">
+						<node name="targets">
+							<node name="backgroundImage" value="--RightButton/down"/>
+						</node>
+						<node name="messages">
+							<node name="changeVisibility" value="false"/>
+						</node>
+					</node>
+					<node name="backgroundInvisible">
+						<node name="targets">
+							<node name="backgroundImage" value="--RightButton/background"/>
+						</node>
+						<node name="messages">
+							<node name="changeVisibility" value="false"/>
+						</node>
+					</node>
+					<node name="overVisible">
+						<node name="targets">
+							<node name="overImage" value="--RightButton/over"/>
+						</node>
+						<node name="messages">
+							<node name="changeVisibility" value="true"/>
+						</node>
+					</node>
+				</node>
+			</Timeline>
+		</Timeline>
+		
+		<Timeline name="onLeave">
+			<Timeline name="leave" startTime="0.0">
+				<node name="events">
+					<node name="downInvisible">
+						<node name="targets">
+							<node name="backgroundImage" value="--RightButton/down"/>
+						</node>
+						<node name="messages">
+							<node name="changeVisibility" value="false"/>
+						</node>
+					</node>
+					<node name="backgroundVisible">
+						<node name="targets">
+							<node name="backgroundImage" value="--RightButton/background"/>
+						</node>
+						<node name="messages">
+							<node name="changeVisibility" value="true"/>
+						</node>
+					</node>
+					<node name="overInvisible">
+						<node name="targets">
+							<node name="overImage" value="--RightButton/over"/>
+						</node>
+						<node name="messages">
+							<node name="changeVisibility" value="false"/>
+						</node>
+					</node>
+				</node>
+			</Timeline>
+		</Timeline>
+		
+	</button>
+	
+</uiobj>
